@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input {
+    @apply border border-black rounded-md h-8 w-20 p-1;
+  }
+}
+
+.aside-link {
+  @apply font-bold text-silver hover:text-mediumBlue;
+}
+
+.selected {
+  @apply text-mediumBlue;
+}
+
+.problem-part {
+  @apply flex flex-col md:flex-row my-6 space-y-6 md:space-x-6 md:space-y-0;
+}
