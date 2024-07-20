@@ -11,7 +11,7 @@ document.getElementById('p1-b-submit').addEventListener('click', function () {
   const R1 = document.getElementById('p1-b-R1').value;
   const R2 = document.getElementById('p1-b-R2').value;
   const alpha = document.getElementById('p1-b-alpha').value;
-  document.getElementById('p1-b-answer').innerHTML = `${((alpha + 1) * V) / (R1 + R2)}`;
+  document.getElementById('p1-b-answer').innerHTML = `${((alpha + 1) * V) / (R1 + R2)} mA`;
 });
 
 document.getElementById('p2-a-submit').addEventListener('click', function () {
@@ -48,7 +48,7 @@ document.getElementById('p3-c-submit').addEventListener('click', function () {
   const Rg = document.getElementById('p3-Rg').value;
   const Ra = document.getElementById('p3-Ra').value;
   const Rb = document.getElementById('p3-Rb').value;
-  document.getElementById('p3-c-answer').innerHTML = `${(Vg * Ra * Rb) / ((Ra * Rb) + (Ra * Rg) + (Rb * Rg))} A`;
+  document.getElementById('p3-c-answer').innerHTML = `${(Vg * Ra * Rb) / ((Ra * Rb) + (Ra * Rg) + (Rb * Rg))} V`;
 });
 
 document.getElementById('p3-d-submit').addEventListener('click', function () { });
@@ -81,7 +81,7 @@ document.getElementById('p5-b-submit').addEventListener('click', function () {
 
 document.getElementById('p5-c-submit').addEventListener('click', function () {
   const Vg = document.getElementById('p5-Vg').value;
-  document.getElementById('p5-c-answer').innerHTML = `${0.1125 * (Vg * Vg)} V`;
+  document.getElementById('p5-c-answer').innerHTML = `${0.1125 * (Vg * Vg)} W`;
 });
 
 document.getElementById('p6-a-submit').addEventListener('click', function () {
