@@ -63,6 +63,95 @@
             "name": "V<sub>s</sub>"
           },
           "imageSrc": "chapter3/p1-b.jpg"
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "description": "Current division",
+          "content": "For the circuit shown, calculate i2 and i4 when Is = 0.2 A, R1 = 5.2 kΩ, R2 = 3.6 kΩ, R3 = 1.6 kΩ, R4 = 7.2 kΩ, and R5 = 8.1 kΩ.",
+          "need": "Express your answer to three significant figures, with appropriate units.",
+          "answer": {
+            "name": "i<sub>2</sub>, i<sub>4</sub>"
+          },
+          "imageSrc": "chapter3/p1-c.png"
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "description": "Calculating voltages in a resistive circuit using voltage division",
+          "content": "For the circuit shown, calculate V5, V7, and V8 when Vs = 0.2 V, R1 = 50 Ω, R2 = 54 Ω, R3 = 26 Ω, R4 = 76 Ω, R5 = 44 Ω, R6 = 35 Ω, R7 = 88 Ω, and R8 = 92 Ω.",
+          "need": "Express your answer to three significant figures, with appropriate units.",
+          "answer": {
+            "name": "V<sub>5</sub>, V<sub>7</sub>, V<sub>8</sub>"
+          },
+          "imageSrc": "chapter3/p1-d.png"
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "description": "Calculating currents in a resistive network",
+          "content": "For the circuit shown, calculate i2, i3, i6, and i8 when ",
+          "inputs": [
+            {
+              "id": "Is",
+              "name": "I<sub>s</sub>",
+              "type": "number",
+              "unit": "mA"
+            },
+            {
+              "id": "R1",
+              "name": "R<sub>1</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            },
+            {
+              "id": "R2",
+              "name": "R<sub>2</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            },
+            {
+              "id": "R3",
+              "name": "R<sub>3</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            },
+            {
+              "id": "R4",
+              "name": "R<sub>4</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            },
+            {
+              "id": "R5",
+              "name": "R<sub>5</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            },
+            {
+              "id": "R6",
+              "name": "R<sub>6</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            },
+            {
+              "id": "R7",
+              "name": "R<sub>7</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            },
+            {
+              "id": "R8",
+              "name": "R<sub>8</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            }
+          ],
+          "need": "Express your answers in milliamperes to three significant figures separated by commas.",
+          "answer": {
+            "name": "i<sub>2</sub>, i<sub>3</sub>, i<sub>6</sub>, i<sub>8</sub>"
+          },
+          "imageSrc": "chapter3/p1-e.jpg"
         }
       ]
     }
