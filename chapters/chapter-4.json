@@ -1,0 +1,343 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "title": "Problem 1",
+      "content": "Use the node-voltage method to find the branch currents i<sub>a</sub> - i<sub>e</sub> in the circuit shown in. Take",
+      "inputs": [
+        {
+          "id": "V1",
+          "name": "v<sub>1</sub>",
+          "type": "number",
+          "unit": "V"
+        },
+        {
+          "id": "V2",
+          "name": "v<sub>2</sub>",
+          "type": "number",
+          "unit": "V"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the value of i<sub>a</sub>.",
+          "need": "Express your answer to three significant figures, with appropriate units.",
+          "answer": {
+            "name": "i<sub>a</sub>"
+          },
+          "imageSrc": "chapter4/p1.png"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the value of i<sub>b</sub>.",
+          "need": "Express your answer to three significant figures, with appropriate units.",
+          "answer": {
+            "name": "i<sub>b</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the value of i<sub>c</sub>.",
+          "need": "Express your answer to three significant figures, with appropriate units.",
+          "answer": {
+            "name": "i<sub>c</sub>"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find the value of i<sub>d</sub>.",
+          "need": "Express your answer to three significant figures, with appropriate units.",
+          "answer": {
+            "name": "i<sub>d</sub>"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Find the value of i<sub>e</sub>.",
+          "need": "Express your answer to three significant figures, with appropriate units.",
+          "answer": {
+            "name": "i<sub>e</sub>"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "Find the total power developed in the circuit.",
+          "need": "Express your answer to three significant figures, with appropriate units.",
+          "answer": {
+            "name": "p<sub>total</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Problem 2",
+      "content": "Consider the circuit shown in. Suppose that ",
+      "inputs": [
+        {
+          "id": "Vs",
+          "name": "v<sub>s</sub>",
+          "type": "number",
+          "unit": "V"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Use the node voltage method to find v<sub>0</sub>.",
+          "need": "Express your answer to three significant figures and include appropriate units.",
+          "answer": {
+            "name": "v<sub>0</sub>"
+          },
+          "imageSrc": "chapter4/p2.png"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the magnitude of the total power supplied in the circuit.",
+          "need": "Express your answer to three significant figures and include appropriate units.",
+          "answer": {
+            "name": "p<sub>sup</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Problem 3",
+      "content": "Consider the circuit shown in. Take ",
+      "inputs": [
+        {
+          "id": "V",
+          "name": "v",
+          "type": "number",
+          "unit": "V"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Use the node voltage method to find v<sub>0</sub> in the circuit.",
+          "need": "Express your answer to three significant figures and include appropriate units.",
+          "answer": {
+            "name": "v<sub>0</sub>"
+          },
+          "imageSrc": "chapter4/p3.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Problem 4",
+      "content": "The source voltage v<sub>g</sub> in the circuit in figure equals <input type='number' id='p4-Vg'> V",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Use the node-voltage method to find the power developed by the <input type='number' id='p4-Vg'> V source",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "p<sub>g</sub>"
+          },
+          "imageSrc": "chapter4/p4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Problem 5",
+      "content": "Consider the circuit shown in. Suppose that ",
+      "inputs": [
+        {
+          "id": "V1",
+          "name": "v<sub>1</sub>",
+          "type": "number",
+          "unit": "V"
+        },
+        {
+          "id": "V2",
+          "name": "v<sub>2</sub>",
+          "type": "number",
+          "unit": "V"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Use the mesh-current method to find v<sub>0</sub> in the circuit.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "v<sub>0</sub>"
+          },
+          "imageSrc": "chapter4/p5.png"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the power delivered by the dependent source.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p<sub>del</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Problem 6",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Use the mesh-current method to find the power developed in the dependent voltage source in the circuit in figure if v = <input type='number' id='p6-V'> V.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "p<sub>dev</sub>"
+          },
+          "imageSrc": "chapter4/p6.png"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Problem 7",
+      "content": "Consider the circuit shown in. Suppose that ",
+      "inputs": [
+        {
+          "id": "I",
+          "name": "i",
+          "type": "number",
+          "unit": "A"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Use the mesh-current method to find the total power developed in the circuit.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p<sub>dev</sub>"
+          },
+          "imageSrc": "chapter4/p7.png"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Problem 8",
+      "content": "Use the mesh-current method to find the branch currents i<sub>a</sub>-i<sub>e</sub> for the circuit shown in. Suppose that ",
+      "inputs": [
+        {
+          "id": "V",
+          "name": "v",
+          "type": "number",
+          "unit": "V"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Determine the current i<sub>a</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>a</sub>"
+          },
+          "imageSrc": "chapter4/p8.png"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Determine the current i<sub>b</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>b</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Determine the current i<sub>c</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>c</sub>"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Determine the current i<sub>d</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>d</sub>"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Determine the current i<sub>e</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>e</sub>"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "Find the magnitudes of the total power developed in the circuit and the total power dissipated.",
+          "need": "Express your answers in watts to three significant figures separated by a comma.",
+          "answer": {
+            "name": "p<sub>dev</sub>, p<sub>dis</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Problem 9",
+      "content": "Consider the circuit in (Figure 1). Suppose that current i is known.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Would you use the node-voltage or mesh-current method to find the power absorbed by the 20 V source?",
+          "mcq": {
+            "options": ["Node-voltage method", "Mesh-current method"]
+          },
+          "answer": {
+            "name": "p<sub>dev</sub>, p<sub>dis</sub>"
+          },
+          "imageSrc": "chapter4/p9.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Use the method you selected to find the power if ",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "inputs": [
+            {
+              "id": "I",
+              "name": "i",
+              "type": "number",
+              "unit": "mA"
+            }
+          ],
+          "answer": {
+            "name": "p20v"
+          }
+        }
+      ]
+    }
+  ]
+}

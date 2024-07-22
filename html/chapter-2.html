@@ -1,0 +1,1194 @@
+<!-- Start Problem 1 -->
+<div class="border border-gray-300 p-6 rounded-md">
+  <div class="flex justify-between">
+    <h3 class="font-bold text-2xl mb-4">Problem 1</h3>
+    <svg
+      id="toggle-button"
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-12 w-12 text-gray-500 cursor-pointer"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </div>
+  <div>
+    <h4 class="font-bold text-xl mb-4">Learning Goal:</h4>
+    <p>
+      To analyze circuits that contain dependent sources using Kirchhoff's
+      current and voltage laws.<br />
+      electric circuits, dependent sources are used to model the behavior of
+      more advanced devices. When analyzing circuits, Kirchhoff's laws are used
+      along with expressions for the variable(s) of the dependent source(s) in
+      the circuit.
+    </p>
+    <!-- Start Parts -->
+    <div>
+      <!-- Start Part A -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part A</span>
+            <br />
+            Analysis of a circuit with a dependent voltage source
+          </p>
+          <p class="leading-9">
+            For the circuit shown, solve for V0 when I =
+            <input id="p1-a-I" type="number" />
+            A, R1 = <input id="p1-a-R1" type="number" /> Ω, R2 =
+            <input id="p1-a-R2" type="number" />
+            Ω, and &alpha; = <input id="p1-a-alpha" type="number" />.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to four significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>V<sub>0</sub> = <span id="p1-a-answer"></span></p>
+            <button
+              id="p1-a-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+        <!-- Start Problem Image -->
+        <div class="flex-1">
+          <img src="./images/chapter1/p1-a.jpg" alt="" />
+        </div>
+        <!-- End Problem Image -->
+      </div>
+      <!-- End Part A -->
+      <hr />
+      <!-- Start Part B -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part B</span>
+            <br />
+            Analysis of a circuit with a dependent current source
+          </p>
+          <p class="leading-9">
+            For the circuit shown, solve for I<sub>0</sub> when V =
+            <input id="p1-b-V" type="number" />
+            V, R<sub>1</sub> =
+            <input id="p1-b-R1" type="number" />
+            k&Omega;, R<sub>2</sub>
+            <input id="p1-b-R2" type="number" />
+            k&Omega;, and &alpha; =
+            <input id="p1-b-alpha" type="number" />
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to two significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>I<sub>0</sub> = <span id="p1-b-answer"></span></p>
+            <button
+              id="p1-b-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+        <!-- Start Problem Image -->
+        <div class="flex-1">
+          <img src="./images/chapter1/p1-b.jpg" alt="" />
+        </div>
+        <!-- End Problem Image -->
+      </div>
+      <!-- End Part B -->
+    </div>
+    <!-- End Parts -->
+  </div>
+</div>
+<!-- End Problem 1 -->
+<!-- Start Problem 2 -->
+<div class="border border-gray-300 p-6 rounded-md">
+  <div class="flex justify-between">
+    <h3 class="font-bold text-2xl mb-4">Problem 2</h3>
+    <svg
+      id="toggle-button"
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-12 w-12 text-gray-500 cursor-pointer"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </div>
+  <div>
+    <p>
+      Consider the circuit shown. Suppose that V<sub>s</sub>
+      <input id="p2-Vs" type="number" /> = V
+    </p>
+    <!-- Start Parts -->
+    <div>
+      <!-- Start Part A -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part A </span>
+            <br />
+            Find V<sub>0</sub>
+            using Kirchhoff's laws and Ohm's law.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>V<sub>0</sub> = <span id="p2-a-answer"></span></p>
+            <button
+              id="p2-a-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+        <!-- Start Problem Image -->
+        <div class="flex-1">
+          <img src="./images/chapter1/p2.jpg" alt="" />
+        </div>
+        <!-- End Problem Image -->
+      </div>
+      <!-- End Part A -->
+      <hr />
+      <!-- Start Part B -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part B</span>
+            <br />
+            Find the total power absorbed in the circuit.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>P<sub>abs</sub> = <span id="p2-b-answer"></span></p>
+            <button
+              id="p2-b-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part B -->
+      <hr />
+      <!-- Start Part C -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part C</span>
+            <br />
+            Find the total power supplied in the circuit.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>P<sub>sup</sub> = <span id="p2-c-answer"></span></p>
+            <button
+              id="p2-c-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part C -->
+    </div>
+    <!-- End Parts -->
+  </div>
+</div>
+<!-- End Problem 2 -->
+<!-- Start Problem 3 -->
+<div class="border border-gray-300 p-6 rounded-md">
+  <div class="flex justify-between">
+    <h3 class="font-bold text-2xl mb-4">Problem 3</h3>
+    <svg
+      id="toggle-button"
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-12 w-12 text-gray-500 cursor-pointer"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </div>
+  <div>
+    <p>
+      Consider the circuit shown. Suppose that V<sub>g</sub>
+      <input id="p3-Vg" type="number" /> = V, R<sub>g</sub> =
+      <input id="p3-Rg" type="number" /> &Omega;, R<sub>a</sub> =
+      <input id="p3-Ra" type="number" /> &Omega;, and R<sub>b</sub> =
+      <input id="p3-Rb" type="number" /> &Omega;
+    </p>
+    <!-- Start Parts -->
+    <div>
+      <!-- Start Part A -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part A </span>
+            <br />
+            Find the value of i<sub>a</sub>.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>i<sub>0</sub> = <span id="p3-a-answer"></span></p>
+            <button
+              id="p3-a-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+        <!-- Start Problem Image -->
+        <div class="flex-1">
+          <img src="./images/chapter1/p3.jpg" alt="" />
+        </div>
+        <!-- End Problem Image -->
+      </div>
+      <!-- End Part A -->
+      <hr />
+      <!-- Start Part B -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part B</span>
+            <br />
+            Find the value of i<sub>b</sub>.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>i<sub>b</sub> = <span id="p3-b-answer"></span></p>
+            <button
+              id="p3-b-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part B -->
+      <hr />
+      <!-- Start Part C -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part C</span>
+            <br />
+            Find the value of V<sub>0</sub>.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>V<sub>0</sub> = <span id="p3-c-answer"></span></p>
+            <button
+              id="p3-c-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part C -->
+      <hr />
+      <!-- Start Part D -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part D</span>
+            <br />
+            Find the power dissipated in each resistor.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answers in watts using three significant figures
+            separated by commas.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>p60Ω, p340Ω, p85Ω = <span id="p3-d-answer"></span></p>
+            <button
+              id="p3-d-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part D -->
+      <hr />
+      <!-- Start Part E -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part E</span>
+            <br />
+            Find the power delivered by the 240 V source.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>p = <span id="p3-e-answer"></span></p>
+            <button
+              id="p3-e-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part E -->
+    </div>
+    <!-- End Parts -->
+  </div>
+</div>
+<!-- End Problem 3 -->
+<!-- Start Problem 4 -->
+<div class="border border-gray-300 p-6 rounded-md">
+  <div class="flex justify-between">
+    <h3 class="font-bold text-2xl mb-4">Problem 4</h3>
+    <svg
+      id="toggle-button"
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-12 w-12 text-gray-500 cursor-pointer"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </div>
+  <div>
+    <p>
+      The current i<sub>a</sub> in the circuit shown in is
+      <input id="p4-Ia" type="number" /> A
+    </p>
+    <!-- Start Parts -->
+    <div>
+      <!-- Start Part A -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part A </span>
+            <br />
+            Find i<sub>0</sub>
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>i<sub>0</sub> = <span id="p4-a-answer"></span></p>
+            <button
+              id="p4-a-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+        <!-- Start Problem Image -->
+        <div class="flex-1">
+          <img src="./images/chapter1/p4.jpg" alt="" />
+        </div>
+        <!-- End Problem Image -->
+      </div>
+      <!-- End Part A -->
+      <hr />
+      <!-- Start Part B -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part B</span>
+            <br />
+            Find i<sub>g</sub>.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>i<sub>g</sub> = <span id="p4-b-answer"></span></p>
+            <button
+              id="p4-b-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part B -->
+      <hr />
+      <!-- Start Part C -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part C</span>
+            <br />
+            Find the power delivered by the independent current source.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>p = <span id="p4-c-answer"></span></p>
+            <button
+              id="p4-c-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part C -->
+    </div>
+    <!-- End Parts -->
+  </div>
+</div>
+<!-- End Problem 4 -->
+<!-- Start Problem 5 -->
+<div class="border border-gray-300 p-6 rounded-md">
+  <div class="flex justify-between">
+    <h3 class="font-bold text-2xl mb-4">Problem 5</h3>
+    <svg
+      id="toggle-button"
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-12 w-12 text-gray-500 cursor-pointer"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </div>
+  <div>
+    <p>
+      The current i<sub>0</sub> in the circuit is
+      <input id="p5-I0" type="number" /> A and the voltage V<sub>g</sub> is
+      <input id="p5-Vg" type="number" /> V
+    </p>
+    <!-- Start Parts -->
+    <div>
+      <!-- Start Part A -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part A </span>
+            <br />
+            Find i<sub>1</sub>
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>i<sub>1</sub> = <span id="p5-a-answer"></span></p>
+            <button
+              id="p5-a-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+        <!-- Start Problem Image -->
+        <div class="flex-1">
+          <img src="./images/chapter1/p5.jpg" alt="" />
+        </div>
+        <!-- End Problem Image -->
+      </div>
+      <!-- End Part A -->
+      <hr />
+      <!-- Start Part B -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part B</span>
+            <br />
+            Find the power dissipated by each resistor.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer in watts to three significant figures. Enter
+            your answers in descending order separated by commas.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>
+              p<sub>13 &Omega;</sub>, p<sub>8 &Omega;</sub>, p<sub
+                >4 &Omega;</sub
+              >, p<sub>20 &Omega;</sub>, p<sub>4 &Omega;</sub> =
+              <span id="p5-b-answer"></span>
+            </p>
+            <button
+              id="p5-b-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part B -->
+      <hr />
+      <!-- Start Part C -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part C</span>
+            <br />
+            Find the power developed by the
+            <input id="p5-c-V" type="number" /> V source.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>p = <span id="p5-c-answer"></span></p>
+            <button
+              id="p5-c-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part C -->
+    </div>
+    <!-- End Parts -->
+  </div>
+</div>
+<!-- End Problem 5 -->
+<!-- Start Problem 6 -->
+<div class="border border-gray-300 p-6 rounded-md">
+  <div class="flex justify-between">
+    <h3 class="font-bold text-2xl mb-4">Problem 6</h3>
+    <svg
+      id="toggle-button"
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-12 w-12 text-gray-500 cursor-pointer"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </div>
+  <div>
+    <p>
+      The voltage across the 22.5 &Omega; resistor in the circuit in is
+      <input id="p6-Vr" type="number" /> V, and positive at the upper terminal;
+      the source voltage is <input id="p6-Vg" type="number" /> V.
+    </p>
+    <!-- Start Parts -->
+    <div>
+      <!-- Start Part A -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part A </span>
+            <br />
+            Find the power dissipated in each resistor.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures separated by
+            commas.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>
+              p<sub>4 &Omega;</sub>, p<sub>5 &Omega;</sub>, p<sub
+                >15 &Omega;</sub
+              >, p<sub>20 &Omega;</sub>, p<sub>22.5 &Omega;</sub> =
+              <span id="p6-a-answer"></span>
+            </p>
+            <button
+              id="p6-a-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+        <!-- Start Problem Image -->
+        <div class="flex-1">
+          <img src="./images/chapter1/p6.jpg" alt="" />
+        </div>
+        <!-- End Problem Image -->
+      </div>
+      <!-- End Part A -->
+      <hr />
+      <!-- Start Part B -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part B</span>
+            <br />
+            Find the power supplied by the 200 V ideal voltage source.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer in watts to three significant figures and
+            include the appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>p<sub>sup</sub> = <span id="p6-b-answer"></span></p>
+            <button
+              id="p6-b-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part B -->
+    </div>
+    <!-- End Parts -->
+  </div>
+</div>
+<!-- End Problem 6 -->
+<!-- Start Problem 7 -->
+<div class="border border-gray-300 p-6 rounded-md">
+  <div class="flex justify-between">
+    <h3 class="font-bold text-2xl mb-4">Problem 7</h3>
+    <svg
+      id="toggle-button"
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-12 w-12 text-gray-500 cursor-pointer"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </div>
+  <div>
+    <p>
+      The current i<sub>a</sub> and i<sub>b</sub> in the circuit in the figure
+      are <input id="p7-Ia" type="number" /> A and
+      <input id="p7-Ib" type="number" /> A, respectively. V<sub>a</sub> is
+      <input id="p7-Va" type="number" /> V.
+    </p>
+    <!-- Start Parts -->
+    <div>
+      <!-- Start Part A -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part A </span>
+            <br />
+            Find i<sub>g</sub>
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer with the appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>i<sub>g</sub> = <span id="p7-a-answer"></span></p>
+            <button
+              id="p7-a-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+        <!-- Start Problem Image -->
+        <div class="flex-1">
+          <img src="./images/chapter1/p7.jpg" alt="" />
+        </div>
+        <!-- End Problem Image -->
+      </div>
+      <!-- End Part A -->
+      <hr />
+      <!-- Start Part B -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part B</span>
+            <br />
+            Find the power dissipated by each resistor.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer separated by commas.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>
+              p<sub>9 &Omega;</sub>, p<sub>10 &Omega;</sub>, p<sub
+                >30 &Omega;</sub
+              >, p<sub>16 &Omega;</sub>, p<sub>11 &Omega;</sub>, p<sub
+                >5 &Omega;</sub
+              >, p<sub>4 &Omega;</sub>, p<sub>15 &Omega;</sub> =
+              <span id="p7-b-answer"></span>
+            </p>
+            <button
+              id="p7-b-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              > Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part B -->
+      <hr />
+      <!-- Start Part C -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part C</span>
+            <br />
+            Find V<sub>g</sub>.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer with the appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>V<sub>g</sub> = <span id="p7-c-answer"></span></p>
+            <button
+              id="p7-c-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              > Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part C -->
+      <hr />
+      <!-- Start Part D -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part D</span>
+            <br />
+            Find the power delivered by the current source.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer with the appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>p = <span id="p7-d-answer"></span></p>
+            <button
+              id="p7-d-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              > Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part D -->
+    </div>
+    <!-- End Parts -->
+  </div>
+</div>
+<!-- End Problem 7 -->
+<!-- Start Problem 8 -->
+<div class="border border-gray-300 p-6 rounded-md">
+  <div class="flex justify-between">
+    <h3 class="font-bold text-2xl mb-4">Problem 8</h3>
+    <svg
+      id="toggle-button"
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-12 w-12 text-gray-500 cursor-pointer"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </div>
+  <div>
+    <p>
+      Consider the circuit shown in. Suppose that R =
+      <input id="p8-R" type="number" /> &Omega;.
+    </p>
+    <!-- Start Parts -->
+    <div>
+      <!-- Start Part A -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part A </span>
+            <br />
+            Determine the voltage V<sub>0</sub> for the circuit.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>V<sub>0</sub> = <span id="p8-a-answer"></span></p>
+            <button
+              id="p8-a-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+        <!-- Start Problem Image -->
+        <div class="flex-1">
+          <img src="./images/chapter1/p1-a.png" alt="" />
+        </div>
+        <!-- End Problem Image -->
+      </div>
+      <!-- End Part A -->
+      <hr />
+      <!-- Start Part B -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part B</span>
+            <br />
+            Find the total power absorbed in the circuit.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>p<sub>abs</sub> = <span id="p8-b-answer"></span></p>
+            <button
+              id="p8-b-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              > Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part B -->
+    </div>
+    <!-- End Parts -->
+  </div>
+</div>
+<!-- End Problem 8 -->
+<!-- Start Problem 9 -->
+<div class="border border-gray-300 p-6 rounded-md">
+  <div class="flex justify-between">
+    <h3 class="font-bold text-2xl mb-4">Problem 9</h3>
+    <svg
+      id="toggle-button"
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-12 w-12 text-gray-500 cursor-pointer"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </div>
+  <div>
+    <p>
+      Consider the circuit shown in. Suppose that i<sub>s</sub> =
+      <input id="p9-Is" type="number" /> mA
+    </p>
+    <!-- Start Parts -->
+    <div>
+      <!-- Start Part A -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part A </span>
+            <br />
+            Determine the current i<sub>0</sub> in the circuit.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>i<sub>a</sub> = <span id="p9-a-answer"></span></p>
+            <button
+              id="p9-a-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+        <!-- Start Problem Image -->
+        <div class="flex-1">
+          <img src="./images/chapter1/p1-a.png" alt="" />
+        </div>
+        <!-- End Problem Image -->
+      </div>
+      <!-- End Part A -->
+      <hr />
+      <!-- Start Part B -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part B</span>
+            <br />
+            Find the magnitude of the total power supplied in the circuit.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>p<sub>sup</sub> = <span id="p9-b-answer"></span></p>
+            <button
+              id="p9-b-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              > Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part B -->
+      <hr />
+      <!-- Start Part C -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part C</span>
+            <br />
+            Find the magnitude of the total power absorbed in the circuit.
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to three significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>p<sub>abs</sub> = <span id="p9-c-answer"></span></p>
+            <button
+              id="p9-c-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              > Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+      </div>
+      <!-- End Part C -->
+    </div>
+    <!-- End Parts -->
+  </div>
+</div>
+<!-- End Problem 9 -->
+<!-- Start Problem 10 -->
+<div class="border border-gray-300 p-6 rounded-md">
+  <div class="flex justify-between">
+    <h3 class="font-bold text-2xl mb-4">Problem 10</h3>
+    <svg
+      id="toggle-button"
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-12 w-12 text-gray-500 cursor-pointer"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </div>
+  <div>
+    <!-- Start Parts -->
+    <div>
+      <!-- Start Part A -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part A </span>
+            <br />
+            Find V<sub>1</sub> and V<sub>g</sub> in the circuit shown in the
+            figure when V<sub>0</sub> equals
+            <input id="p10-V0" type="number" />. (Hint: Start at the right end
+            of the circuit and work back toward V<sub>g</sub>).
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to two significant figures separated by a comma.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>
+              V<sub>1</sub>, V<sub>g</sub> =
+              <span id="p10-a-answer"></span>
+            </p>
+            <button
+              id="p10-a-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+        <!-- Start Problem Image -->
+        <div class="flex-1">
+          <img src="./images/chapter1/p1-a.png" alt="" />
+        </div>
+        <!-- End Problem Image -->
+      </div>
+      <!-- End Part A -->
+    </div>
+    <!-- End Parts -->
+  </div>
+</div>
+<!-- End Problem 10 -->

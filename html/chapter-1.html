@@ -1,11 +1,122 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chapter 1</title>
-  </head>
-  <body>
-    <div class=""></div>
-  </body>
-</html>
+<!-- Start Problem 1 -->
+<div class="border border-gray-300 p-6 rounded-md">
+  <div class="flex justify-between">
+    <h3 class="font-bold text-2xl mb-4">Problem 1</h3>
+    <svg
+      id="toggle-button"
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-12 w-12 text-gray-500 cursor-pointer"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </div>
+  <div>
+    <h4 class="font-bold text-xl mb-4">Learning Goal:</h4>
+    <p>
+      To analyze circuits that contain dependent sources using Kirchhoff's
+      current and voltage laws.<br />
+      electric circuits, dependent sources are used to model the behavior of
+      more advanced devices. When analyzing circuits, Kirchhoff's laws are used
+      along with expressions for the variable(s) of the dependent source(s) in
+      the circuit.
+    </p>
+    <!-- Start Parts -->
+    <div>
+      <!-- Start Part A -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part A</span>
+            <br />
+            Analysis of a circuit with a dependent voltage source
+          </p>
+          <p class="leading-9">
+            For the circuit shown, solve for V<sub>0</sub> when I =
+            <input id="p1-a-I" type="number" />
+            A, R<sub>1</sub> =
+            <input id="p1-a-R1" type="number" />
+            &Omega;, R<sub>2</sub> =
+            <input id="p1-a-R2" type="number" />
+            &Omega;, and &alpha; =
+            <input id="p1-a-alpha" type="number" />
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to four significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>V<sub>0</sub> = <span id="p1-a-answer"></span></p>
+            <button
+              id="p1-a-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+        <!-- Start Problem Image -->
+        <div class="flex-1">
+          <img src="./images/chapter1/p1-a.png" alt="" />
+        </div>
+        <!-- End Problem Image -->
+      </div>
+      <!-- End Part A -->
+      <hr />
+      <!-- Start Part B -->
+      <div class="problem-part">
+        <!-- Start Problem Content -->
+        <div class="space-y-4 flex-1">
+          <p>
+            <span class="font-bold text-lg">Part B</span>
+            <br />
+            Analysis of a circuit with a dependent current source
+          </p>
+          <p class="leading-9">
+            For the circuit shown, solve for I<sub>0</sub> when V =
+            <input id="p1-b-V" type="number" />
+            V, R<sub>1</sub> =
+            <input id="p1-b-R1" type="number" />
+            k&Omega;, R<sub>2</sub>
+            <input id="p1-b-R2" type="number" />
+            k&Omega;, and &alpha; =
+            <input id="p1-b-alpha" type="number" />
+          </p>
+          <h4 class="font-bold text-md">
+            Express your answer to two significant figures and include the
+            appropriate units.
+          </h4>
+          <div>
+            <h4 class="font-bold text-lg">Answer:</h4>
+            <p>I<sub>0</sub> = <span id="p1-b-answer"></span></p>
+            <button
+              id="p1-b-submit"
+              class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150"
+            >
+              Calculate Answer
+            </button>
+          </div>
+        </div>
+        <!-- End Problem Content -->
+        <!-- Start Problem Image -->
+        <div class="flex-1">
+          <img src="./images/chapter1/p1-a.png" alt="" />
+        </div>
+        <!-- End Problem Image -->
+      </div>
+      <!-- End Part B -->
+    </div>
+    <!-- End Parts -->
+  </div>
+</div>
+<!-- End Problem 1 -->

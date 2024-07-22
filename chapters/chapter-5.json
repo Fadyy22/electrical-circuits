@@ -1,0 +1,372 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "title": "Problem 1",
+      "content": "Consider the circuit in. Suppose that",
+      "inputs": [
+        {
+          "id": "I",
+          "name": "i",
+          "type": "number",
+          "unit": "A"
+        },
+        {
+          "id": "V",
+          "name": "v",
+          "type": "number",
+          "unit": "V"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Use a series of source transformations to find i<sub>0</sub> in the circuit.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>0</sub>"
+          },
+          "imageSrc": "chapter5/p1.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Verify your solution by using the mesh-current method to find i<sub>0</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>0</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Problem 2",
+      "content": "A Thevenin equivalent can also be determined from measurements made at the pair of terminals of interest. Assume the following measurements were made at the terminals a, b in the circuit in. When a <input id='p2-R1' type='number'> Ω resistor is connected to the terminals a, b, the voltage v<sub>ab</sub> is measured and found to be <input id='p2-V1' type='number'> V. When a <input id='p2-R2' type='number'> Ω resistor is connected to the terminals a, b, the voltage is measured and found to be <input id='p2-V2' type='number'> V. Find the Thevenin equivalent of the network with respect to the terminals a, b.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the equivalent voltage.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "v<sub>Th</sub>"
+          },
+          "imageSrc": "chapter5/p2.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the equivalent resistance.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "R<sub>Th</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Problem 3",
+      "content": "Find the Thevenin equivalent with respect to the terminals a,b for the circuit by finding the open-circuit voltage and the short-circuit current if",
+      "inputs": [
+        {
+          "id": "V",
+          "name": "v",
+          "type": "number",
+          "unit": "V"
+        },
+        {
+          "id": "I",
+          "name": "i",
+          "type": "number",
+          "unit": "A"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the equivalent voltage.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "v<sub>Th</sub>"
+          },
+          "imageSrc": "chapter5/p3.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the equivalent resistance.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "R<sub>Th</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Solve for the Thevenin resistance by removing the independent sources.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "R<sub>Th</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Problem 4",
+      "content": "Find the Norton equivalent with respect to the terminals a, b for the circuit seen in. Suppose that ",
+      "inputs": [
+        {
+          "id": "R",
+          "name": "R",
+          "type": "number",
+          "unit": "Ω"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the equivalent current.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>N</sub>"
+          },
+          "imageSrc": "chapter5/p4.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the equivalent resistance.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "R<sub>N</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Problem 5",
+      "content": "The variable resistor in the circuit in is adjusted for maximum power transfer to R<sub>0</sub>. Suppose that ",
+      "inputs": [
+        {
+          "id": "R",
+          "name": "R",
+          "type": "number",
+          "unit": "kΩ"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the value of R<sub>0</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "R<sub>0</sub>"
+          },
+          "imageSrc": "chapter5/p5-a.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the maximum power that can be delivered to R<sub>0</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p<sub>max</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find a resistor from the table closest to the value in part A.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "R<sub>standard</sub>"
+          },
+          "imageSrc": "chapter5/p5-c.png"
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "How much power is delivered to this resistor?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p<sub>del</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Problem 6",
+      "content": "The variable resistor (R<sub>0</sub>) in the circuit is adjusted until the power dissipated in the resistor is 250 W.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the values of R<sub>0</sub> that satisfy this condition if ",
+          "inputs": [
+            {
+              "id": "V",
+              "name": "V",
+              "type": "number",
+              "unit": "V"
+            }
+          ],
+          "need": "Enter your answers numerically separated by a comma.",
+          "answer": {
+            "name": "R<sub>0</sub>"
+          },
+          "imageSrc": "chapter5/p6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Problem 7",
+      "content": "Use superposition to solve for io and v<sub>0</sub> in the circuit in. Take ",
+      "inputs": [
+        {
+          "id": "V",
+          "name": "V",
+          "type": "number",
+          "unit": "V"
+        },
+        {
+          "id": "I",
+          "name": "i",
+          "type": "number",
+          "unit": "A"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "What is the value of i<sub>0</sub>?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>0</sub>"
+          },
+          "imageSrc": "chapter5/p7.png"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "What is the value of v<sub>0</sub>?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "v<sub>0</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Problem 8",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Use the principle of superposition to find the current i<sub>0</sub> in the circuit shown in if ",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "inputs": [
+            {
+              "id": "I1",
+              "name": "i<sub>1</sub>",
+              "type": "number",
+              "unit": "A"
+            },
+            {
+              "id": "I2",
+              "name": "i<sub>2</sub>",
+              "type": "number",
+              "unit": "A"
+            }
+          ],
+          "answer": {
+            "name": "i<sub>0</sub>"
+          },
+          "imageSrc": "chapter5/p8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Problem 9",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Use the principle of superposition to find v<sub>0</sub> in the circuit in. Take ",
+          "inputs": [
+            {
+              "id": "V",
+              "name": "v",
+              "type": "number",
+              "unit": "V"
+            },
+            {
+              "id": "I",
+              "name": "i",
+              "type": "number",
+              "unit": "mA"
+            }
+          ],
+
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "v<sub>0</sub>"
+          },
+          "imageSrc": "chapter5/p9.png"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Problem 10",
+      "content": "Find the Norton equivalent with respect to the terminals a,b for the circuit seen in (Figure 1). Suppose that ",
+      "inputs": [
+        {
+          "id": "Vs",
+          "name": "v<sub>s</sub>",
+          "type": "number",
+          "unit": "V"
+        },
+        {
+          "id": "R",
+          "name": "R",
+          "type": "number",
+          "unit": "kΩ"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the equivalent current.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>N</sub>"
+          },
+          "imageSrc": "chapter5/p10.png"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the equivalent resistance.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "R<sub>N</sub>"
+          }
+        }
+      ]
+    }
+  ]
+}

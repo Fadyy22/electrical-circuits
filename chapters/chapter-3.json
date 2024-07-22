@@ -1,0 +1,70 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "title": "Problem 1",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "description": "Voltage division: part 1",
+          "content": "For the circuit shown, calculate  V1,  V3, and  V5 when  Vs = 7  V,  R1 = 18  Ω,  R2 = 66  Ω,  R3 = 57  Ω,  R4 = 37  Ω, and  R5 = 33  Ω.",
+          "need": "Express your answer to two significant figures, with appropriate units.",
+          "answer": {
+            "name": "V<sub>1</sub>, V<sub>3</sub>, V<sub>5</sub>"
+          },
+          "imageSrc": "chapter3/p1-a.png"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "description": "Voltage division: part 2",
+          "content": "For the circuit shown, calculate V<sub>s</sub> when ",
+          "inputs": [
+            {
+              "id": "V3",
+              "name": "V<sub>3</sub>",
+              "type": "number",
+              "unit": "V"
+            },
+            {
+              "id": "R1",
+              "name": "R<sub>1</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            },
+            {
+              "id": "R2",
+              "name": "R<sub>2</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            },
+            {
+              "id": "R3",
+              "name": "R<sub>3</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            },
+            {
+              "id": "R4",
+              "name": "R<sub>4</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            },
+            {
+              "id": "R5",
+              "name": "R<sub>5</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            }
+          ],
+          "need": "Express your answer to two significant figures, with appropriate units.",
+          "answer": {
+            "name": "V<sub>s</sub>"
+          },
+          "imageSrc": "chapter3/p1-b.jpg"
+        }
+      ]
+    }
+  ]
+}

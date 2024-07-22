@@ -1,0 +1,447 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "title": "Problem 1",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "description": "Analysis of a circuit with a dependent voltage source",
+          "content": "For the circuit shown, solve for V<sub>0</sub> when",
+          "need": "Express your answer to four significant figures and include the appropriate units.",
+          "inputs": [
+            {
+              "id": "I",
+              "name": "I",
+              "type": "number",
+              "unit": "A"
+            },
+            {
+              "id": "R1",
+              "name": "R<sub>1</sub>",
+              "type": "number",
+              "unit": "Ω"
+            },
+            {
+              "id": "R2",
+              "name": "R<sub>2</sub>",
+              "type": "number",
+              "unit": "Ω"
+            },
+            {
+              "id": "alpha",
+              "name": "α",
+              "type": "number",
+              "unit": ""
+            }
+          ],
+          "answer": {
+            "name": "V<sub>0</sub>"
+          },
+          "imageSrc": "chapter1/p1-a.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "description": "Analysis of a circuit with a dependent current source",
+          "content": "For the circuit shown, solve for I<sub>0</sub> when",
+          "need": "Express your answer to two significant figures and include the appropriate units.",
+          "inputs": [
+            {
+              "id": "V",
+              "name": "V",
+              "type": "number",
+              "unit": "V"
+            },
+            {
+              "id": "R1",
+              "name": "R<sub>1</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            },
+            {
+              "id": "R2",
+              "name": "R<sub>2</sub>",
+              "type": "number",
+              "unit": "kΩ"
+            },
+            {
+              "id": "alpha",
+              "name": "α",
+              "type": "number",
+              "unit": ""
+            }
+          ],
+          "answer": {
+            "name": "I<sub>0</sub>"
+          },
+          "imageSrc": "chapter1/p1-b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Problem 2",
+      "content": "Consider the circuit shown in. Suppose that",
+      "inputs": [
+        {
+          "id": "Vs",
+          "name": "v<sub>s</sub>",
+          "type": "number",
+          "unit": "V"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find v<sub>0</sub> using Kirchhoff's laws and Ohm's law.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "v<sub>s</sub>"
+          },
+          "imageSrc": "chapter1/p2.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the total power absorbed in the circuit.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p<sub>abs</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the total power supplied in the circuit.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p<sub>sup</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Problem 3",
+      "content": "Consider the circuit shown in. Suppose that",
+      "inputs": [
+        {
+          "id": "Vg",
+          "name": "v<sub>g</sub>",
+          "type": "number",
+          "unit": "V"
+        },
+        {
+          "id": "Rg",
+          "name": "Rg",
+          "type": "number",
+          "unit": "Ω"
+        },
+        {
+          "id": "Ra",
+          "name": "Ra",
+          "type": "number",
+          "unit": "Ω"
+        },
+        {
+          "id": "Rb",
+          "name": "Rb",
+          "type": "number",
+          "unit": "Ω"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the value of  i<sub>a</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>a</sub>"
+          },
+          "imageSrc": "chapter1/p3.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the value of  i<sub>b<sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>b</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the value of  V<sub>0</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "v<sub>0</sub>"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find the power dissipated in each resistor.",
+          "need": "Express your answers in watts using three significant figures separated by commas.",
+          "answer": {
+            "name": "p60Ω, p340Ω, p85Ω"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Find the power delivered by the 200 V source.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Problem 4",
+      "content": "The current i<sub>a</sub> in the circuit shown in is",
+      "inputs": [
+        {
+          "id": "Ia",
+          "name": "i<sub>a</sub>",
+          "type": "number",
+          "unit": "A"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find i<sub>0</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>0</sub>"
+          },
+          "imageSrc": "chapter1/p4.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find i<sub>g<sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>g</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the power delivered by the independent current source.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Problem 5",
+      "content": "The current i<sub>0</sub> in the circuit is <input id='p5-I0' type='number' /> A and the voltage V<sub>g</sub> is <input id='p5-Vg' type='number' /> V",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find i<sub>0</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>1</sub>"
+          },
+          "imageSrc": "chapter1/p5.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find i<sub>g<sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p13Ω, p8Ω, p4Ω, p20Ω, p4Ω"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the power delivered by the independent current source.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Problem 6",
+      "content": "The voltage across the 22.5 &Omega; resistor in the circuit in is <input id='p6-Vr' type='number' /> V, and positive at the upper terminal; the source voltage is <input id='p6-Vg' type='number' /> V.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the power dissipated in each resistor.",
+          "need": "Enter your answers in watts using three significant figures separated by commas.",
+          "answer": {
+            "name": "p4Ω, p5Ω, p15Ω, p20Ω, p22.5Ω"
+          },
+          "imageSrc": "chapter1/p6.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the power supplied by the 248 V ideal voltage source.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p<sub>sup</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Problem 7",
+      "content": "The current i<sub>a</sub> and i<sub>b</sub> in the circuit in the figure are <input id='p7-Ia' type='number' /> A and <input id='p7-Ib' type='number' /> A, respectively. v<sub>a</sub> is <input id='p7-Va' type='number' /> V.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find i<sub>g<sub>.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "i<sub>g</sub>"
+          },
+          "imageSrc": "chapter1/p7.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the power dissipated in each resistor.",
+          "need": "Enter your answers separated by commas.",
+          "answer": {
+            "name": "p9Ω, p10Ω, p30Ω, p16Ω, p11Ω, p5Ω, p4Ω, p15Ω"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find v<sub>g</sub>",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "v<sub>g</sub>"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find the power delivered by the current source.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "p"
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Problem 8",
+      "content": "Consider the circuit shown in. Suppose that",
+      "inputs": [
+        {
+          "id": "R",
+          "name": "R",
+          "type": "number",
+          "unit": "Ω"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Determine the voltage v<sub>0</sub> for the circuit.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "v<sub>0</sub>"
+          },
+          "imageSrc": "chapter1/p8.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the total power absorbed in the circuit.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p<sub>abs</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Problem 9",
+      "content": "Consider the circuit shown in. Suppose that",
+      "inputs": [
+        {
+          "id": "Is",
+          "name": "i<sub>s</sub>",
+          "type": "number",
+          "unit": "mA"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Determine the current i<sub>0</sub> in the circuit.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>0</sub>"
+          },
+          "imageSrc": "chapter1/p9.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the magnitude of the total power supplied in the circuit.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p<sub>sub</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the magnitude of the total power absorbed in the circuit.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p<sub>abs</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Problem 10",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find V<sub>1</sub> and V<sub>g</sub> in the circuit shown in the figure when v<sub>0</sub> equals <input id='p10-V0' type='number' /> V. (Hint: Start at the right end of the circuit and work back toward V<sub>g</sub>).",
+          "need": "Express your answers using two significant figures separated by a comma.",
+          "answer": {
+            "name": "v<sub>1</sub>, v<sub>g</sub>"
+          },
+          "imageSrc": "chapter1/p10.jpg"
+        }
+      ]
+    }
+  ]
+}
