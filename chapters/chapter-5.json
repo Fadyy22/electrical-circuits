@@ -327,46 +327,6 @@
           "imageSrc": "chapter5/p9.png"
         }
       ]
-    },
-    {
-      "id": 10,
-      "title": "Problem 10",
-      "content": "Find the Norton equivalent with respect to the terminals a,b for the circuit seen in (Figure 1). Suppose that ",
-      "inputs": [
-        {
-          "id": "Vs",
-          "name": "v<sub>s</sub>",
-          "type": "number",
-          "unit": "V"
-        },
-        {
-          "id": "R",
-          "name": "R",
-          "type": "number",
-          "unit": "kΩ"
-        }
-      ],
-      "parts": [
-        {
-          "id": "a",
-          "title": "Part A",
-          "content": "Find the equivalent current.",
-          "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>N</sub>"
-          },
-          "imageSrc": "chapter5/p10.png"
-        },
-        {
-          "id": "b",
-          "title": "Part B",
-          "content": "Find the equivalent resistance.",
-          "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>N</sub>"
-          }
-        }
-      ]
     }
   ]
 }

@@ -97,7 +97,7 @@
           "answer": {
             "name": "v<sub>0</sub>"
           },
-          "imageSrc": "chapter4/p2.png"
+          "imageSrc": "chapter4/p2.jpg"
         },
         {
           "id": "b",
@@ -204,7 +204,7 @@
           "answer": {
             "name": "p<sub>dev</sub>"
           },
-          "imageSrc": "chapter4/p6.png"
+          "imageSrc": "chapter4/p6.jpg"
         }
       ]
     },
@@ -229,7 +229,7 @@
           "answer": {
             "name": "p<sub>dev</sub>"
           },
-          "imageSrc": "chapter4/p7.png"
+          "imageSrc": "chapter4/p7.jpg"
         }
       ]
     },
@@ -312,11 +312,8 @@
           "id": "a",
           "title": "Part A",
           "content": "Would you use the node-voltage or mesh-current method to find the power absorbed by the 20 V source?",
-          "mcq": {
-            "options": ["Node-voltage method", "Mesh-current method"]
-          },
           "answer": {
-            "name": "p<sub>dev</sub>, p<sub>dis</sub>"
+            "name": "Answer"
           },
           "imageSrc": "chapter4/p9.jpg"
         },

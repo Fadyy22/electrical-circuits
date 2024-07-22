@@ -1,3 +1,10 @@
+document.querySelectorAll('#toggle-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const content = button.parentElement.nextElementSibling;
+    content.classList.toggle('hidden');
+  });
+});
+
 document.getElementById('p1-b-submit').addEventListener('click', () => {
   const V3 = Number(document.getElementById('p1-b-V3').value);
   const R1 = Number(document.getElementById('p1-b-R1').value);

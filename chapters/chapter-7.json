@@ -1,0 +1,368 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "title": "Problem 1",
+      "content": "Consider the circuit shown in. Suppose that ",
+      "inputs": [
+        {
+          "id": "R",
+          "name": "R",
+          "type": "number",
+          "unit": "Ω"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "What percentage of the initial energy stored in the inductor is eventually dissipated in the 40 Ω resistor?",
+          "need": "Express your answer as a percentage using three significant figures.",
+          "answer": {
+            "name": "% diss (40Ω)"
+          },
+          "imageSrc": "chapter7/p1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Problem 2",
+      "content": "The two switches in the circuit seen in (Figure 1) are synchronized. The switches have been closed for a long time before opening at t=0.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "How many microseconds after the switches are open is the energy dissipated in the 4 kΩ resistor <input id='p2-a-percent' type='number'> % of the initial energy stored in the 6  H inductor?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "t"
+          },
+          "imageSrc": "chapter7/p2.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "What percentage of the total energy stored in the inductor at the calculated time has been dissipated?",
+          "need": "Express your answer using three significant figures.",
+          "answer": {
+            "name": "%"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Problem 3",
+      "content": "In the circuit in (Figure 1), the voltage and current expressions are v = <input id='p3-V' type='number'> e<sup><input id='p3-e1' type='number'>t</sup>V, t≥0+; i = <input id='p3-I' type='number'> e<sup><input id='p3-e2' type='number'>t</sup>A, t≥0.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find R.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "R"
+          },
+          "imageSrc": "chapter7/p3.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find τ (in milliseconds).",
+          "need": "Express your answer in milliseconds to three significant figures.",
+          "answer": {
+            "name": "τ"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find L.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "L"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find the initial energy stored in the inductor.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "W<sub>initial</sub>"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Find the time (in milliseconds) it takes to dissipate <input id='p3-e-percent' type='number'> % of the initial stored energy.",
+          "need": "Express your answer in milliseconds to three significant figures.",
+          "answer": {
+            "name": "t"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Problem 4",
+      "content": "The switch shown in (Figure 1) has been open for a long time before closing at t = 0.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Write the expression for the capacitor voltage, v(t), for t≥0.",
+          "need": "Express your answer in terms of t, where t is in seconds.",
+          "answer": {
+            "name": "v(t)"
+          },
+          "imageSrc": "chapter7/p4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Problem 5",
+      "content": "The switch in the circuit has been in position 1 for a long time before moving to position 2 at t=0.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Select the correct expression for i<sub>0</sub> (t) for t≥0+.",
+          "answer": {
+            "name": "Answer"
+          },
+          "imageSrc": "chapter7/p5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Problem 6",
+      "content": "In the circuit in (Figure 1), the voltage and current expressions are v = <input id='p6-V' type='number'> e<sup><input id='p6-e1' type='number'>t</sup>V, t≥0+; i = <input id='p6-I' type='number'> e<sup><input id='p6-e2' type='number'>t</sup>mA, t≥0.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find R.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "R"
+          },
+          "imageSrc": "chapter7/p6.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find C.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "C"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find τ (in milliseconds).",
+          "need": "Express your answer in milliseconds to three significant figures.",
+          "answer": {
+            "name": "τ"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find the initial energy stored in the capacitor.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "W<sub>0</sub>"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Find the amount of energy that has been dissipated by the resistor <input id='p6-e-t' type='number'> ms after the voltage begins to decay.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "W<sub>diss</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Problem 7",
+      "content": "The switch in the circuit in (Figure 1) has been open a long time before closing at t = 0.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Select the correct expression for v<sub>0</sub> (t) for t≥0+.",
+          "answer": {
+            "name": "Answer"
+          },
+          "imageSrc": "chapter7/p7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Problem 8",
+      "content": "Assume that the switch in the circuit of (Figure 1) has been in position a for a long time and that at t = 0 it is moved to position b.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find v<sub>C</sub>(0<sup>+</sup>).",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "v<sub>C</sub>(0<sup>+</sup>)"
+          },
+          "imageSrc": "chapter5/p8.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find τ for t>0.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "τ"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find v<sub>C</sub>(∞).",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "v<sub>C</sub>(∞)"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find i(0<sup>+</sup>).",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i(0<sup>+</sup>)"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Choose the correct expression for v<sub>C</sub>, t≥0.",
+          "answer": {
+            "name": "Answer"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "Choose the correct expression for i, t≥0+.",
+          "answer": {
+            "name": "Answer"
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Problem 9",
+      "content": "The switch in the circuit has been in position a for a long time. At t=0 the switch is moved to position b.(Figure 1)",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Calculate the initial voltage on the capacitor if ",
+          "inputs": [
+            {
+              "id": "V",
+              "name": "v",
+              "type": "number",
+              "unit": "V"
+            },
+            {
+              "id": "I",
+              "name": "i",
+              "type": "number",
+              "unit": "mA"
+            }
+          ],
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "v<sub>C</sub>(0<sup>+</sup>)"
+          },
+          "imageSrc": "chapter7/p9.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Calculate the final voltage on the capacitor.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "v<sub>C</sub>(∞)"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Calculate the time constant for t>0.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "τ"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Calculate the length of time required for the capacitor voltage to reach zero after the switch is moved to position b.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "t"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Problem 10",
+      "content": "Assume that the switch in the circuit in (Figure 1) has been in the ON position for a long time before switching instantaneously to the OFF position at t= 0.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Select the correct expression for v<sub>0</sub>(t) for t≥0.",
+          "answer": {
+            "name": "Answer"
+          },
+          "imageSrc": "chapter7/p10.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Problem 11",
+      "content": "The switch in the circuit has been in position x for a long time. The initial charge on the 60 nF capacitor is zero. At t=0, the switch moves instantaneously to position y.(Figure 1)",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Select the correct expression for v<sub>0</sub>(t) for t≥0<sup>+</sup>.",
+          "answer": {
+            "name": "Answer"
+          },
+          "imageSrc": "chapter7/p11.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Select the correct expression for v<sub>1</sub>(t) for t≥0.",
+          "answer": {
+            "name": "Answer"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,10 @@
+document.querySelectorAll('#toggle-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const content = button.parentElement.nextElementSibling;
+    content.classList.toggle('hidden');
+  });
+});
+
 document.getElementById('p1-a-submit').addEventListener('click', () => {
   const I = Number(document.getElementById('p1-I').value);
   const V = Number(document.getElementById('p1-V').value);
@@ -105,3 +112,9 @@ document.getElementById('p9-a-submit').addEventListener('click', () => {
   const V = Number(document.getElementById('p9-a-V').value);
   document.getElementById('p9-a-answer').innerHTML = `${(0.96 * V) - (0.8 * I)} V`;
 });
+
+// document.getElementById('p10-a-submit').addEventListener('click', () => {
+//   const Vs = Number(document.getElementById('p10-a-Vs').value);
+//   const R = Number(document.getElementById('p10-a-R').value);
+//   document.getElementById('p10-a-answer').innerHTML = `${Vs / R} A`;
+// });

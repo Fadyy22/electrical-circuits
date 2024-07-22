@@ -45,7 +45,7 @@ function createProblem(problem) {
         </svg>
       </div>
       <div>
-      ${problem.content ? `<p class='max-w-2xl'>${problem.content}
+      ${problem.content ? `<p class='max-w-3xl'>${problem.content}
       ${problem.inputs ? `
           ${problem.inputs.map(input => `
             ${input.name} = <input id="p${problem.id}-${input.id}" type="${input.type}" /> ${input.unit}
@@ -77,7 +77,7 @@ function createPart(part, problemId) {
           <h4 class="font-bold text-lg">Answer:</h4>
           <p>${part.answer.name} = <span id="p${problemId}-${part.id}-answer"></span></p>
           <button id="p${problemId}-${part.id}-submit" class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150">
-            Calculate Answer
+            Answer
           </button>
         </div>
       </div>
@@ -87,11 +87,3 @@ function createPart(part, problemId) {
     </div>
   `;
 }
-
-
-document.querySelectorAll('#toggle-button').forEach(button => {
-  button.addEventListener('click', () => {
-    const content = button.parentElement.nextElementSibling;
-    content.classList.toggle('hidden');
-  });
-});

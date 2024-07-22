@@ -1,3 +1,10 @@
+document.querySelectorAll('#toggle-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const content = button.parentElement.nextElementSibling;
+    content.classList.toggle('hidden');
+  });
+});
+
 document.getElementById('p1-a-submit').addEventListener('click', () => {
   const V1 = Number(document.getElementById('p1-V1').value);
   const V2 = Number(document.getElementById('p1-V2').value);
@@ -111,7 +118,9 @@ document.getElementById('p8-f-submit').addEventListener('click', () => {
   document.getElementById('p8-f-answer').innerHTML = `${answer}, ${answer} W`;
 });
 
-document.getElementById('p9-a-submit').addEventListener('click', () => { });
+document.getElementById('p9-a-submit').addEventListener('click', () => {
+  document.getElementById('p9-a-answer').innerHTML = `The node-voltage method`;
+});
 
 document.getElementById('p9-b-submit').addEventListener('click', () => {
   const I = Number(document.getElementById('p9-b-I').value);
