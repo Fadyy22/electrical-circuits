@@ -81,9 +81,15 @@ function createPart(part, problemId) {
           </button>
         </div>
       </div>
-      ${part.imageSrc ? `<div class="flex-1">
-        <img src="./images/${part.imageSrc}" alt="" />
-      </div>` : ''}
+      ${Array.isArray(part.imageSrc) ? part.imageSrc.map(src => `
+        <div class="flex-1">
+          <img src="./images/${src}" alt="" />
+        </div>
+      `).join('') : part.imageSrc ? `
+        <div class="flex-1">
+          <img src="./images/${part.imageSrc}" alt="" />
+        </div>
+      ` : ''}
     </div>
   `;
 }
