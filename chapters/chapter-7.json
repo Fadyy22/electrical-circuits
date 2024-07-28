@@ -130,9 +130,6 @@
           "id": "a",
           "title": "Part A",
           "content": "Select the correct expression for i<sub>0</sub> (t) for t≥0+.",
-          "answer": {
-            "name": "Answer"
-          },
           "imageSrc": "chapter7/p5.jpg"
         }
       ]
@@ -199,9 +196,6 @@
           "id": "a",
           "title": "Part A",
           "content": "Select the correct expression for v<sub>0</sub> (t) for t≥0+.",
-          "answer": {
-            "name": "Answer"
-          },
           "imageSrc": "chapter7/p7.jpg"
         }
       ]
@@ -251,18 +245,12 @@
         {
           "id": "e",
           "title": "Part E",
-          "content": "Choose the correct expression for v<sub>C</sub>, t≥0.",
-          "answer": {
-            "name": "Answer"
-          }
+          "content": "Choose the correct expression for v<sub>C</sub>, t≥0."
         },
         {
           "id": "f",
           "title": "Part F",
-          "content": "Choose the correct expression for i, t≥0+.",
-          "answer": {
-            "name": "Answer"
-          }
+          "content": "Choose the correct expression for i, t≥0+."
         }
       ]
     },
@@ -333,9 +321,6 @@
           "id": "a",
           "title": "Part A",
           "content": "Select the correct expression for v<sub>0</sub>(t) for t≥0.",
-          "answer": {
-            "name": "Answer"
-          },
           "imageSrc": "chapter7/p10.jpg"
         }
       ]
@@ -349,18 +334,12 @@
           "id": "a",
           "title": "Part A",
           "content": "Select the correct expression for v<sub>0</sub>(t) for t≥0<sup>+</sup>.",
-          "answer": {
-            "name": "Answer"
-          },
           "imageSrc": "chapter7/p11.jpg"
         },
         {
           "id": "b",
           "title": "Part B",
-          "content": "Select the correct expression for v<sub>1</sub>(t) for t≥0.",
-          "answer": {
-            "name": "Answer"
-          }
+          "content": "Select the correct expression for v<sub>1</sub>(t) for t≥0."
         }
       ]
     }

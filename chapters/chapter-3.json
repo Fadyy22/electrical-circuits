@@ -771,10 +771,7 @@
           "id": "e",
           "title": "Part E",
           "content": "Give two additional Δ-to-Y or Y-to-Δ transformations that could be used to find R<sub>ab<sub>.",
-          "need": "Check all that apply.",
-          "answer": {
-            "name": "Answer"
-          }
+          "need": "Check all that apply."
         }
       ]
     }

@@ -74,8 +74,8 @@ function createPart(part, problemId) {
         </p>
         ${part.need ? `<h4 class="font-bold text-md">${part.need}</h4>` : ''}
         <div>
-          <h4 class="font-bold text-lg">Answer:</h4>
-          <p>${part.answer.name} = <span id="p${problemId}-${part.id}-answer"></span></p>
+          ${part.answer ? `<h4 class="font-bold text-lg">Answer:</h4>
+          <p>${part.answer.name} = <span id="p${problemId}-${part.id}-answer"></span></p>` : ` <p>-> <span id="p${problemId}-${part.id}-answer"></span></p>`}
           <button id="p${problemId}-${part.id}-submit" class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150">
             Answer
           </button>

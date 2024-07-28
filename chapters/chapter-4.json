@@ -312,9 +312,6 @@
           "id": "a",
           "title": "Part A",
           "content": "Would you use the node-voltage or mesh-current method to find the power absorbed by the 20 V source?",
-          "answer": {
-            "name": "Answer"
-          },
           "imageSrc": "chapter4/p9.jpg"
         },
         {
