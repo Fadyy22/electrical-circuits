@@ -24,6 +24,29 @@ document.querySelectorAll('.aside-link').forEach(link => {
   });
 });
 
+document.getElementById('aside-toggle').addEventListener('click', () => {
+  const asideContent = document.getElementById('aside-content');
+  const aside = document.getElementById('aside');
+  const content = document.getElementById('content');
+  if (window.innerWidth < 768) {
+    asideContent.classList.toggle('hidden');
+    if (aside.classList.contains('w-20')) {
+      aside.classList.replace('w-20', 'w-64');
+    } else {
+      aside.classList.replace('w-64', 'w-20');
+    }
+  } else {
+    asideContent.classList.toggle('md:block');
+    if (aside.classList.contains('md:w-64')) {
+      aside.classList.replace('md:w-64', 'w-20');
+      content.classList.replace('md:ml-64', 'md:ml-20');
+    } else {
+      aside.classList.replace('w-20', 'md:w-64');
+      content.classList.replace('md:ml-20', 'md:ml-64');
+    }
+  }
+});
+
 async function loadChapter(chapterId) {
   const content = document.getElementById('content');
   try {
@@ -74,8 +97,8 @@ function createPart(part, problemId) {
         </p>
         ${part.need ? `<h4 class="font-bold text-md">${part.need}</h4>` : ''}
         <div>
-          ${part.answer ? `<h4 class="font-bold text-lg">Answer:</h4>
-          <p>${part.answer.name} = <span id="p${problemId}-${part.id}-answer"></span></p>` : ` <p>-> <span id="p${problemId}-${part.id}-answer"></span></p>`}
+        <h4 class="font-bold text-lg">Answer:</h4>
+          ${part.answer ? `<p>${part.answer.name} = <span id="p${problemId}-${part.id}-answer"></span></p>` : ` <p>-> <span id="p${problemId}-${part.id}-answer"></span></p>`}
           <button id="p${problemId}-${part.id}-submit" class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150">
             Answer
           </button>
