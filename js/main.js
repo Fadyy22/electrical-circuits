@@ -21,6 +21,10 @@ document.querySelectorAll('.aside-link').forEach(link => {
     script.src = `./js/chapters/chapter-${chapter}.js`;
     script.classList.add('data-chapter-script');
     document.body.appendChild(script);
+    if (window.innerWidth < 768) {
+      document.getElementById('aside-content').classList.add('hidden');
+      document.getElementById('aside').classList.replace('w-64', 'w-20');
+    }
   });
 });
 
