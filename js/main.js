@@ -1,7 +1,7 @@
 document.onload = loadChapter(1);
 
 document.querySelectorAll('.aside-link').forEach(link => {
-  link.addEventListener('click', function (e) {
+  link.addEventListener('click', async function (e) {
     e.preventDefault();
     document.querySelectorAll('.aside-link').forEach(link => {
       link.classList.remove('selected');
@@ -10,7 +10,7 @@ document.querySelectorAll('.aside-link').forEach(link => {
 
     const chapter = this.innerHTML.split(' ')[1];
 
-    loadChapter(chapter);
+    await loadChapter(chapter);
 
     const oldScript = document.querySelector('.data-chapter-script');
     if (oldScript) {
