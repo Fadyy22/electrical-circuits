@@ -1,0 +1,313 @@
+{
+  "problems": [
+    {
+      "id": 2,
+      "title": "Problem 2",
+      "content": "The voltage response for the circuit in (Figure 1) is known to be v (t) = D<sub>1</sub>te<sup>-500t</sup> + D<sub>2</sub>e<sup>-500t</sup>, t≥0, where t is in seconds. The initial current in the inductor (I<sub>0</sub>) is -10 mA, and the initial voltage on the capacitor (V<sub>0</sub>) is 8 V. The inductance is 4 H.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the value of R.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "R"
+          },
+          "imageSrc": "chapter8/p2.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the value of C.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "C"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the value of D<sub>1</sub>.",
+          "need": "Express your answer in volts per second to three significant figures.",
+          "answer": {
+            "name": "D<sub>1</sub>"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find the value of D<sub>2</sub>.",
+          "need": "Express your answer in volts to three significant figures.",
+          "answer": {
+            "name": "D<sub>2</sub>"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Choose the correct expression for i<sub>C</sub> (t) for t≥0+."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Problem 3",
+      "content": "The two switches in the circuit seen in (Figure 1) operate synchronously. When switch 1 is in position a, switch 2 is in position d. When switch 1 moves to position b, switch 2 moves to position c. Switch 1 has been in position a for a long time. At t = 0, the switches move to their alternate positions.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Choose the correct expression for v<sub>o</sub> (t) for t≥0.",
+          "imageSrc": "chapter8/p3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Problem 4",
+      "content": "The switch in the circuit of (Figure 1) has been in position a for a long time. At t = 0 the switch moves instantaneously to position b.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find v<sub>o</sub> (t) for t≥0.",
+          "imageSrc": "chapter8/p4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Problem 5",
+      "content": "Suppose the inductor in the circuit shown in (Figure 1) with a resonant radian frequency of 5000 rad/s has a value of 10 mH.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Suppose that R = <input id='p5-a-R' type='number'/> Ω. Determine the damping type of the circuit.",
+          "imageSrc": "chapter8/p5.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Calculate the roots of the characteristic equation for ",
+          "need": "Express your answers in radians per second to three significant figures separated by a comma. Enter your answers in rectangular form.",
+          "inputs": [
+            {
+              "id": "R",
+              "name": "R",
+              "type": "number",
+              "unit": "Ω"
+            }
+          ],
+          "answer": {
+            "name": "s1, s1"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Suppose that R = <input id='p5-c-R' type='number'/> Ω. Determine the damping type of the circuit.",
+          "need": "Express your answers in radians per second to three significant figures separated by a comma. Enter your answers in rectangular form."
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Calculate the roots of the characteristic equation for ",
+          "need": "Express your answers in radians per second to three significant figures separated by a comma. Enter your answers in rectangular form.",
+          "inputs": [
+            {
+              "id": "R",
+              "name": "R",
+              "type": "number",
+              "unit": "Ω"
+            }
+          ],
+          "answer": {
+            "name": "s1, s2"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Problem 6",
+      "content": "The switch in the circuit in (Figure 1) has been open for a long time before closing at t = 0.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find v<sub>o</sub> for t≥0.",
+          "imageSrc": "chapter8/p6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Problem 7",
+      "content": "The switch in the circuit in (Figure 1) has been open a long time before closing at t = 0.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find i<sub>L</sub> (t) for t≥0.",
+          "imageSrc": "chapter8/p7.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find v<sub>C</sub> (t) for t≥0."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Problem 8",
+      "content": "Switches 1 and 2 in the circuit in (Figure 1) are synchronized. When switch 1 is opened, switch 2 closes and vice versa. Switch 1 has been open a long time before closing at t = 0.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Choose the correct expression for i<sub>L</sub> (t) for t≥0.",
+          "imageSrc": "chapter8/p8.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find v<sub>C</sub> (t) for t≥0."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Problem 9",
+      "content": "The current in the circuit in the followin figure is known to be i = B<sub>1</sub>e<sup>-2000t</sup>cos1500t + B<sub>2</sub>e<sup>-2000t</sup>sin1500t, t≥0. The capacitor has a value of 80 nF; the initial value of the current is <input id='p9-I' type='number'/> mA; and the initial voltage on the capacitor is <input id='p9-V' type='number'/> V.(Figure 1)",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the value of R.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "R"
+          },
+          "imageSrc": "chapter8/p9.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the value of L.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "L"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the value of B<sub>1</sub>.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "B<sub>1</sub>"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find the value of B<sub>2</sub>.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "B<sub>2</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Problem 10",
+      "content": "The circuit shown in (Figure 1) has been in operation for a long time. At t=0 the two switches move to the new positions shown in the figure.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find i<sub>o</sub> (t) for t≥0.",
+          "imageSrc": "chapter8/p10.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find v<sub>o</sub> (t) for t≥0."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Problem 11",
+      "content": "The switch in the circuit in (Figure 1) has been in position a for a long time. At t = 0, the switch moves instantaneously to position b.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "What is the initial value of v<sub>a</sub>?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "v<sub>a</sub>"
+          },
+          "imageSrc": "chapter8/p11.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "What is the initial value of dv<sub>a</sub>/dt?",
+          "need": "Express your answer in volts per second to three significant figures.",
+          "answer": {
+            "name": "dv<sub>a</sub>/dt"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "What is the numerical expression for v<sub>a</sub> (t) for t≥0?"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Problem 12",
+      "content": "The resistor in the circuit shown in (Figure 1) is changed to 250 Ω. The initial energy stored is zero.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find v<sub>o</sub> (t) for t≥0.",
+          "imageSrc": "chapter8/p12.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Problem 13",
+      "content": "The resistor in the circuit shown in (Figure 1) is changed to 312.5 Ω. The initial energy stored is zero.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Choose the correct expression of v<sub>o</sub> (t) for t≥0.",
+          "imageSrc": "chapter8/p12.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Problem 14",
+      "content": "The two switches in the circuit seen in (Figure 1) operate synchronously. When switch 1 is in position a, switch 2 is closed. When switch 1 is in position b, switch 2 is open. Switch 1 has been in position a for a long time. At t=0, it moves instantaneously to position b.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find v<sub>c</sub> (t) for t≥0.",
+          "imageSrc": "chapter8/p14.jpg"
+        }
+      ]
+    }
+  ]
+}

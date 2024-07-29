@@ -327,6 +327,37 @@
           "imageSrc": "chapter5/p9.png"
         }
       ]
+    },
+    {
+      "id": 10,
+      "title": "Problem 10",
+      "content": "Use superposition to find the power dissipated in the 4 Ω resistor in the circuit in. Take ",
+      "inputs": [
+        {
+          "id": "V",
+          "name": "V",
+          "type": "number",
+          "unit": "V"
+        },
+        {
+          "id": "I",
+          "name": "i",
+          "type": "number",
+          "unit": "A"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "What is the power dissipated in the 4 Ω resistor?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p"
+          },
+          "imageSrc": "chapter5/p10.png"
+        }
+      ]
     }
   ]
 }

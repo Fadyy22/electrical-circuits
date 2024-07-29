@@ -1,7 +1,7 @@
-document.querySelectorAll('#toggle-button').forEach(button => {
-  button.addEventListener('click', () => {
-    const content = button.parentElement.nextElementSibling;
-    content.classList.toggle('hidden');
+$('.toggle-button').each(function () {
+  $(this).click(function () {
+    const content = $(this).parent().next();
+    content.toggleClass('hidden');
   });
 });
 

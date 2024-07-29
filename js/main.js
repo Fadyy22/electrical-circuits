@@ -67,7 +67,7 @@ function createProblem(problem) {
     <div class="border border-gray-300 p-6 rounded-md mb-6">
       <div class="flex justify-between">
         <h3 class="font-bold text-2xl mb-4">${problem.title}</h3>
-        <svg id="toggle-button" xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-500 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-500 cursor-pointer toggle-button" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
         </svg>
       </div>

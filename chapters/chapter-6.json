@@ -1,0 +1,794 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "title": "Problem 1",
+      "content": "The current in a 50 μH inductor is known to be i<sub>L</sub> = 18te<sup>-10t</sup> A for t≥0, where t is in seconds. Assume the passive sign convention.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Choose the correct expression for the voltage across the inductor for  t>0."
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the power (in microwatts) at the terminals of the inductor when ",
+          "need": "Express your answer in microwatts to three significant figures.",
+          "inputs": [
+            {
+              "id": "T",
+              "name": "t",
+              "type": "number",
+              "unit": "ms"
+            }
+          ],
+          "answer": {
+            "name": "p"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Is the inductor absorbing or delivering power at t = <span id='p1-c-T'></span> ms?"
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find the energy (in microjoules) stored in the inductor at ",
+          "need": "Express your answer in microjoules to three significant figures.",
+          "inputs": [
+            {
+              "id": "T",
+              "name": "t",
+              "type": "number",
+              "unit": "ms"
+            }
+          ],
+          "answer": {
+            "name": "w"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Find the time (in milliseconds) when maximum energy is stored in the inductor.",
+          "need": "Express your answer in milliseconds to three significant figures.",
+          "answer": {
+            "name": "t"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "Find the maximum energy (in microjoules) stored in the inductor.",
+          "need": "Express your answer in microjoules to three significant figures.",
+          "answer": {
+            "name": "w<sub>max</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Problem 2",
+      "content": "The triangular current pulse shown in (Figure 1) is applied to a 20 mH inductor. Use the passive sign convention.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Write the expression that describes i(t)in the interval t<0. Suppose that t is in seconds.",
+          "need": "Express your answer in amperes in terms of t.",
+          "answer": {
+            "name": "i"
+          },
+          "imageSrc": "chapter6/p2.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Write the expression that describes i(t) in the interval 0≤t≤5ms. Suppose that t is in seconds.",
+          "need": "Express your answer in amperes in terms of t.",
+          "answer": {
+            "name": "i"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Is the inductor absorbing or delivering power at t = <span id='p2-c-T'></span> ms?",
+          "need": "Express your answer in amperes in terms of t.",
+          "answer": {
+            "name": "i"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find the energy (in microjoules) stored in the inductor at ",
+          "need": "Express your answer in amperes in terms of t.",
+          "answer": {
+            "name": "i"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Derive the expression for the inductor voltage in the interval t<0 . Suppose that t is in seconds.",
+          "need": "Express your answer in volts in terms of t .",
+          "answer": {
+            "name": "v"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "Derive the expression for the inductor voltage in the interval 0≤t≤5ms. Suppose that t is in seconds.",
+          "need": "Express your answer in volts in terms of t.",
+          "answer": {
+            "name": "v"
+          }
+        },
+        {
+          "id": "g",
+          "title": "Part G",
+          "content": "Derive the expression for the inductor voltage in the interval 5ms≤t≤10ms. Suppose that t is in seconds.",
+          "need": "Express your answer in volts in terms of t.",
+          "answer": {
+            "name": "v"
+          }
+        },
+        {
+          "id": "h",
+          "title": "Part H",
+          "content": "Derive the expression for the inductor voltage in the interval t>10ms. Suppose that t is in seconds.",
+          "need": "Express your answer in volts in terms of t.",
+          "answer": {
+            "name": "v"
+          }
+        },
+        {
+          "id": "i",
+          "title": "Part I",
+          "content": "Derive the expression for the inductor power in the interval t<0. Suppose that t is in seconds.",
+          "need": "Express your answer in watts in terms of t.",
+          "answer": {
+            "name": "p"
+          }
+        },
+        {
+          "id": "j",
+          "title": "Part J",
+          "content": "Derive the expression for the inductor power in the interval 0≤t≤5ms. Suppose that t is in seconds.",
+          "need": "Express your answer in watts in terms of t.",
+          "answer": {
+            "name": "p"
+          }
+        },
+        {
+          "id": "k",
+          "title": "Part K",
+          "content": "Derive the expression for the inductor power in the interval 5ms≤t≤10ms. Suppose that t is in seconds",
+          "need": "Express your answer in watts in terms of t.",
+          "answer": {
+            "name": "p"
+          }
+        },
+        {
+          "id": "l",
+          "title": "Part L",
+          "content": "Derive the expression for the inductor power in the interval t>10ms. Suppose that t is in seconds.",
+          "need": "Express your answer in watts in terms of t.",
+          "answer": {
+            "name": "p"
+          }
+        },
+        {
+          "id": "m",
+          "title": "Part M",
+          "content": "Derive the expression for the inductor energy in the interval t<0. Suppose that t is in seconds.",
+          "need": "Express your answer in joules in terms of t.",
+          "answer": {
+            "name": "w"
+          }
+        },
+        {
+          "id": "n",
+          "title": "Part N",
+          "content": "Derive the expression for the inductor energy in the interval 0≤t≤5 ms. Suppose that t is in seconds.",
+          "need": "Express your answer in joules in terms of t.",
+          "answer": {
+            "name": "w"
+          }
+        },
+        {
+          "id": "o",
+          "title": "Part O",
+          "content": "Derive the expression for the inductor energy in the interval 5ms≤t≤10ms. Suppose that t is in seconds.",
+          "need": "Express your answer in joules in terms of t.",
+          "answer": {
+            "name": "w"
+          }
+        },
+        {
+          "id": "p",
+          "title": "Part P",
+          "content": "Derive the expression for the inductor energy in the interval t>10ms. Suppose that t is in seconds.",
+          "need": "Express your answer in joules in terms of t.",
+          "answer": {
+            "name": "w"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Problem 3",
+      "content": "The current in a 20 mH inductor is known to be<br/>i = 40mA, t≤0;<br/>i = A<sub>1</sub>e<sup>-10,000t</sup> + A<sub>2</sub>e<sup>-40,000t</sup> A, t≥0,<br/>where t is in seconds. The voltage across the inductor (passive sign convention) is 28 V at t=0.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Choose the correct expression for the voltage across the inductor for t>0."
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the time, greater than zero, when the power at the terminals of the inductor is zero.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "t"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Problem 4",
+      "content": "The current in a 200 mH inductor is<br/>i=75 mA, t≤0;<br/>i=(B<sub>1</sub> cos 200t + B<sub>2</sub> sin 200t) e<sup>-50t</sup> A, ≥0,<br/>where t is in seconds. The voltage across the inductor (passive sign convention) is 4.25 V at t = 0.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Calculate the power at the terminals of the inductor at",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "inputs": [
+            {
+              "id": "T",
+              "name": "t",
+              "type": "number",
+              "unit": "ms"
+            }
+          ],
+          "answer": {
+            "name": "p"
+          }
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "State whether the inductor is absorbing or delivering power."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Problem 5",
+      "content": "The current in a <input id='p5-L' type='number'/> mH inductor is known to be -10 A for t≤0 and (-10 cos 400t - 5 sin 400t) e<sup>-200t</sup> A for t≥0 . Assume the passive sign convention.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "At what instant of time is the voltage across the inductor maximum?",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "t"
+          }
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "What is the maximum voltage?",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "v"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Problem 6",
+      "content": "The voltage across a 5 μF capacitor is known to be v<sub>c</sub> = 500te<sub-2500t</sub> V for t≥0, where t is in seconds.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the current through the capacitor for t>0. Assume the passive sign convention."
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the power at the terminals of the capacitor when ",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "inputs": [
+            {
+              "id": "T",
+              "name": "t",
+              "type": "number",
+              "unit": "μs"
+            }
+          ],
+          "answer": {
+            "name": "p(<span id='p6-b-T-answer'></span>μs)"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "he capacitor absorbing or delivering power at t = <span id='p6-c-T'></span> μs?"
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find the energy stored in the capacitor at ",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "inputs": [
+            {
+              "id": "T",
+              "name": "t",
+              "type": "number",
+              "unit": "μs"
+            }
+          ],
+          "answer": {
+            "name": "w(<span id='p6-d-T-answer'></span>μs)"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Find the maximum energy stored in the capacitor.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w<sub>max</sub>"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "Find the time when the maximum energy stored in the capacitor occurs.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "t"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Problem 7",
+      "content": "The initial voltage on the 0.5 μF capacitor shown in the figure (Figure 1) is -20V. The capacitor current has the waveform shown in the figure (Figure 2).",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "How much energy is stored in the capacitor at ",
+          "need": "Express your answer with the appropriate units.",
+          "inputs": [
+            {
+              "id": "T",
+              "name": "t",
+              "type": "number",
+              "unit": "μs"
+            }
+          ],
+          "answer": {
+            "name": "w"
+          },
+          "imageSrc": ["chapter6/p7-1.jpg", "chapter6/p7-2.jpg"]
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "How much energy is stored in the capacitor at t = ∞ ?",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "w"
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Problem 8",
+      "content": "Assume that the initial energy stored in the inductors of both figures is zero. Suppose that ",
+      "inputs": [
+        {
+          "id": "L1",
+          "name": "L<sub>1</sub>",
+          "type": "number",
+          "unit": "mH"
+        },
+        {
+          "id": "L2",
+          "name": "L<sub>2</sub>",
+          "type": "number",
+          "unit": "μH"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the equivalent inductance of (Figure 1) with respect to the terminals a, b.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "L<sub>ab</sub>"
+          },
+          "imageSrc": "chapter6/p8-a.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the equivalent inductance of (Figure 2) with respect to the terminals a, b.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "L<sub>ab</sub>"
+          },
+          "imageSrc": "chapter6/p8-b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Problem 9",
+      "content": "The three inductors in the circuit in the following figure are connected across the terminals of a black box at t=0. The resulting voltage for t>0 is known to be v<sub>0</sub> = 2000e<sup>-100t</sup> V.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "If i<sub>1</sub> (0) = -6A and i<sub>2</sub> (0) = 1A, find i<sub>o</sub> (0).",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>0</sub>"
+          },
+          "imageSrc": "chapter6/p9.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find i<sub>o</sub> (t), t≥0."
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find i<sub>1</sub> (t), t≥0."
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find i<sub>2</sub> (t), t≥0."
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Find the initial energy stored in the three inductors.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "Find the total energy delivered to the black box.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w<sub>del</sub>"
+          }
+        },
+        {
+          "id": "g",
+          "title": "Part G",
+          "content": "Find the energy trapped in the ideal inductors.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w<sub>trapped</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Problem 10",
+      "content": "The three inductors in the circuit in the following figure are connected across the terminals of a black box at t=0. The resulting voltage for t>0 is known to be v<sub>0</sub> = 2000e<sup>-100t</sup> V.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "If i<sub>1</sub> (0) = -6A and i<sub>2</sub> (0) = 1A, find i<sub>o</sub> (0).",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>0</sub>"
+          },
+          "imageSrc": "chapter6/p10.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find i<sub>o</sub> (t), t≥0."
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find i<sub>1</sub> (t), t≥0."
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find i<sub>2</sub> (t), t≥0."
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Find the initial energy stored in the three inductors.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "Find the total energy delivered to the black box.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w<sub>del</sub>"
+          }
+        },
+        {
+          "id": "g",
+          "title": "Part G",
+          "content": "Find the energy trapped in the ideal inductors.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w<sub>trapped</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Problem 11",
+      "content": "The three inductors in the circuit in the figure are connected across the terminals of a black box at t=0. (Figure 1) The resulting voltage for t>0 is known to be v<sub>o</sub>=2000e<sup>-100t</sup> V.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "If i<sub>1</sub>(0) = -6A and i<sub>2</sub> (0) = 1A, how many milliseconds after the switch is opened is the energy delivered to the black box 80% of the total energy delivered?",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "t"
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Problem 12",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the equivalent capacitance with respect to the terminals a, b for the circuit shown in (Figure 1). Suppose that ",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "inputs": [
+            {
+              "id": "C1",
+              "name": "C<sub>1</sub>",
+              "type": "number",
+              "unit": "nF"
+            }
+          ],
+          "answer": {
+            "name": "C<sub>eq</sub>"
+          },
+          "imageSrc": "chapter6/p12-1.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Determine the the initial voltage drop for the equivalent capacitance with respect to the terminals a, b for the circuit shown in (Figure 1).",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "V<sub>0 ab</sub>"
+          },
+          "imageSrc": "chapter6/p12-1.jpg"
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the equivalent capacitance with respect to the terminals a, b for the circuit shown in (Figure 2). Suppose that ",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "inputs": [
+            {
+              "id": "C2",
+              "name": "C<sub>2</sub>",
+              "type": "number",
+              "unit": "μF"
+            }
+          ],
+          "answer": {
+            "name": "C<sub>eq</sub>"
+          },
+          "imageSrc": "chapter6/p12-2.jpg"
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Determine the the initial voltage drop for the equivalent capacitance with respect to the terminals a, b for the circuit shown in (Figure 2).",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "V<sub>0 ab</sub>"
+          },
+          "imageSrc": "chapter6/p12-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Problem 13",
+      "content": "The two series-connected capacitors in (Figure 1) are connected to the terminals of a black box at t = 0. The resulting current i (t) for t>0 is known to be 20e<sup>-t</sup> μA .",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Replace the original capacitors with an equivalent capacitor and select the correct expression for v<sub>o</sub> (t) for t≥0.",
+          "imageSrc": "chapter6/p13.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Select the correct expression for v<sub>1</sub> (t) for t≥0."
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Select the correct expression for v<sub>2</sub> (t) for t≥0."
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "How much energy is delivered to the black box in the time interval 0≤t<∞ ?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w<sub>delivered</sub>"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "How much energy was initially stored in the series capacitors?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w<sub>initial</sub>"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "How much energy is trapped in the ideal capacitors?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w<sub>trapped</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Problem 14",
+      "content": "The four capacitors in the circuit in the following figure are connected across the terminals of a black box at t=0. The resulting current i<sub>b</sub> for t>0 is known to be i<sub>b</sub> = -5e<sup>-50t</sup> mA, If v<sub>a</sub> (0) = -20V, v<sub>c</sub> (0) = -30V, and v<sub>d</sub> (0) = 250V. (Figure 1)",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find v<sub>b</sub> (t) for t≥0.",
+          "imageSrc": "chapter6/p14.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find v<sub>a</sub> (t) for t≥0."
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find v<sub>c</sub> (t) for t≥0."
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find v<sub>d</sub> (t) for t≥0."
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Find i<sub>1</sub> (t) for t≥0."
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "Find i<sub>2</sub> (t) for t≥0."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Problem 15",
+      "content": "The four capacitors in the circuit in the figure are connected across the terminals of a black box at t=0. (Figure 1) The resulting current for t>0 is known to be i<sub>b</sub> = -5e<sup>-50t</sup> mA.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "If v<sub>a</sub> (0) = -20 V, v<sub>c</sub> (0) = -30 V, and v<sub>d</sub> (0) = 250 V, calculate the initial energy stored in the capacitors.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "w(0)"
+          },
+          "imageSrc": "chapter6/p15.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Calculate the final energy stored in the capacitors.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "w(∞)"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Calculate the total energy delivered to the black box.",
+          "need": "Express your answer to five significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Calculate the percentage of the initial energy stored that is delivered to the black box.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "% delivered"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Calculate the time, in milliseconds, it takes to deliver <input id='p15-e-E'/> mJ to the black box.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "t"
+          }
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Problem 16",
+      "content": "At t=0, a series-connected capacitor and inductor are placed across the terminals of a black box, as shown in (Figure 1). For t>0, it is known that i<sub>o</sub> = 1.5e<sup>-16,000t</sup> - 1.5e<sup>-4000t</sup> A , where t is in seconds.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "If v<sub>c</sub> (0) = -450 V choose the correct expression for v<sub>o</sub> for t≥0.",
+          "imageSrc": "chapter6/p16.jpg"
+        }
+      ]
+    }
+  ]
+}
