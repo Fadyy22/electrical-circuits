@@ -351,7 +351,7 @@
     {
       "id": 10,
       "title": "Problem 10",
-      "content": "Use the mesh-current method to find the steady-state expression for v<sub>o</sub>(t) in the circuit seen in (Figure 1) if v<sub>g</sub> equals 400cos5000t V. Write the steady-state expression for v<sub>o</sub> (t) as v<sub>o</sub> (t) = V<sub>o</sub> cos(ωt + ϕ), where -180<sup>∘</sup> < ϕ ≤ 180<sup>∘<sup>. Suppose that ",
+      "content": "Use the mesh-current method to find the steady-state expression for v<sub>o</sub>(t) in the circuit seen in (Figure 1) if v<sub>g</sub> equals 400cos5000t V. Write the steady-state expression for v<sub>o</sub> (t) as v<sub>o</sub> (t) = V<sub>o</sub> cos(ωt + ϕ), where -180<sup>∘</sup> < ϕ ≤ 180<sup>∘</sup>. Suppose that ",
       "inputs": [
         {
           "id": "R",
@@ -387,6 +387,167 @@
           "need": "Express your answer in radians per second to three significant figures.",
           "answer": {
             "name": "ω"
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Problem 11",
+      "content": "Use the mesh-current method to find the steady-state expression for v<sub>o</sub>(t) in the circuit seen in (Figure 1) if v<sub>g</sub> equals 100 cos 8000t V. Write the steady-state expression for v<sub>o</sub> (t) as v<sub>o</sub> (t) = V<sub>o</sub> cos(ωt + ϕ), where -180<sup>∘</sup> < ϕ ≤ 180<sup>∘</sup>. Suppose that ",
+      "inputs": [
+        {
+          "id": "R",
+          "name": "R",
+          "type": "number",
+          "unit": "Ω"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the numerical value of V<sub>o</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "V<sub>o</sub>"
+          },
+          "imageSrc": "chapter9/p11.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the numerical value of ϕ.",
+          "need": "Express your answer in degrees to three significant figures.",
+          "answer": {
+            "name": "ϕ"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the numerical value of ω.",
+          "need": "Express your answer in radians per second to three significant figures.",
+          "answer": {
+            "name": "ω"
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Problem 12",
+      "content": "Use current division to find the steady-state expression for i<sub>o</sub> (t) in the circuit in (Figure 1) if i<sub>g</sub> = 400 cos20,000t mA. Write the steady-state expression for i<sub>o</sub> (t) as i<sub>o</sub> (t) = I<sub>o</sub> cos(ωt + ϕ) mA, where -180<sup>∘</sup> < ϕ≤ 180<sup>∘</sup>. Suppose that ",
+      "inputs": [
+        {
+          "id": "R",
+          "name": "R",
+          "type": "number",
+          "unit": "Ω"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the numerical value of I<sub>o</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "I<sub>o</sub>"
+          },
+          "imageSrc": "chapter9/p12.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the numerical value of ϕ.",
+          "need": "Express your answer in degrees to three significant figures.",
+          "answer": {
+            "name": "ϕ"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the numerical value of ω.",
+          "need": "Express your answer in radians per second to three significant figures.",
+          "answer": {
+            "name": "ω"
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Problem 13",
+      "content": "For the circuit in (Figure 1), suppose<br/>v<sub>a</sub> = 10cos16,000t V,<br/>v<sub>b</sub> = 20cos4000t V.<br/>Suppose that ",
+      "inputs": [
+        {
+          "id": "R",
+          "name": "R",
+          "type": "number",
+          "unit": "Ω"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "What circuit analysis technique must be used to find the steady-state expression for v<sub>o</sub> (t)?",
+          "imageSrc": "chapter9/p13.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Write the steady-state expression for v<sub>o</sub> (t) as v<sub>o</sub> (t) = V′<sub>o</sub> cos(ω′t + ϕ′) + V′′<sub>o</sub> cos(ω′′t + ϕ′′), where -180<sup>∘</sup> < ϕ′ ≤ 180<sup>∘</sup>, -180<sup>∘</sup> < ϕ′′ ≤ 180<sup>∘</sup>, and  ω′ >ω′′. Find the numerical value of V′<sub>o</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "V′<sub>o</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the numerical value of ϕ′.",
+          "need": "Express your answer in degrees to three significant figures.",
+          "answer": {
+            "name": "ϕ′"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find the numerical value of ω′.",
+          "need": "Express your answer in radians per second to three significant figures.",
+          "answer": {
+            "name": "ω′"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Find the numerical value of V′′<sub>o</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "V′′<sub>o</sub>"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "Find the numerical value of ϕ′′.",
+          "need": "Express your answer in degrees to three significant figures.",
+          "answer": {
+            "name": "ϕ′′"
+          }
+        },
+        {
+          "id": "g",
+          "title": "Part G",
+          "content": "Find the numerical value of ω′′.",
+          "need": "Express your answer in radians per second to three significant figures.",
+          "answer": {
+            "name": "ω′′"
           }
         }
       ]

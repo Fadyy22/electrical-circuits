@@ -18,6 +18,12 @@ function divideComplex(real1, imaginary1, real2, imaginary2) {
   return [realPart, imaginaryPart];
 }
 
+function toPolar(real, imaginary) {
+  const magnitude = Math.sqrt(real * real + imaginary * imaginary);
+  const angle = Math.atan2(imaginary, real);
+  return [magnitude, angle];
+}
+
 $('#p1-a-submit').click(() => {
   $('#p1-a-answer').html('50.0∠ - 45.0 mV');
 });
@@ -139,14 +145,14 @@ $('#p7-b-submit').click(() => {
   $('#p7-b-answer').html(`${answer[0]}${answer[1] > 0 ? ` + ${answer[1]}` : `${answer[1]}`}j &Omega;`);
 });
 
-// TODO
 $('#p8-a-submit').click(() => {
   const I = Number($('#p8-I').val());
   const V = Number($('#p8-V').val());
   const topLeft = multiplyComplex(I, 0, 0, -4);
   const topRight = multiplyComplex(V, 0, 1, 1);
-  const answer = divideComplex(topLeft[0] + topRight[0], topLeft[1] + topRight[1], 4, -8);
-  $('#p8-a-answer').html(`${answer[0]}${answer[1] > 0 ? ` + ${answer[1]}` : `${answer[1]}`}j A`);
+  const complex = divideComplex(topLeft[0] + topRight[0], topLeft[1] + topRight[1], 4, -8);
+  const [magnitude] = toPolar(complex[0], complex[1]);
+  $('#p8-a-answer').html(`${magnitude} A`);
 });
 
 $('#p8-b-submit').click(() => {
@@ -155,7 +161,13 @@ $('#p8-b-submit').click(() => {
 
 // TODO
 $('#p8-c-submit').click(() => {
-  $('#p8-c-answer').html('1.5 ms');
+  const I = Number($('#p8-I').val());
+  const V = Number($('#p8-V').val());
+  const topLeft = multiplyComplex(I, 0, 0, -4);
+  const topRight = multiplyComplex(V, 0, 1, 1);
+  const complex = divideComplex(topLeft[0] + topRight[0], topLeft[1] + topRight[1], 4, -8);
+  const [magnitude, angle] = toPolar(complex[0], complex[1]);
+  $('#p8-c-answer').html(`${angle * (180 / Math.PI)} <sup>∘</sup>`);
 });
 
 $('#p9-a-submit').click(() => {
@@ -169,5 +181,111 @@ $('#p9-b-submit').click(() => {
 });
 
 $('#p10-a-submit').click(() => {
+  const R = Number($('#p10-R').val());
+  const right = divideComplex(R, 0, R - 90, -70);
+  const answer = multiplyComplex(40, 120, right[0], right[1]);
+  const [magnitude] = toPolar(answer[0], answer[1]);
+  $('#p10-a-answer').html(`${magnitude} V`);
+});
 
+$('#p10-b-submit').click(() => {
+  const R = Number($('#p10-R').val());
+  const right = divideComplex(R, 0, R - 90, -70);
+  const answer = multiplyComplex(40, 120, right[0], right[1]);
+  const [magnitude, angle] = toPolar(answer[0], answer[1]);
+  $('#p10-b-answer').html(`${angle * (180 / Math.PI)} <sup>∘</sup`);
+});
+
+$('#p10-c-submit').click(() => {
+  $('#p10-c-answer').html('5000 rad/s');
+});
+
+$('#p11-a-submit').click(() => {
+  const R = Number($('#p11-R').val());
+  const div = divideComplex(500, -1000, R + 500, +600);
+  const answer = multiplyComplex(100, 0, div[0], div[1]);
+  const [magnitude] = toPolar(answer[0], answer[1]);
+  $('#p11-a-answer').html(`${magnitude} V`);
+});
+
+$('#p11-b-submit').click(() => {
+  const R = Number($('#p11-R').val());
+  const div = divideComplex(500, -1000, R + 500, +600);
+  const answer = multiplyComplex(100, 0, div[0], div[1]);
+  const [magnitude, angle] = toPolar(answer[0], answer[1]);
+  $('#p11-b-answer').html(`${angle * (180 / Math.PI)} <sup>∘</sup`);
+});
+
+$('#p11-c-submit').click(() => {
+  $('#p11-c-answer').html('8000 rad/s');
+});
+
+$('#p12-a-submit').click(() => {
+  const R = Number($('#p12-R').val());
+  const div = divideComplex(R, 1200, R + 200, 800);
+  const answer = multiplyComplex(0.4, 0, div[0], div[1]);
+  const [magnitude] = toPolar(answer[0], answer[1]);
+  $('#p12-a-answer').html(`${magnitude} A`);
+});
+
+$('#p12-b-submit').click(() => {
+  const R = Number($('#p12-R').val());
+  const div = divideComplex(R, 1200, R + 200, 800);
+  const answer = multiplyComplex(0.4, 0, div[0], div[1]);
+  const [magnitude, angle] = toPolar(answer[0], answer[1]);
+  $('#p12-b-answer').html(`${angle * (180 / Math.PI)} <sup>∘</sup`);
+});
+
+$('#p12-c-submit').click(() => {
+  $('#p12-c-answer').html('20000 rad/s');
+});
+
+$('#p13-a-submit').click(() => {
+  $('#p13-a-answer').html('superposition');
+});
+
+$('#p13-b-submit').click(() => {
+  const R = Number($('#p13-R').val());
+  const stepOne = multiplyComplex(R, 0, 0, -1);
+  const stepTwo = multiplyComplex(R, 0, 0, 4);
+  const real = stepOne[0] + stepTwo[0] + 400;
+  const imaginary = stepOne[1] + stepTwo[1];
+  const top = multiplyComplex(R, 0, 0, 40);
+  const answer = divideComplex(top[0], top[1], real, imaginary);
+  const [magnitude] = toPolar(answer[0], answer[1]);
+  $('#p13-b-answer').html(`${magnitude} V`);
+});
+
+$('#p13-c-submit').click(() => {
+  const R = Number($('#p13-R').val());
+  const stepOne = multiplyComplex(R, 0, 0, -1);
+  const stepTwo = multiplyComplex(R, 0, 0, 4);
+  const real = stepOne[0] + stepTwo[0] + 400;
+  const imaginary = stepOne[1] + stepTwo[1];
+  const top = multiplyComplex(R, 0, 0, 40);
+  const answer = divideComplex(top[0], top[1], real, imaginary);
+  const [magnitude, angle] = toPolar(answer[0], answer[1]);
+  $('#p13-c-answer').html(`${angle * (180 / Math.PI)} <sup>∘</sup`);
+});
+
+$('#p13-d-submit').click(() => {
+  $('#p13-d-answer').html('16000 rad/s');
+});
+
+$('#p13-e-submit').click(() => {
+  const R = Number($('#p13-R').val());
+  const answer = divideComplex(0, -8000, 3 * R, 400);
+  const [magnitude] = toPolar(answer[0], answer[1]);
+  $('#p13-e-answer').html(`${magnitude} V`);
+});
+
+$('#p13-f-submit').click(() => {
+  const R = Number($('#p13-R').val());
+  const answer = divideComplex(0, -8000, 3 * R, 400);
+  const [magnitude, angle] = toPolar(answer[0], answer[1]);
+  $('#p13-f-answer').html(`${angle * (180 / Math.PI)} <sup>∘</sup`);
+});
+
+$('#p13-g-submit').click(() => {
+  $('#p13-g-answer').html('4000 rad/s');
 });
