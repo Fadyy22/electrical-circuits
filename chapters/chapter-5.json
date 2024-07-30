@@ -331,31 +331,99 @@
     {
       "id": 10,
       "title": "Problem 10",
-      "content": "Use superposition to find the power dissipated in the 4 Ω resistor in the circuit in. Take ",
+      "content": "Find the Norton equivalent with respect to the terminals a,b for the circuit seen in (Figure 1). Suppose that ",
       "inputs": [
         {
-          "id": "V",
-          "name": "V",
+          "id": "Vs",
+          "name": "V<sub>S</sub>",
           "type": "number",
           "unit": "V"
         },
         {
-          "id": "I",
-          "name": "i",
+          "id": "R",
+          "name": "R",
           "type": "number",
-          "unit": "A"
+          "unit": "kΩ"
         }
       ],
       "parts": [
         {
           "id": "a",
           "title": "Part A",
-          "content": "What is the power dissipated in the 4 Ω resistor?",
+          "content": "Find the equivalent current.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
-            "name": "p"
+            "name": "i<sub>N</sub>"
           },
-          "imageSrc": "chapter5/p10.png"
+          "imageSrc": "chapter5/p10.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the equivalent resistance.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "R<sub>N</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Problem 11",
+      "content": "Find the Norton equivalent with respect to the terminals a,b in the circuit in (Figure 1) if i = <input id='p11-I' type='number' /> mA and v = <input id='p11-V' type='number' /> V. See (Figure 2) for the positive direction of the current in the equivalent circiut.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the equivalent current.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "I<sub>N</sub>"
+          },
+          "imageSrc": ["chapter5/p11-1.png", "chapter5/p11-2.jpg"]
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the equivalent resistance.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "R<sub>N</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Problem 12",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Make a series of source transformations to find the voltage v<sub>0</sub> in the circuit in (Figure 1). Suppose that",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "inputs": [
+            {
+              "id": "R",
+              "name": "R",
+              "type": "number",
+              "unit": "kΩ"
+            }
+          ],
+          "answer": {
+            "name": "v<sub>0</sub>"
+          },
+          "imageSrc": "chapter5/p12.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the voltage v<sub>0</sub> in the circuit using the mesh-current method.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "v<sub>0</sub>"
+          }
         }
       ]
     }

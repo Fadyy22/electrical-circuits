@@ -5,116 +5,172 @@ $('.toggle-button').each(function () {
   });
 });
 
-document.getElementById('p1-a-submit').addEventListener('click', () => {
-  const I = Number(document.getElementById('p1-I').value);
-  const V = Number(document.getElementById('p1-V').value);
-  document.getElementById('p1-a-answer').innerHTML = `${(6 * I - V + 5) / 20} A`;
+const resistances = [
+  0.01, 0.1, 1, 10, 100, 1000,
+  0.12, 1.2, 12, 120,
+  0.015, 0.15, 1.5, 15, 150, 1500,
+  0.18, 1.8, 18, 180,
+  0.022, 0.22, 2.2, 22, 220, 2200,
+  0.27, 2.7, 27, 270,
+  0.033, 0.33, 3.3, 33, 330, 3300,
+  0.39, 3.9, 39, 390,
+  0.047, 0.47, 4.7, 47, 470, 4700,
+  0.056, 5.6, 56, 560,
+  0.068, 0.68, 6.8, 68, 680, 6800
+];
+
+function findClosestResistance(input) {
+  return resistances.reduce((prev, curr) =>
+    Math.abs(curr - input) < Math.abs(prev - input) ? curr : prev
+  );
+}
+
+$('#p1-a-submit').click(() => {
+  const I = Number($('#p1-I').val());
+  const V = Number($('#p1-V').val());
+  $('#p1-a-answer').html(`${(6 * I - V + 5) / 20} A`);
 });
 
-document.getElementById('p1-b-submit').addEventListener('click', () => {
-  const I = Number(document.getElementById('p1-I').value);
-  const V = Number(document.getElementById('p1-V').value);
-  document.getElementById('p1-b-answer').innerHTML = `${(6 * I - V + 5) / 20} A`;
+$('#p1-b-submit').click(() => {
+  const I = Number($('#p1-I').val());
+  const V = Number($('#p1-V').val());
+  $('#p1-b-answer').html(`${(6 * I - V + 5) / 20} A`);
 });
 
-document.getElementById('p2-a-submit').addEventListener('click', () => {
-  const R1 = Number(document.getElementById('p2-R1').value);
-  const R2 = Number(document.getElementById('p2-R2').value);
-  const V1 = Number(document.getElementById('p2-V1').value);
-  const V2 = Number(document.getElementById('p2-V2').value);
-  document.getElementById('p2-a-answer').innerHTML = `${(V1 * V2) * ((R1 - R2) / ((V2 * R1) - (V1 * R2)))} V`;
+$('#p2-a-submit').click(() => {
+  const R1 = Number($('#p2-R1').val());
+  const R2 = Number($('#p2-R2').val());
+  const V1 = Number($('#p2-V1').val());
+  const V2 = Number($('#p2-V2').val());
+  $('#p2-a-answer').html(`${(V1 * V2) * ((R1 - R2) / ((V2 * R1) - (V1 * R2)))} V`);
 });
 
-document.getElementById('p2-b-submit').addEventListener('click', () => {
-  const R1 = Number(document.getElementById('p2-R1').value);
-  const R2 = Number(document.getElementById('p2-R2').value);
-  const V1 = Number(document.getElementById('p2-V1').value);
-  const V2 = Number(document.getElementById('p2-V2').value);
+$('#p2-b-submit').click(() => {
+  const R1 = Number($('#p2-R1').val());
+  const R2 = Number($('#p2-R2').val());
+  const V1 = Number($('#p2-V1').val());
+  const V2 = Number($('#p2-V2').val());
   const Vth = (V1 * V2) * ((R1 - R2) / ((V2 * R1) - (V1 * R2)));
-  document.getElementById('p2-b-answer').innerHTML = `${((Vth / V2) - 1) * R2} &Omega;`;
+  $('#p2-b-answer').html(`${((Vth / V2) - 1) * R2} &Omega;`);
 });
 
-document.getElementById('p3-a-submit').addEventListener('click', () => {
-  const V = Number(document.getElementById('p3-V').value);
-  const I = Number(document.getElementById('p3-I').value);
-  document.getElementById('p3-a-answer').innerHTML = `${((18 * V) + (360 * I)) / 27} V`;
+$('#p3-a-submit').click(() => {
+  const V = Number($('#p3-V').val());
+  const I = Number($('#p3-I').val());
+  $('#p3-a-answer').html(`${((18 * V) + (360 * I)) / 27} V`);
 });
 
-document.getElementById('p3-b-submit').addEventListener('click', () => {
-  document.getElementById('p3-b-answer').innerHTML = `20 &Omega;`;
+$('#p3-b-submit').click(() => {
+  $('#p3-b-answer').html(`20 &Omega;`);
 });
 
-document.getElementById('p3-c-submit').addEventListener('click', () => {
-  document.getElementById('p3-c-answer').innerHTML = `20 &Omega;`;
+$('#p3-c-submit').click(() => {
+  $('#p3-c-answer').html(`20 &Omega;`);
 });
 
-document.getElementById('p4-a-submit').addEventListener('click', () => {
-  document.getElementById('p4-a-answer').innerHTML = `0 A`;
+$('#p4-a-submit').click(() => {
+  $('#p4-a-answer').html(`0 A`);
 });
 
-document.getElementById('p4-b-submit').addEventListener('click', () => {
-  const R = Number(document.getElementById('p4-R').value);
-  document.getElementById('p4-b-answer').innerHTML = `${(500 * R) / (R - 500)} &Omega;`;
+$('#p4-b-submit').click(() => {
+  const R = Number($('#p4-R').val());
+  $('#p4-b-answer').html(`${(500 * R) / (R - 500)} &Omega;`);
 });
 
-document.getElementById('p5-a-submit').addEventListener('click', () => {
-  const R = Number(document.getElementById('p5-R').value);
-  document.getElementById('p5-a-answer').innerHTML = `${(5000 * R) / (5000 + (R * Math.pow(10, 3)))} &Omega;`;
+$('#p5-a-submit').click(() => {
+  const R = Number($('#p5-R').val());
+  $('#p5-a-answer').html(`${(5000 * R) / (5000 + (R * Math.pow(10, 3)))} k&Omega;`);
 });
 
-document.getElementById('p5-b-submit').addEventListener('click', () => {
-  const R = Number(document.getElementById('p5-R').value);
-  document.getElementById('p5-b-answer').innerHTML = `${(0.0128 * (R * Math.pow(10, 3))) / (5000 + (R * 1000))} mW`;
+$('#p5-b-submit').click(() => {
+  const R = Number($('#p5-R').val());
+  $('#p5-b-answer').html(`${((0.0128 * (R * Math.pow(10, 3))) / (5000 + (R * 1000))) * 1000} mW`);
 });
 
-document.getElementById('p5-d-submit').addEventListener('click', () => {
-  const R = Number(document.getElementById('p5-R').value);
-  document.getElementById('p5-d-answer').innerHTML = `${(0.0128 * (R * Math.pow(10, 3))) / (5000 + (R * 1000))} mW`;
+$('#p5-c-submit').click(() => {
+  const R = Number($('#p5-R').val());
+  const aAnswer = 5000 * R / (5000 + (R * Math.pow(10, 3)));
+  const closest = findClosestResistance(aAnswer);
+  $('#p5-c-answer').html(`${closest} k&Omega;`);
 });
 
-document.getElementById('p6-a-submit').addEventListener('click', () => {
-  const V = Number(document.getElementById('p6-a-V').value);
+$('#p5-d-submit').click(() => {
+  const R = Number($('#p5-R').val());
+  const aAnswer = 5000 * R / (5000 + (R * Math.pow(10, 3)));
+  const closest = findClosestResistance(aAnswer);
+  $('#p5-d-answer').html(`${((0.0128 * (closest * Math.pow(10, 3))) / (5000 + (closest * 1000))) * 1000} mW`);
+});
+
+$('#p6-a-submit').click(() => {
+  const V = Number($('#p6-a-V').val());
 
   function qEquation(a, b, c) {
-    // Calculate the discriminant
     const discriminant = b * b - 4 * a * c;
-    // Check if the discriminant is non-negative
     if (discriminant >= 0) {
-      // Calculate the two solutions
       const R0_1 = (-b + Math.sqrt(discriminant)) / (2 * a);
       const R0_2 = (-b - Math.sqrt(discriminant)) / (2 * a);
       return [R0_1, R0_2];
     }
   }
-  document.getElementById('p6-a-answer').innerHTML = `${qEquation(1, (15 - (0.001 * Math.pow(V, 2))), 56.25)} &Omega;`;
+  const answer = qEquation(1, (15 - (0.001 * Math.pow(V, 2))), 56.25);
+  $('#p6-a-answer').html(`${answer ? `${answer} &Omega;` : 'No real solutions'}`);
 });
 
-document.getElementById('p7-a-submit').addEventListener('click', () => {
-  const V = Number(document.getElementById('p7-V').value);
-  const I = Number(document.getElementById('p7-I').value);
-  document.getElementById('p7-a-answer').innerHTML = `${((4 * I) / 15) - (V / 60)} A`;
+$('#p7-a-submit').click(() => {
+  const V = Number($('#p7-V').val());
+  const I = Number($('#p7-I').val());
+  $('#p7-a-answer').html(`${((4 * I) / 15) - (V / 60)} A`);
 });
 
-document.getElementById('p7-b-submit').addEventListener('click', () => {
-  const V = Number(document.getElementById('p7-V').value);
-  const I = Number(document.getElementById('p7-I').value);
-  document.getElementById('p7-b-answer').innerHTML = `${((-2 * V) / 3) + (20 * I)} V`;
+$('#p7-b-submit').click(() => {
+  const V = Number($('#p7-V').val());
+  const I = Number($('#p7-I').val());
+  $('#p7-b-answer').html(`${((-2 * V) / 3) + (20 * I)} V`);
 });
 
-document.getElementById('p8-a-submit').addEventListener('click', () => {
-  const I1 = Number(document.getElementById('p8-a-I1').value);
-  const I2 = Number(document.getElementById('p8-a-I2').value);
-  document.getElementById('p8-a-answer').innerHTML = `${((0.7 * I2) - I1 - 3.5) / 3} A`;
+$('#p8-a-submit').click(() => {
+  const I1 = Number($('#p8-a-I1').val());
+  const I2 = Number($('#p8-a-I2').val());
+  $('#p8-a-answer').html(`${((0.7 * I2) - I1 - 3.5) / 3} A`);
 });
 
-document.getElementById('p9-a-submit').addEventListener('click', () => {
-  const I = Number(document.getElementById('p9-a-I').value);
-  const V = Number(document.getElementById('p9-a-V').value);
-  document.getElementById('p9-a-answer').innerHTML = `${(0.96 * V) - (0.8 * I)} V`;
+$('#p9-a-submit').click(() => {
+  const I = Number($('#p9-a-I').val());
+  const V = Number($('#p9-a-V').val());
+  $('#p9-a-answer').html(`${(0.96 * V) - (0.8 * I)} V`);
 });
 
-// document.getElementById('p10-a-submit').addEventListener('click', () => {
-//   const Vs = Number(document.getElementById('p10-a-Vs').value);
-//   const R = Number(document.getElementById('p10-a-R').value);
-//   document.getElementById('p10-a-answer').innerHTML = `${Vs / R} A`;
-// });
+$('#p10-a-submit').click(() => {
+  const Vs = Number($('#p10-Vs').val());
+  $('#p10-a-answer').html(`${0.000214 * Vs} A`);
+});
+
+$('#p10-b-submit').click(() => {
+  const Vs = Number($('#p10-Vs').val());
+  const R = Number($('#p10-R').val());
+  const I = 0.000214 * Vs;
+  const answer = (Vs / (1.8 + (3600 / R))) / I;
+  $('#p10-b-answer').html(`${answer} &Omega;`);
+});
+
+$('#p11-a-submit').click(() => {
+  const I = Number($('#p11-I').val());
+  const V = Number($('#p11-V').val());
+  $('#p11-a-answer').html(`${-I + (V / 15000)} A`);
+});
+
+$('#p11-b-submit').click(() => {
+  $('#p11-b-answer').html('10000 &Omega;');
+});
+
+$('#p12-a-submit').click(() => {
+  const R = Number($('#p12-a-R').val());
+  const answer = (25 * R) / (25000 + R);
+  $('#p12-a-answer').html(`${answer} V`);
+});
+
+$('#p12-b-submit').click(() => {
+  const R = Number($('#p12-a-R').val());
+  const answer = (25 * R) / (25000 + R);
+  $('#p12-b-answer').html(`${answer} V`);
+});

@@ -789,6 +789,20 @@
           "imageSrc": "chapter6/p16.jpg"
         }
       ]
+    },
+    {
+      "id": 17,
+      "title": "Problem 17",
+      "imageSrc": "chapter6/p17-1.png",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Select the correct graph of the current pulse that exists in the capacitor during the 1s interval.",
+          "imageSrc": "chapter6/p17-2.png",
+          "no_answer": true
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,395 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "title": "Problem 1",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "description": "Find the phasor transform of a sinusoidal source",
+          "content": "Consider the circuit shown here, whose sinusoidal voltage source is describe by the following equation:<br/>v(t) = 50cos(2000t - 45<sup>∘</sup>) mV.<br/>Find the phasor transform of v(t).",
+          "need": "Express your answers in phasor notation. The phase angle you enter should be in degrees. Express your answer using three significant figures.",
+          "imageSrc": "chapter9/p1-a.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "description": "Find the inverse phasor transform of a given phasor current",
+          "content": "Consider the circuit from Part A again, which is repeated here:<br/>v(t) = 50cos(2000t - 45<sup>∘</sup>) mV.<br/>Someone has used phasor-domain techniques to find the phasor value corresponding to the unknown current i(t), which is<br/> I = P{i(t)} = 125∠ - 45<sup>∘</sup> μA.<br/>Find the steady-state value of i(t) using the inverse phasor transform.",
+          "need": "Input your answer as a cosine waveform. Any angles used should be in degrees.",
+          "imageSrc": "chapter9/p1-a.jpg"
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "description": "Find the phasor transform of a sinusoidal source defined using the sine function",
+          "content": "What is the phasor transform of a current source described as i(t) = 300sin(500t + 60<sup>∘</sup>) mA?",
+          "need": "Express your answer as a complex number in polar form. The phase angle will be considered to be in degrees. Express your answer using three significant figures.",
+          "answer": {
+            "name": "I"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "description": "Use phasors to find the value for a sum of sinusoids",
+          "content": "Suppose you want to find the sum of two sinusoidal voltages, given as follows:<br/>v<sub>1</sub>(t) = V<sub>1</sub> cos(ωt + ϕ1)   and   v<sub>2</sub>(t) = V<sub>2</sub> cos(ωt + ϕ2).<br/>If you stay in the time domain, you will have to use trigonometric identities to perform the addition.  But if you transform to the frequency domain, you can simply add the phasors V<sub>1</sub> and V<sub>2</sub> as complex numbers using your calculator. Your answer will be a phasor, so you will need to inverse phasor-transform it to get the answer in the time domain.  This is an example of a problem that is easier to solve in the frequency domain than in the time domain.<br/>Use phasor techniques to find an expression for v(t) expressed as a single cosine function, where<br/>v(t) = [100cos(300t + 45<sup>∘</sup>) + 500cos(300t - 60<sup>∘</sup>)] V.",
+          "need": "Enter your expression using the cosine function. Round real numbers using two digits after the decimal point. Any angles used should be in degrees.",
+          "answer": {
+            "name": "v(t)"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "description": "Use phasors to subtract one sinusoid from another sinusoid",
+          "content": "Suppose you want to find the difference of two sinusoidal currents, given as follows:<br/>i<sub>1</sub>(t) = I<sub>1</sub> cos(ωt + ϕ1)   and   i<sub>2</sub>(t) = I<sub>2</sub> cos(ωt + ϕ2).<br/>If you stay in the time domain, you will have to use trigonometric identities to perform the subtraction.  But if you transform to the frequency domain, you can simply subtract the phasors I<sub>1</sub> and I<sub>2</sub> as complex numbers using your calculator.  Make sure that all of your time-domain currents are represented using the cosine function before you apply the phasor transform.  Your answer will be a phasor, so you will need to inverse phasor-transform it to get the answer in the time domain.  This is an example of a problem that is easier to solve in the frequency domain than in the time domain.<br/>Use phasor techniques to find an expression for  i(t) expressed as a single cosine function, where i(t) = [250cos(377t + 30<sup>∘</sup>) - 150sin(377t + 140<sup>∘</sup>)] mA.",
+          "need": "Enter your expression using the cosine function. Round real numbers using two digits after the decimal point. Any angles used should be in degrees.",
+          "answer": {
+            "name": "v(t)"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "description": "Use phasors to combine sinusoids",
+          "content": "The phasor technique makes it pretty easy to combine several sinusoidal functions into a single sinusoidal expression without using trigonometric identities. However, you cannot use the phasor technique in all cases.  Select the expressions below for which the phasor technique cannot be used to combine the sinusoids into a single expression.",
+          "need": "Check all that apply."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Problem 2",
+      "content": "Consider the sinusoidal voltage v(t) = <input id='p2-V' type='number'/>cos(100πt + 60<sup>∘</sup>) V.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "What is the maximum amplitude of the voltage?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "v<sub>max</sub>"
+          }
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "What is the frequency in hertz?",
+          "need": "Express your answer in hertz to three significant figures.",
+          "answer": {
+            "name": "f"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "What is the frequency in radians per second?",
+          "need": "Express your answer in radians per second to three significant figures.",
+          "answer": {
+            "name": "w"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "What is the phase angle in radians?",
+          "need": "Express your answer in radians to three significant figures.",
+          "answer": {
+            "name": "θ"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "What is the phase angle in degrees?",
+          "need": "Express your answer in degrees to three significant figures.",
+          "answer": {
+            "name": "θ"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "What is the period?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "T"
+          }
+        },
+        {
+          "id": "g",
+          "title": "Part G",
+          "content": "What is the first time after t = 0 that v = -30 V?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "t"
+          }
+        },
+        {
+          "id": "h",
+          "title": "Part H",
+          "content": "The sinusoidal function is shifted 0/3ms to the right along the time axis. What is the expression for v(t)?"
+        },
+        {
+          "id": "i",
+          "title": "Part I",
+          "content": "What is the minimum value of milliseconds that the function must be shifted to the left if the expression for v(t) is 30sin(100πt)V?",
+          "need": "Express your answer in milliseconds to three significant figures.",
+          "answer": {
+            "name": "t"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Problem 3",
+      "content": "The circuit in (Figure 1) is operating in the sinusoidal steady state.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the steady-state expression for v<sub>o</sub> (t) if v<sub>g</sub> = <input id='p3-a-V' type='number'/> sin 50,000tV . Suppose that v<sub>o</sub>(t) = V<sub>0</sub> cos(ωt + ϕ), where -180<sup>∘</sup><ϕ≤180<sup>∘</sup>. Determine the values V<sub>0</sub>, ω, and ϕ.",
+          "need": "Express your answers using three significant figures separated by commas. Express V<sub>0</sub> in volts, ω in radians per second, ϕ in degrees.",
+          "answer": {
+            "name": "V<sub>0</sub>, ω, ϕ"
+          },
+          "imageSrc": "chapter9/p3.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Problem 4",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the steady-state expression for v<sub>o</sub> in the circuit of (Figure 1) if  i<sub>g</sub> = <input id='p4-a-I' type='number'/> cos 2000t A. Suppose that v<sub>o</sub>(t) = V<sub>0</sub> cos(ωt + ϕ), where -180∘<ϕ≤180<sup>∘</sup>. Determine the values V<sub>0</sub>, ω, ϕ.",
+          "need": "Express your answers using three significant figures separated by commas. Express V<sub>0</sub> in volts, ω in radians per second, ϕ in degrees.",
+          "answer": {
+            "name": "V<sub>0</sub>, ω, ϕ"
+          },
+          "imageSrc": "chapter9/p4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Problem 5",
+      "content": "The source voltage in the circuit in (Figure 1) is v<sub>g</sub> = <input id='p5-V' type='number'/> cos 1000t V.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the minimum value of L such that i<sub>g</sub> is in phase with v<sub>g</sub> when the circuit is operating in the steady state.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "L<sub>min</sub>"
+          },
+          "imageSrc": "chapter9/p5.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "ind the maximum value of L such that i<sub>g</sub> is in phase with v<sub>g</sub> when the circuit is operating in the steady state.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "L<sub>max</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "For the value of L found in Part A, find the steady-state expressions for i<sub>g</sub>. Suppose that i<sub>g</sub> (t) = I<sub>1</sub> cos(ω<sub>1</sub>t + ϕ<sub>1</sub>), where -180<sup>∘</sup> < ϕ1 ≤ 180<sup>∘</sup>. Determine the values I<sub>1</sub>, ω<sub>1</sub>, ϕ<sub>1</sub>.",
+          "need": "Express your answers using three significant figures separated by commas.",
+          "answer": {
+            "name": "I<sub>1</sub>, ω<sub>1</sub>, ϕ<sub>1</sub>"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "For the value of L found in Part B, find the steady-state expressions for i<sub>g</sub>. Suppose that i<sub>g</sub> (t) = I<sub>2</sub> cos(ω<sub>2</sub>t + ϕ<sub>2</sub>), where -180<sub>∘</sub> < ϕ<sub>2</sub> ≤ 180<sub>∘</sub>. Determine the values I<sub>2</sub>, ω<sub>2</sub>, ϕ<sub>2</sub>.",
+          "need": "Express your answers using three significant figures separated by commas.",
+          "answer": {
+            "name": "I<sub>2</sub>, ω<sub>2</sub>, ϕ<sub>2</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Problem 6",
+      "content": "Use source transformations to find the Norton equivalent circuit with respect to the terminals a, b for the circuit shown in (Figure 1). Suppose that ",
+      "inputs": [
+        {
+          "id": "R",
+          "name": "R",
+          "type": "number",
+          "unit": "Ω"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the value of Z<sub>N</sub>.",
+          "need": "Express your answer in ohms to three significant figures. Enter your answer in rectangular form.",
+          "answer": {
+            "name": "Z<sub>N</sub>"
+          },
+          "imageSrc": "chapter9/p6.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the value of I<sub>N</sub>.",
+          "need": "Express your answer in amperes to three significant figures. Enter your answer in rectangular form.",
+          "answer": {
+            "name": "I<sub>N</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Problem 7",
+      "content": "Find the Norton equivalent with respect to terminals a,b in the circuit of (Figure 1). Suppose that ",
+      "inputs": [
+        {
+          "id": "R",
+          "name": "R",
+          "type": "number",
+          "unit": "Ω"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the value of I<sub>N</sub>.",
+          "need": "Express your answer in amperes to three significant figures. Enter your answer in rectangular form.",
+          "answer": {
+            "name": "I<sub>N</sub>"
+          },
+          "imageSrc": "chapter9/p7.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the value of Z<sub>N</sub>.",
+          "need": "Express your answer in ohms to three significant figures. Enter your answer in rectangular form.",
+          "answer": {
+            "name": "Z<sub>N</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Problem 8",
+      "content": "Use the node-voltage method to find the steady-state expression for i<sub>o</sub> in the circuit seen in (Figure 1) if i<sub>g</sub> = <input id='p8-I' type='number' /> cos2500t A and v<sub>g</sub> = <input id='p8-V' type='number' /> cos(2500t + 90<sup>∘</sup>) V. Write the steady-state expression for i<sub>o</sub> (t) as i<sub>o</sub> = I<sub>o</sub> cos(ωt + ϕ), where -180<sup>∘</sup> < ϕ ≤ 180<sup>∘</sup> .",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the numerical value of I<sub>o</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "I<sub>o</sub>"
+          },
+          "imageSrc": "chapter9/p8.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the numerical value of ω.",
+          "need": "Express your answer in radians per second to three significant figures.",
+          "answer": {
+            "name": "ω"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the numerical value of ϕ.",
+          "need": "Express your answer in degrees to three significant figures.",
+          "answer": {
+            "name": "ϕ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Problem 9",
+      "content": "Use the node-voltage method to find the phasor voltage V<sub>o</sub> in the circuit shown in the figure when I<sub>g</sub> = <input id='p9-I' type='number'/> + <input type='number'/> jA.(Figure 1)",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Express the voltage in polar form.",
+          "need": "Express your answer in volts to three significant figures. Enter your answer using angle notation. Express argument in degrees.",
+          "answer": {
+            "name": "V<sub>o</sub>"
+          }
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Express the voltage in rectangular form.",
+          "need": "Express your answer in volts to three significant figures. Enter your answer in rectangular form.",
+          "answer": {
+            "name": "V<sub>o</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Problem 10",
+      "content": "Use the mesh-current method to find the steady-state expression for v<sub>o</sub>(t) in the circuit seen in (Figure 1) if v<sub>g</sub> equals 400cos5000t V. Write the steady-state expression for v<sub>o</sub> (t) as v<sub>o</sub> (t) = V<sub>o</sub> cos(ωt + ϕ), where -180<sup>∘</sup> < ϕ ≤ 180<sup>∘<sup>. Suppose that ",
+      "inputs": [
+        {
+          "id": "R",
+          "name": "R",
+          "type": "number",
+          "unit": "Ω"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the numerical value of V<sub>o</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "V<sub>o</sub>"
+          },
+          "imageSrc": "chapter9/p10.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the numerical value of ϕ.",
+          "need": "Express your answer in degrees to three significant figures.",
+          "answer": {
+            "name": "ϕ"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the numerical value of ω.",
+          "need": "Express your answer in radians per second to three significant figures.",
+          "answer": {
+            "name": "ω"
+          }
+        }
+      ]
+    }
+  ]
+}

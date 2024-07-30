@@ -1,6 +1,64 @@
 {
   "problems": [
     {
+      "id": "1",
+      "title": "Problem 1",
+      "content": "The resistance, inductance, and capacitance in a parallel RLC circuit in (Figure 1) are <input id='p1-R' type='number'/> kΩ, <input id='p1-L' type='number'/> H, and <input id='p1-C' type='number'/> μF, respectively.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Calculate the minimum root of the characteristic equation that describes the voltage response of the circuit.",
+          "need": "Express your answer in radians per second to three significant figures.",
+          "answer": {
+            "name": "s<sub>1</sub>"
+          },
+          "imageSrc": "chapter8/p1.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Calculate the maximum root of the characteristic equation that describes the voltage response of the circuit.",
+          "need": "Express your answer in radians per second to three significant figures.",
+          "answer": {
+            "name": "s<sub>2</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Will the response be over-, under-, or critically damped?"
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "What value of R will yield a damped frequency of <input id='p1-d-X' type='number'/> rad/s?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "R"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "What are the roots of the characteristic equation for the value of R found in Part D?",
+          "need": "Express your answers in radians per second to three significant figures separated by a comma. Enter your answers in rectangular form.",
+          "answer": {
+            "name": "s<sub>1</sub>, s<sub>2</sub>"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "What value of R will result in a critically damped response?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "R"
+          }
+        }
+      ]
+    },
+    {
       "id": 2,
       "title": "Problem 2",
       "content": "The voltage response for the circuit in (Figure 1) is known to be v (t) = D<sub>1</sub>te<sup>-500t</sup> + D<sub>2</sub>e<sup>-500t</sup>, t≥0, where t is in seconds. The initial current in the inductor (I<sub>0</sub>) is -10 mA, and the initial voltage on the capacitor (V<sub>0</sub>) is 8 V. The inductance is 4 H.",

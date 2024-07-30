@@ -5,6 +5,68 @@ $('.toggle-button').each(function () {
   });
 });
 
+$('#p1-a-submit').click(() => {
+  const R = Number($('#p1-R').val());
+  const L = Number($('#p1-L').val());
+  const C = Number($('#p1-C').val());
+  const alpha = 1 / (2 * R * C);
+  const w = 1 / Math.sqrt(L * C);
+  const S1 = -alpha - Math.sqrt(Math.pow(alpha, 2) - Math.pow(w, 2));
+  $('#p1-a-answer').html(`${S1} rad/s`);
+});
+
+$('#p1-b-submit').click(() => {
+  const R = Number($('#p1-R').val());
+  const L = Number($('#p1-L').val());
+  const C = Number($('#p1-C').val());
+  const alpha = 1 / (2 * R * C);
+  const w = 1 / Math.sqrt(L * C);
+  const S2 = -alpha + Math.sqrt(Math.pow(alpha, 2) - Math.pow(w, 2));
+  $('#p1-b-answer').html(`${S2} rad/s`);
+});
+
+$('#p1-c-submit').click(() => {
+  const R = Number($('#p1-R').val());
+  const L = Number($('#p1-L').val());
+  const C = Number($('#p1-C').val());
+  const alpha = 1 / (2 * R * C);
+  const w = 1 / Math.sqrt(L * C);
+  let answer;
+  if (alpha > w) {
+    answer = 'overdamped';
+  } else if (alpha === w) {
+    answer = 'critically damped';
+  } else {
+    answer = 'underdamped';
+  }
+  $('#p1-c-answer').html(answer);
+});
+
+$('#p1-d-submit').click(() => {
+  const L = Number($('#p1-L').val());
+  const C = Number($('#p1-C').val());
+  const X = Number($('#p1-d-X').val());
+  console.log(L, C, X);
+  const answer = Math.sqrt(L / ((4 * C) - (4 * Math.pow(C, 2)) * L * Math.pow(X, 2)));
+  $('#p1-d-answer').html(`${answer} &Omega;`);
+});
+
+$('#p1-e-submit').click(() => {
+  const L = Number($('#p1-L').val());
+  const C = Number($('#p1-C').val());
+  const X = Number($('#p1-d-X').val());
+  const dAnswer = Math.sqrt(L / ((4 * C) - (4 * Math.pow(C, 2)) * L * Math.pow(X, 2)));
+  const alpha = 1 / (2 * dAnswer * C);
+  $('#p1-e-answer').html(`-${alpha}+j${X}, -${alpha}-j${X} rad/`);
+});
+
+$('#p1-f-submit').click(() => {
+  const L = Number($('#p1-L').val());
+  const C = Number($('#p1-C').val());
+  const R = Math.sqrt(L * C) / (2 * C);
+  $('#p1-f-answer').html(`${R} &Omega;`);
+});
+
 $('#p2-a-submit').click(() => {
   $('#p2-a-answer').html('1000 &Omega;');
 });
