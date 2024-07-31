@@ -1,15 +1,15 @@
 $('.toggle-button').each(function () {
-  $(this).click(function () {
+  $(this).on('click', function () {
     const content = $(this).parent().next();
     content.toggleClass('hidden');
   });
 });
 
-$('#p1-a-submit').click(() => {
+$('#p1-a-submit').on('click', () => {
   $('#p1-a-answer').html('0.6 V, 1.9 V, 1.1 V');
 });
 
-$('#p1-b-submit').click(() => {
+$('#p1-b-submit').on('click', () => {
   const V3 = Number($('#p1-b-V3').val());
   const R1 = Number($('#p1-b-R1').val());
   const R2 = Number($('#p1-b-R2').val());
@@ -20,15 +20,15 @@ $('#p1-b-submit').click(() => {
   $('#p1-b-answer').html(`${(V3 * ((R1 + R2 + R3 + R4 + R5) / (R3)))} V`);
 });
 
-$('#p1-c-submit').click(() => {
+$('#p1-c-submit').on('click', () => {
   $('#p1-c-answer').html('0.0409 A, 0.0205 A');
 });
 
-$('#p1-d-submit').click(() => {
+$('#p1-d-submit').on('click', () => {
   $('#p1-d-answer').html('0.0223 V, 0.03 V, 0.11 V');
 });
 
-$('#p1-e-submit').click(() => {
+$('#p1-e-submit').on('click', () => {
   const Is = Number($('#p1-e-Is').val());
   const R2 = Number($('#p1-e-R2').val());
   const R3 = Number($('#p1-e-R3').val());
@@ -45,43 +45,43 @@ $('#p1-e-submit').click(() => {
   $('#p1-e-answer').html(`${I2}, ${I3}, ${I6}, ${I8} mA`);
 });
 
-$('#p2-a-submit').click(() => {
+$('#p2-a-submit').on('click', () => {
   $('#p2-a-answer').html('120 &Omega;');
 });
 
-$('#p2-b-submit').click(() => {
+$('#p2-b-submit').on('click', () => {
   const Is = Number($('#p2-b-Is').val());
   $('#p2-b-answer').html(`${(Math.pow(Is * Math.pow(10, -3), 2)) * 120} W`);
 });
 
-$('#p2-c-submit').click(() => {
+$('#p2-c-submit').on('click', () => {
   $('#p2-c-answer').html('300 &Omega;');
 });
 
-$('#p2-d-submit').click(() => {
+$('#p2-d-submit').on('click', () => {
   const Is = Number($('#p2-d-Is').val());
   $('#p2-d-answer').html(`${(Math.pow(Is * Math.pow(10, -3), 2)) * 300} W`);
 });
 
-$('#p2-e-submit').click(() => {
+$('#p2-e-submit').on('click', () => {
   $('#p2-e-answer').html('27 &Omega;');
 });
 
-$('#p2-f-submit').click(() => {
+$('#p2-f-submit').on('click', () => {
   const Vs = Number($('#p2-f-Vs').val());
   $('#p2-f-answer').html(`${Math.pow(Vs, 2) / 27} W`);
 });
 
-$('#p2-g-submit').click(() => {
+$('#p2-g-submit').on('click', () => {
   $('#p2-g-answer').html('50 &Omega;');
 });
 
-$('#p2-h-submit').click(() => {
+$('#p2-h-submit').on('click', () => {
   const Vs = Number($('#p2-h-Vs').val());
   $('#p2-h-answer').html(`${Math.pow(Vs * Math.pow(10, -3), 2) / 50} W`);
 });
 
-$('#p3-a-submit').click(() => {
+$('#p3-a-submit').on('click', () => {
   const R1 = Number($('#p3-a-R1').val());
   const R2 = Number($('#p3-a-R2').val());
   const R3 = Number($('#p3-a-R3').val());
@@ -94,53 +94,53 @@ $('#p3-a-submit').click(() => {
   $('#p3-a-answer').html(`${stepFour} &Omega;`);
 });
 
-$('#p3-b-submit').click(() => {
+$('#p3-b-submit').on('click', () => {
   $('#p3-b-answer').html('30 &Omega;');
 });
 
-$('#p3-c-submit').click(() => {
+$('#p3-c-submit').on('click', () => {
   $('#p3-c-answer').html('60 &Omega;');
 });
 
-$('#p3-d-submit').click(() => {
+$('#p3-d-submit').on('click', () => {
   $('#p3-d-answer').html('20 &Omega;');
 });
 
-$('#p4-a-submit').click(() => {
+$('#p4-a-submit').on('click', () => {
   const Ig = Number($('#p4-a-Ig').val());
   $('#p4-a-answer').html(`${(20 * Ig) / 3} V`);
 });
 
-$('#p4-b-submit').click(() => {
+$('#p4-b-submit').on('click', () => {
   const Ig = Number($('#p4-a-Ig').val());
   $('#p4-b-answer').html(`${Ig / 15} A`);
 });
 
-$('#p4-c-submit').click(() => {
+$('#p4-c-submit').on('click', () => {
   const Ig = Number($('#p4-a-Ig').val());
   $('#p4-c-answer').html(`${(8 * Math.pow(Ig, 2)) / 3} W`);
 });
 
-$('#p4-d-submit').click(() => {
+$('#p4-d-submit').on('click', () => {
   const Ig = Number($('#p4-a-Ig').val());
   $('#p4-d-answer').html(`${10 * Math.pow(Ig, 2)} W`);
 });
 
-$('#p5-a-submit').click(() => {
+$('#p5-a-submit').on('click', () => {
   const V = Number($('#p5-V').val());
   $('#p5-a-answer').html(`${V * (8 / 15)} V`);
 });
 
-$('#p5-b-submit').click(() => {
+$('#p5-b-submit').on('click', () => {
   const V = Number($('#p5-V').val());
   $('#p5-b-answer').html(`${0.6 * V} V`);
 });
 
-$('#p5-c-submit').click(() => {
+$('#p5-c-submit').on('click', () => {
   $('#p5-c-answer').html('is greater than');
 });
 
-$('#p6-a-submit').click(() => {
+$('#p6-a-submit').on('click', () => {
   const R1 = Number($('#p6-R1').val());
   const R2 = Number($('#p6-R2').val());
   const R3 = Number($('#p6-R3').val());
@@ -154,7 +154,7 @@ $('#p6-a-submit').click(() => {
   $('#p6-a-answer').html(`${answer} mA`);
 });
 
-$('#p6-b-submit').click(() => {
+$('#p6-b-submit').on('click', () => {
   const R1 = Number($('#p6-R1').val());
   const R2 = Number($('#p6-R2').val());
   const R3 = Number($('#p6-R3').val());
@@ -169,81 +169,81 @@ $('#p6-b-submit').click(() => {
   $('#p6-b-answer').html(`${answer} mA`);
 });
 
-$('#p7-a-submit').click(() => {
+$('#p7-a-submit').on('click', () => {
   const V = Number($('#p7-V').val());
   $('#p7-a-answer').html(`${V / 7.5} V`);
 });
 
-$('#p7-b-submit').click(() => {
+$('#p7-b-submit').on('click', () => {
   const V = Number($('#p7-V').val());
   $('#p7-b-answer').html(`${V / 30} A`);
 });
 
-$('#p7-c-submit').click(() => {
+$('#p7-c-submit').on('click', () => {
   const V = Number($('#p7-V').val());
   $('#p7-c-answer').html(`${V / 50} A`);
 });
 
-$('#p7-d-submit').click(() => {
+$('#p7-d-submit').on('click', () => {
   const V = Number($('#p7-V').val());
   $('#p7-d-answer').html(`${V / 125} A`);
 });
 
-$('#p7-e-submit').click(() => {
+$('#p7-e-submit').on('click', () => {
   const V = Number($('#p7-V').val());
   $('#p7-e-answer').html(`${V / 12.5} V`);
 });
 
-$('#p7-f-submit').click(() => {
+$('#p7-f-submit').on('click', () => {
   const V = Number($('#p7-V').val());
   $('#p7-f-answer').html(`${(6 * V) / 125} V`);
 });
 
-$('#p8-a-submit').click(() => {
+$('#p8-a-submit').on('click', () => {
   const Vs = Number($('#p8-a-Vs').val());
   $('#p8-a-answer').html(`${0.2 * Vs} V`);
 });
 
-$('#p8-b-submit').click(() => {
+$('#p8-b-submit').on('click', () => {
   $('#p8-b-answer').html('0.2 * V<sub>s</sub>');
 });
 
-$('#p9-a-submit').click(() => {
+$('#p9-a-submit').on('click', () => {
   const Ig = Number($('#p9-a-Ig').val());
   $('#p9-a-answer').html(`${1.875 * Ig} V`);
 });
 
-$('#p10-a-submit').click(() => {
+$('#p10-a-submit').on('click', () => {
   const Vg = Number($('#p10-Vg').val());
   $('#p10-a-answer').html(`${(5 * Vg) / 27} V`);
 });
 
-$('#p10-b-submit').click(() => {
+$('#p10-b-submit').on('click', () => {
   const Vg = Number($('#p10-Vg').val());
   $('#p10-b-answer').html(`${Vg / 9} V`);
 });
 
-$('#p11-a-submit').click(() => {
+$('#p11-a-submit').on('click', () => {
   const Vg = Number($('#p11-Vg').val());
   $('#p11-a-answer').html(`${1.655 * Vg} mA`);
 });
 
-$('#p11-b-submit').click(() => {
+$('#p11-b-submit').on('click', () => {
   const Vg = Number($('#p11-Vg').val());
   $('#p11-b-answer').html(`${4.7286 * Vg} mA`);
 });
 
-$('#p11-c-submit').click(() => {
+$('#p11-c-submit').on('click', () => {
   const Vg = Number($('#p11-Vg').val());
   $('#p11-c-answer').html(`${7.1523 * Vg} mA`);
 });
 
-$('#p11-d-submit').click(() => {
+$('#p11-d-submit').on('click', () => {
   const Vg = Number($('#p11-Vg').val());
   $('#p11-d-answer').html(`${0.0088082 * Math.pow(Vg, 2)} W`);
 });
 
-$('#p12-a-submit').click(() => {
+$('#p12-a-submit').on('click', () => {
   const R2 = Number($('#p12-R2').val());
   const Ra = ((78 * R2) + 1080) / 18;
   const Rb = ((78 * R2) + 1080) / 60;
@@ -251,22 +251,22 @@ $('#p12-a-submit').click(() => {
   $('#p12-a-answer').html(`${Ra}, ${Rb}, ${Rc} &Omega;`);
 });
 
-$('#p12-b-submit').click(() => {
+$('#p12-b-submit').on('click', () => {
   const R2 = Number($('#p12-R2').val());
   const answer = 29 + (((4809.375 * R2) + 68343.75) / ((151.875 * R2) + 5568.75));
   $('#p12-b-answer').html(`${answer} &Omega;`);
 });
 
-$('#p12-c-submit').click(() => {
+$('#p12-c-submit').on('click', () => {
   $('#p12-c-answer').html('16.7, 10, 5 &Omega;');
 });
 
-$('#p12-d-submit').click(() => {
+$('#p12-d-submit').on('click', () => {
   const R2 = Number($('#p12-d-R2').val());
   const answer = 29 + (((4809.375 * R2) + 68343.75) / ((151.875 * R2) + 5568.75));
   $('#p12-d-answer').html(`${answer} &Omega;`);
 });
 
-$('#p12-e-submit').click(() => {
+$('#p12-e-submit').on('click', () => {
   $('#p12-e-answer').html('R<sub>1</sub> - R<sub>3</sub> - R<sub>4</sub><br/>R<sub>1</sub> - R<sub>2</sub> - R<sub>3</sub>');
 });

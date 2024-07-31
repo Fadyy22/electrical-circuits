@@ -1,18 +1,20 @@
-document.onload = loadChapter(1);
+$(async function () {
+  await loadChapter(1);
+});
 
-document.querySelectorAll('.aside-link').forEach(link => {
-  link.addEventListener('click', async function (e) {
+$('.aside-link').each(function () {
+  $(this).on('click', async function (e) {
     e.preventDefault();
-    document.querySelectorAll('.aside-link').forEach(link => {
-      link.classList.remove('selected');
+    $('.aside-link').each(function () {
+      $(this).removeClass('selected');
     });
-    this.classList.add('selected');
+    $(this).addClass('selected');
 
-    const chapter = this.innerHTML.split(' ')[1];
+    const chapter = $(this).html().split(' ')[1];
 
     await loadChapter(chapter);
 
-    const oldScript = document.querySelector('.data-chapter-script');
+    const oldScript = $('.data-chapter-script');
     if (oldScript) {
       oldScript.remove();
     }
@@ -22,43 +24,49 @@ document.querySelectorAll('.aside-link').forEach(link => {
     script.classList.add('data-chapter-script');
     document.body.appendChild(script);
     if (window.innerWidth < 768) {
-      document.getElementById('aside-content').classList.add('hidden');
-      document.getElementById('aside').classList.replace('w-64', 'w-20');
+      $('#aside-content').addClass('hidden');
+      $('#aside').removeClass('w-64');
+      $('#aside').addClass('w-20');
     }
   });
 });
 
-document.getElementById('aside-toggle').addEventListener('click', () => {
-  const asideContent = document.getElementById('aside-content');
-  const aside = document.getElementById('aside');
-  const content = document.getElementById('content');
+$('#aside-toggle').on('click', () => {
+  const asideContent = $('#aside-content');
+  const aside = $('#aside');
+  const content = $('#content');
   if (window.innerWidth < 768) {
-    asideContent.classList.toggle('hidden');
-    if (aside.classList.contains('w-20')) {
-      aside.classList.replace('w-20', 'w-64');
+    asideContent.toggleClass('hidden');
+    if (aside.hasClass('w-20')) {
+      aside.removeClass('w-20');
+      aside.addClass('w-64');
     } else {
-      aside.classList.replace('w-64', 'w-20');
+      aside.removeClass('w-64');
+      aside.addClass('w-20');
     }
   } else {
-    asideContent.classList.toggle('md:block');
-    if (aside.classList.contains('md:w-64')) {
-      aside.classList.replace('md:w-64', 'w-20');
-      content.classList.replace('md:ml-64', 'md:ml-20');
+    asideContent.toggleClass('md:block');
+    if (aside.hasClass('md:w-64')) {
+      aside.removeClass('md:w-64');
+      aside.addClass('w-20');
+      content.removeClass('md:ml-64');
+      content.addClass('md:ml-20');
     } else {
-      aside.classList.replace('w-20', 'md:w-64');
-      content.classList.replace('md:ml-20', 'md:ml-64');
+      aside.removeClass('w-20');
+      aside.addClass('md:w-64');
+      content.removeClass('md:ml-20');
+      content.addClass('md:ml-64');
     }
   }
 });
 
 async function loadChapter(chapterId) {
-  const content = document.getElementById('content');
   try {
     const response = await fetch(`./chapters/chapter-${chapterId}.json`);
     const chapter = await response.json();
-    content.innerHTML = chapter.problems.map(problem => createProblem(problem)).join('');
+    $('#content').html(chapter.problems.map(problem => createProblem(problem)).join(''));
   } catch (error) {
-    content.innerHTML = `<div class="text-red-500">Not Found</div>`;
+    $('#content').html(`<div class="text-red-500">Not Found</div>`);
   }
 }
 
