@@ -1,4 +1,3 @@
-
 document.onload = loadChapter(1);
 
 document.querySelectorAll('.aside-link').forEach(link => {
@@ -102,14 +101,15 @@ function createPart(part, problemId) {
           `).join(', ') : ''}
         </p>
         ${part.need ? `<h4 class="font-bold text-md">${part.need}</h4>` : ''}
-        ${part.no_answer ? '' : `<div>
+        ${part.no_answer ? '' :
+      `<div>
         <h4 class="font-bold text-lg">Answer:</h4>
           ${part.answer ? `<p>${part.answer.name} = <span id="p${problemId}-${part.id}-answer" class="text-red-600 font-bold"></span></p>` : ` <p>-> <span id="p${problemId}-${part.id}-answer" class="text-red-600 font-bold"></span></p>`}
           <button id="p${problemId}-${part.id}-submit" class="mt-2 py-2 px-4 bg-green-500 rounded-md text-white hover:bg-opacity-70 duration-150">
             Answer
           </button>
-        </div>
-      </div>` }
+        </div> `}
+      </div>
      
       ${Array.isArray(part.imageSrc) ? part.imageSrc.map(src => `
         <div class="flex-1">

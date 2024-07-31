@@ -1,0 +1,108 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "title": "Problem 1",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "descritpion": "Calculating average power, reactive power, and the power factor",
+          "content": "A load absorbs S = <input id='p1-a-S' type='number' /> kVA at a leading power factor of pf = <input id='p1-a-PF' type='number' />. Use this information to calculate the average (P) and reactive (Q) power for the load.",
+          "need": "Enter comma separated numerical answers with three significant figures.",
+          "answer": {
+            "name": "P, Q"
+          }
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "descritpion": "Calculating apparent power and power factor",
+          "content": "A load operates at a voltage of V<sub>x</sub> = <input id='p1-b-Vx' type='number' /> V-rms and absorbs P = <input id='p1-b-P' type='number' /> W and Q = <input id='p1-b-Q' type='number' /> VAR of power. Use this information to calculate the apparent power (S) and the power factor (pf) for the load.",
+          "need": "Enter comma separated numerical answers with three significant figures.",
+          "answer": {
+            "name": "S, pf"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "descritpion": "Calculating load impedance",
+          "content": "A load absorbs <input id='p1-c-P' type='number' /> W at a lagging power factor of pf = <input id='p1-c-PF' type='number' />. If the current flowing through the load is i<sub>x</sub> = <input id='p1-c-Ix' type='number' /> A-rms, determine the impedance of the load.",
+          "need": "Enter a complex number with three significant figures.",
+          "answer": {
+            "name": "Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Problem 2",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the load impedance, Z<sub>L</sub>, that enables the circuit above to deliver maximum real power to the terminals a,b.",
+          "need": "Express your answers in Ω to three significant figures. Enter the values for R<sub>L</sub> and X<sub>L</sub> in that order, separated by a comma."
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the average power delivered to Z<sub>L</sub> in the circuit above.",
+          "need": "Express your answer in W to three significant figures.",
+          "answer": {
+            "name": "P"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Suppose the load impedance Z<sub>L</sub> is required to have a phase angle of -32.5<sup>∘</sup> . Which pair of circuit elements will produce the maximum power transfer under this restriction?",
+          "need": "Drag the appropriate circuit element to the appropriate location, then drag the appropriate impedances to their respective locations.",
+          "no_answer": true,
+          "imageSrc": "chapter10/p2-c.png"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Problem 3",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "description": "Power and power factor for parallel loads I",
+          "content": "Consider the two loads in the circuit below. Load #1 (L1) absorbs S<sub>1</sub> = <input id='p3-a-S1' type='number' /> kVA at a leading power factor of pf<sub>1</sub> = <input id='p3-a-PF1' type='number' />. Load #2 (L2) absorbs S<sub>2</sub> = <input id='p3-a-S2' type='number' /> kVA at a lagging power factor of pf<sub>2</sub> = <input id='p3-a-PF2' type='number' />. Use this information to calculate the real (P) and reactive (Q) power provided by the V<sub>x</sub> = 325 V-rms 60 Hz source and its power factor (pf).(Figure 1)",
+          "need": "Express your answers numerically to three significant figures separated by commas.",
+          "answer": {
+            "name": "P, Q, pf"
+          },
+          "imageSrc": "chapter10/p3-a.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "description": "Power for a parallel load with a transmission line impedance",
+          "content": "Consider the circuit below. The load (L1) absorbs P = <input id='p3-b-P' type='number' /> W and Q = <input id='p3-b-Q' type='number' /> VAR of power. Use this information to calculate complex power provided by the source if the voltage across the load is  Vx = <input id='p3-b-Vx' type='number' />  V-rms 60 Hz source and the impedance of the transmission line is 0.010 +  j(0.020) Ω. (Figure 2)",
+          "need": "Express your answers numerically to three significant figures.",
+          "answer": {
+            "name": "S"
+          },
+          "imageSrc": "chapter10/p3-b.jpg"
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "description": "Power factor correction",
+          "content": "Consider the two loads in the circuit below. Load #1 (L1) absorbs S = <input id='p3-c-S' type='number' /> VA at a lagging power factor of pf = <input id='p3-c-PF' type='number' />. Load #2 (L2) absorbs P<sub>2</sub> = <input id='p3-c-P2' type='number' /> W and Q<sub>2</sub> = <input id='p3-c-Q2' type='number' /> VAR of power. If these loads are powered by a V = <input id='p3-c-V' type='number' /> V-rms , 60- Hz source, what impedance needs to be added to the circuit in order to raise the source's power factor to unity?(Figure 1)",
+          "need": "Express your answers numerically to three significant figures.",
+          "answer": {
+            "name": "Z"
+          },
+          "imageSrc": "chapter10/p3-a.jpg"
+        }
+      ]
+    }
+  ]
+}
