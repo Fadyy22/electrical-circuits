@@ -861,6 +861,10 @@ input {
   height: 2rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -891,6 +895,10 @@ input {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-3xl {
@@ -2014,6 +2022,10 @@ input {
      object-fit: scale-down;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
@@ -2572,6 +2584,10 @@ input {
 
 .forced-color-adjust-none {
   forced-color-adjust: none;
+}
+
+.\[start\:end\] {
+  start: end;
 }
 
 .aside-link {

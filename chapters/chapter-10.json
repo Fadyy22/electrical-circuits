@@ -103,6 +103,560 @@
           "imageSrc": "chapter10/p3-a.jpg"
         }
       ]
+    },
+    {
+      "id": 4,
+      "title": "Problem 4",
+      "content": "The following sets of values for v and i pertain to the circuit seen in (Figure 1).",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Calculate P for the following values:<br/>v = <input id='p4-a-V' type='number'/> cos(ωt + 50<sup>∘</sup>) V,<br/>i = <input id='p4-a-I' type='number'/> cos(ωt + 15<sup>∘</sup>) A.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P"
+          },
+          "imageSrc": "chapter10/p4.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Is the circuit inside the box absorbing or delivering average power?"
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Calculate Q for the following values:<br/>v = <input id='p4-c-V' type='number'/> cos(ωt + 50<sup>∘</sup>) V,<br/>i = <input id='p4-c-I' type='number'/> cos(ωt + 15<sup>∘</sup>) A.",
+          "need": "Express your answer in volt-amperes reactive to three significant figures.",
+          "answer": {
+            "name": "Q"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Is the circuit inside the box absorbing or delivering magnetizing vars?"
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Calculate P for the following values:<br/>v = <input id='p4-e-V' type='number'/> cos(ωt - 15<sup>∘</sup>) V,<br/>i = <input id='p4-e-I' type='number'/> cos(ωt + 60<sup>∘</sup>) A.",
+          "need": "Express your answer in volt-amperes to three significant figures.",
+          "answer": {
+            "name": "P"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "Is the circuit inside the box absorbing or delivering average power?"
+        },
+        {
+          "id": "g",
+          "title": "Part G",
+          "content": "Calculate Q for the following values:<br/>v = <input id='p4-g-V' type='number'/> cos(ωt - 15<sup>∘</sup>) V,<br/>i = <input id='p4-g-I' type='number'/> cos(ωt + 60<sup>∘</sup>) A.",
+          "need": "Express your answer in volt-amperes reactive to three significant figures.",
+          "answer": {
+            "name": "Q"
+          }
+        },
+        {
+          "id": "h",
+          "title": "Part H",
+          "content": "Is the circuit inside the box absorbing or delivering magnetizing vars?"
+        },
+        {
+          "id": "i",
+          "title": "Part I",
+          "content": "Calculate P for the following values:<br/>v = <input id='p4-i-V' type='number'/> cos(ωt + 30<sup>∘</sup>) V,<br/>i = <input id='p4-i-I' type='number'/> sin(ωt + 240<sup>∘</sup>) A.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P"
+          }
+        },
+        {
+          "id": "j",
+          "title": "Part J",
+          "content": "Is the circuit inside the box absorbing or delivering average power?"
+        },
+        {
+          "id": "k",
+          "title": "Part K",
+          "content": "Calculate Q for the following values:<br/>v = <input id='p4-k-V' type='number'/> cos(ωt + 30<sup>∘</sup>) V,<br/>i = <input id='p4-k-I' type='number'/> sin(ωt + 240<sup>∘</sup>) A.",
+          "need": "Express your answer in volt-amperes reactive to three significant figures.",
+          "answer": {
+            "name": "Q"
+          }
+        },
+        {
+          "id": "l",
+          "title": "Part L",
+          "content": "Is the circuit inside the box absorbing or delivering magnetizing vars?"
+        },
+        {
+          "id": "m",
+          "title": "Part M",
+          "content": "Calculate P for the following values:<br/>v = <input id='p4-m-V' type='number'/> sin(ωt + 250<sup>∘</sup>) V,<br/>i = <input id='p4-m-I' type='number'/> cos(ωt + 40<sup>∘</sup>) A.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P"
+          }
+        },
+        {
+          "id": "n",
+          "title": "Part N",
+          "content": "Is the circuit inside the box absorbing or delivering average power?"
+        },
+        {
+          "id": "o",
+          "title": "Part O",
+          "content": "Calculate Q for the following values:<br/>v = <input id='p4-o-V' type='number'/> sin(ωt + 250<sup>∘</sup>) V,<br/>i = <input id='p4-o-I' type='number'/> cos(ωt + 40<sup>∘</sup>) A.",
+          "need": "Express your answer in volt-amperes reactive to three significant figures.",
+          "answer": {
+            "name": "Q"
+          }
+        },
+        {
+          "id": "p",
+          "title": "Part P",
+          "content": "Is the circuit inside the box absorbing or delivering magnetizing vars?"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Problem 5",
+      "content": "Consider the circuit shown in (Figure 1). Suppose that R = <input id='p5-R' type='number'/> Ω and v<sub>g</sub> equals 400 cos5000t V.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Calculate the real power associated with the independent voltage source.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P<sub>indep.source</sub>"
+          },
+          "imageSrc": "chapter10/p5.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Calculate the reactive power associated with the independent voltage source.",
+          "need": "Express your answer in volt-amperes reactive to three significant figures.",
+          "answer": {
+            "name": "Q<sub>indep.source</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Calculate the real power associated with the dependent voltage source.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P<sub>dep.source</sub>"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Calculate the reactive power associated with the dependent voltage source.",
+          "need": "Express your answer in volt-amperes reactive to three significant figures.",
+          "answer": {
+            "name": "Q<sub>dep.source</sub>"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Calculate the real power associated with the 50 Ω resistor.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P<sub>50Ω</sub>"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "Calculate the reactive power associated with the 50 Ω resistor.",
+          "need": "Express your answer in volt-amperes reactive to three significant figures.",
+          "answer": {
+            "name": "Q<sub>50Ω</sub>"
+          }
+        },
+        {
+          "id": "g",
+          "title": "Part G",
+          "content": "Calculate the real power associated with the 150 Ω resistor.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P<sub>150Ω</sub>"
+          }
+        },
+        {
+          "id": "h",
+          "title": "Part H",
+          "content": "Calculate the real power associated with the 150 Ω resistor.",
+          "need": "Express your answer in volt-amperes reactive to three significant figures.",
+          "answer": {
+            "name": "Q<sub>150Ω</sub>"
+          }
+        },
+        {
+          "id": "i",
+          "title": "Part I",
+          "content": "Calculate the real power associated with the inductor.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P<sub>60mH</sub>"
+          }
+        },
+        {
+          "id": "j",
+          "title": "Part J",
+          "content": "Calculate the reactive power associated with the inductor.",
+          "need": "Express your answer in volt-amperes reactive to three significant figures.",
+          "answer": {
+            "name": "Q<sub>60mH</sub>"
+          }
+        },
+        {
+          "id": "k",
+          "title": "Part K",
+          "content": "Calculate the real power associated with the capacitor.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P<sub>2μF</sub>"
+          }
+        },
+        {
+          "id": "l",
+          "title": "Part L",
+          "content": "Calculate the reactive power associated with the capacitor.",
+          "need": "Express your answer in volt-amperes reactive to three significant figures.",
+          "answer": {
+            "name": "Q<sub>2μF</sub>"
+          }
+        },
+        {
+          "id": "m",
+          "title": "Part M",
+          "content": "Find the total average power generated and the total average power absorbed.",
+          "need": "Express your answers in watts to three significant figures separated by a comma.",
+          "answer": {
+            "name": "P<sub>gen</sub>, P<sub>abs</sub>"
+          }
+        },
+        {
+          "id": "n",
+          "title": "Part N",
+          "content": "Find the total magnetizing vars generated and the total magnetizing vars absorbed.",
+          "need": "Express your answers in volt-amperes reactive to three significant figures separated by a comma.",
+          "answer": {
+            "name": "Q<sub>gen</sub>, Q<sub>abs</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Problem 6",
+      "content": "The load impedance in (Figure 1) absorbs 2.5 kW and generates 5 kVAR. The sinusoidal voltage source develops 7.5 kW. Suppose that .",
+      "inputs": [
+        {
+          "id": "R",
+          "name": "R",
+          "type": "number",
+          "unit": "Ω"
+        }
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the minimum value of inductive line reactance that will satisfy these constraints.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "X<sub>ℓ min</sub>"
+          },
+          "imageSrc": "chapter10/p6.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the maximum value of inductive line reactance that will satisfy these constraints.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "X<sub>ℓ max</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "For X<sub>ℓ min</sub> obtained in part A, find the magnitudes of the total magnetizing vars developed and the total magnetizing vars absorbed.",
+          "need": "Express your answers in volt-amperes reactive to three significant figures separated by a comma.",
+          "answer": {
+            "name": "Q<sub>del</sub>, Q<sub>abs</sub>"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "For X<sub>ℓ max</sub> obtained in part B, find the magnitudes of the total magnetizing vars developed and the total magnetizing vars absorbed.",
+          "need": "Express your answers in volt-amperes reactive to three significant figures separated by a comma.",
+          "answer": {
+            "name": "Q<sub>del</sub>, Q<sub>abs</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Problem 7",
+      "content": "The three parallel loads in the circuit shown in (Figure 1) can be described as follows: Load L<sub>1</sub> is absorbing an average power of 6 kW and delivering reactive power of 8 kVAR; Load L<sub>2</sub> is absorbing an average power of 9 kW and reactive power of 3 kVAR; Load L<sub>3</sub> is a 25 Ω resistor in parallel with a capacitor whose reactance is -5 Ω. Suppose that V<sub>o</sub> = <input id='p7-V' type='number'/>∠0<sup>∘</sup> V (rms).",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the rms magnitude of V<sub>g</sub>.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "V<sub>g rms</sub>"
+          },
+          "imageSrc": "chapter10/p7.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the phase angle of V<sub>g</sub>.",
+          "need": "Express your answer using three significant figures.",
+          "answer": {
+            "name": "ϕ"
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Problem 8",
+      "content": "Three loads are connected in parallel and fed from a line having a series impedance 0.01 + j0.08Ω, as shown in (Figure 1). Load 1 absorbs 16 kW and 18 kVAR; Load 2 absorbs10 kVA at 0.6 leading; Load 3 absorbs 8 kW at unity power factor. Suppose that V<sub>o</sub> = <input id='p8-V' type='number'/>∠0<sup>∘</sup> V (rms).",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Calculate the rms value of the voltage (V<sub>s</sub>) at the sending end of the line.",
+          "need": "Express your answer in volts to three significant figures. Enter your answer using angle notation. Express argument in degrees.",
+          "answer": {
+            "name": "V<sub>s</sub>"
+          },
+          "imageSrc": "chapter10/p8.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Calculate the average power associated with the line impedance. Use positive value if the power is absorbed and negative value if the power is delivered.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P<sub>ℓ</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Calculate the reactive power associated with the line impedance. Use positive value if the reactive power is absorbed and negative value if the reactive power is delivered.",
+          "need": "Express your answer in kilovolt-amperes reactive to three significant figures.",
+          "answer": {
+            "name": "Q<sub>ℓ</sub>"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Calculate the average power at the sending end of the line associated with the line and the load. Use positive value if the power is absorbed and negative value if the power is delivered.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P<sub>sending end</sub>"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Calculate the reactive power at the sending end of the line associated with the line and the load. Use positive value if the reactive power is absorbed and negative value if the reactive power is delivered.",
+          "need": "Express your answer in kilovolt-amperes reactive to three significant figures.",
+          "answer": {
+            "name": "Q<sub>sending end</sub>"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "Calculate the efficiency (η) of the line if the efficiency is defined as η = (P<sub>load</sub> / P<sub>sending end</sub>) x 100%.",
+          "need": "Express your answer as a percentage to four significant figures.",
+          "answer": {
+            "name": "η"
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Problem 9",
+      "content": "Consider the circuit shown in (Figure 1). Suppose that V<sub>g</sub> = <input id='p9-V' type='number' /> ∠0<sup>∘</sup> V (rms).",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the average power dissipated in the line in the figure.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P"
+          },
+          "imageSrc": "chapter10/p9.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the capacitive reactance that, when connected in parallel, with the load will make the load look purely resistive.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "X<sub>C</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "What is the equivalent impedance of the load in Part B?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "Z<sub>L</sub>"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find the average power dissipated in the line when the capacitive reactance is connected across the load.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Express the power loss in Part D as a percentage of the power loss found in Part A.",
+          "need": "Express your answer as a percentage using three significant figures.",
+          "answer": {
+            "name": "P<sub>d</sub> / P<sub>a</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Problem 10",
+      "content": "Consider the circuit shown in (Figure 1). Suppose that v<sub>g</sub> = <input id='p10-V' type='number' /> cos10,000t V, where t is in seconds.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Determine the load impedance for the circuit that will result in maximum average power being transferred to the load.",
+          "need": "Express your answer in ohms to three significant figures. Enter your answer in rectangular form.",
+          "answer": {
+            "name": "Z<sub>L</sub>"
+          },
+          "imageSrc": "chapter10/p10-a.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Determine the maximum average power delivered to the load from Part A.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Determine the maximum average power delivered to the load if  ZL consists of two components from the tables below whose values yield a maximum average power closest to the value calculated in Part B.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "P"
+          },
+          "imageSrc": "chapter10/p10-c.png"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Problem 11",
+      "content": "The peak amplitude of the sinusoidal voltage source in the circuit shown in the figure is <input id='p11-V' type='number' /> V, and its frequency is 5000 rad/s. The load resistor can be varied from 0 to 4000 Ω, and the load capacitor can be varied from 0.1 μF to 0.5 μF. (Figure 1)",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Calculate the average power delivered to the load when R<sub>o</sub> = 2000 Ω and C<sub>o</sub> = 0.2 μF.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "P"
+          },
+          "imageSrc": "chapter10/p11.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Determine the settings of R<sub>o</sub> and C<sub>o</sub> that will result in the most average power being transferred to R<sub>o</sub>. Find R<sub>o</sub>.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "R<sub>o</sub>"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find C<sub>o</sub>.",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "C<sub>o</sub>"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "What is the most average power in Parts B and C?",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "P"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "If there are no constraints on R<sub>o</sub> and C<sub>o</sub>, what is the maximum average power that can be delivered to a load?",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "P"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "What is the value of R<sub>o</sub> for the condition of Part E?",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "R<sub>o</sub>"
+          }
+        },
+        {
+          "id": "g",
+          "title": "Part G",
+          "content": "What is the value of C<sub>o</sub> for the condition of Part E?",
+          "need": "Express your answer with the appropriate units.",
+          "answer": {
+            "name": "C<sub>o</sub>"
+          }
+        }
+      ]
     }
   ]
 }

@@ -10,6 +10,7 @@ function multiplyComplex(real1, imaginary1, real2, imaginary2) {
   const imaginaryPart = real1 * imaginary2 + imaginary1 * real2;
   return [realPart, imaginaryPart];
 }
+
 function divideComplex(real1, imaginary1, real2, imaginary2) {
   // (a + bi) / (c + di) = [(ac + bd) + (bc - ad)i] / (c^2 + d^2)
   const denominator = real2 * real2 + imaginary2 * imaginary2;
