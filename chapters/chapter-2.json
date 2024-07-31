@@ -8,7 +8,7 @@
           "id": "a",
           "title": "Part A",
           "description": "Analysis of a circuit with a dependent voltage source",
-          "content": "For the circuit shown, solve for V<sub>0</sub> when",
+          "content": "For the circuit shown (Figure 1), solve for V<sub>0</sub> when ",
           "need": "Express your answer to four significant figures and include the appropriate units.",
           "inputs": [
             {
@@ -45,7 +45,7 @@
           "id": "b",
           "title": "Part B",
           "description": "Analysis of a circuit with a dependent current source",
-          "content": "For the circuit shown, solve for I<sub>0</sub> when",
+          "content": "For the circuit shown (Figure 2), solve for I<sub>0</sub> when",
           "need": "Express your answer to two significant figures and include the appropriate units.",
           "inputs": [
             {
@@ -126,7 +126,7 @@
     {
       "id": 3,
       "title": "Problem 3",
-      "content": "Consider the circuit shown in. Suppose that",
+      "content": "Consider the circuit shown in (Figure 1). Suppose that",
       "inputs": [
         {
           "id": "Vg",
@@ -136,19 +136,19 @@
         },
         {
           "id": "Rg",
-          "name": "Rg",
+          "name": "R<sub>g</sub>",
           "type": "number",
           "unit": "Ω"
         },
         {
           "id": "Ra",
-          "name": "Ra",
+          "name": "R<sub>a</sub>",
           "type": "number",
           "unit": "Ω"
         },
         {
           "id": "Rb",
-          "name": "Rb",
+          "name": "R<sub>b</sub>",
           "type": "number",
           "unit": "Ω"
         }
@@ -157,7 +157,7 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Find the value of  i<sub>a</sub>.",
+          "content": "Find the value of i<sub>a</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
             "name": "i<sub>a</sub>"
@@ -167,7 +167,7 @@
         {
           "id": "b",
           "title": "Part B",
-          "content": "Find the value of  i<sub>b<sub>.",
+          "content": "Find the value of i<sub>b<sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
             "name": "i<sub>b</sub>"
@@ -176,7 +176,7 @@
         {
           "id": "c",
           "title": "Part C",
-          "content": "Find the value of  V<sub>0</sub>.",
+          "content": "Find the value of v<sub>0</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
             "name": "v<sub>0</sub>"
@@ -205,7 +205,7 @@
     {
       "id": 4,
       "title": "Problem 4",
-      "content": "The current i<sub>a</sub> in the circuit shown in is",
+      "content": "The current i<sub>a</sub> in the circuit shown in (Figure 1) is ",
       "inputs": [
         {
           "id": "Ia",
@@ -248,12 +248,12 @@
     {
       "id": 5,
       "title": "Problem 5",
-      "content": "The current i<sub>0</sub> in the circuit is <input id='p5-I0' type='number' /> A and the voltage V<sub>g</sub> is <input id='p5-Vg' type='number' /> V",
+      "content": "The current i<sub>0</sub> in the circuit in (Figure 1) is <input id='p5-I0' type='number' /> A and the voltage v<sub>g</sub> is <input id='p5-Vg' type='number' /> V",
       "parts": [
         {
           "id": "a",
           "title": "Part A",
-          "content": "Find i<sub>0</sub>.",
+          "content": "Find i<sub>1</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
             "name": "i<sub>1</sub>"
@@ -263,8 +263,8 @@
         {
           "id": "b",
           "title": "Part B",
-          "content": "Find i<sub>g<sub>.",
-          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "content": "Find the power dissipated in each resistor.",
+          "need": "Express your answers in watts to three significant figures. Enter your answers in descending order separated by commas.",
           "answer": {
             "name": "p13Ω, p8Ω, p4Ω, p20Ω, p4Ω"
           }
@@ -272,7 +272,7 @@
         {
           "id": "c",
           "title": "Part C",
-          "content": "Find the power delivered by the independent current source.",
+          "content": "Find the power developed by the <input type='number' /> V source.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
             "name": "p"
@@ -283,7 +283,7 @@
     {
       "id": 6,
       "title": "Problem 6",
-      "content": "The voltage across the 22.5 &Omega; resistor in the circuit in is <input id='p6-Vr' type='number' /> V, and positive at the upper terminal; the source voltage is <input id='p6-Vg' type='number' /> V.",
+      "content": "The voltage across the 22.5 &Omega; resistor in the circuit in (Figure 1) is <input id='p6-Vr' type='number' /> V, and positive at the upper terminal; the source voltage is <input id='p6-Vg' type='number' /> V.",
       "parts": [
         {
           "id": "a",
@@ -353,7 +353,7 @@
     {
       "id": 8,
       "title": "Problem 8",
-      "content": "Consider the circuit shown in. Suppose that",
+      "content": "Consider the circuit shown in (Figure 1). Suppose that ",
       "inputs": [
         {
           "id": "R",
@@ -366,10 +366,10 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Determine the voltage v<sub>0</sub> for the circuit.",
+          "content": "Determine the voltage v<sub>o</sub> for the circuit.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
-            "name": "v<sub>0</sub>"
+            "name": "v<sub>o</sub>"
           },
           "imageSrc": "chapter1/p8.jpg"
         },
@@ -387,7 +387,7 @@
     {
       "id": 9,
       "title": "Problem 9",
-      "content": "Consider the circuit shown in. Suppose that",
+      "content": "Consider the circuit shown in (Figure 1). Suppose that ",
       "inputs": [
         {
           "id": "Is",
@@ -400,10 +400,10 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Determine the current i<sub>0</sub> in the circuit.",
+          "content": "Determine the current i<sub>o</sub> in the circuit.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
-            "name": "i<sub>0</sub>"
+            "name": "i<sub>o</sub>"
           },
           "imageSrc": "chapter1/p9.jpg"
         },
@@ -413,7 +413,7 @@
           "content": "Find the magnitude of the total power supplied in the circuit.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
-            "name": "p<sub>sub</sub>"
+            "name": "p<sub>sup</sub>"
           }
         },
         {
@@ -434,7 +434,7 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Find V<sub>1</sub> and V<sub>g</sub> in the circuit shown in the figure when v<sub>0</sub> equals <input id='p10-V0' type='number' /> V. (Hint: Start at the right end of the circuit and work back toward V<sub>g</sub>).",
+          "content": "Find v<sub>1</sub> and v<sub>g</sub> in the circuit shown in the figure when v<sub>o</sub> equals <input id='p10-V0' type='number' /> V. (Hint: Start at the right end of the circuit and work back toward v<sub>g</sub>).",
           "need": "Express your answers using two significant figures separated by a comma.",
           "answer": {
             "name": "v<sub>1</sub>, v<sub>g</sub>"

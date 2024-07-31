@@ -131,7 +131,8 @@ $('#p7-a-submit').on('click', () => {
   const Ia = Number($('#p7-Ia').val());
   const Ib = Number($('#p7-Ib').val());
   const Va = Number($('#p7-Va').val());
-  $('#p7-a-answer').html(`${(-1 * (Va + (35 * Ia) + (30 * Ib)) / 20)} A`);
+  console.log(Ia, Ib, Va);
+  $('#p7-a-answer').html(`${(-1 * (Va + (35 * Ia) + (30 * Ib))) / 20} A`);
 });
 
 $('#p7-b-submit').on('click', () => {
