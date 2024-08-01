@@ -8,7 +8,7 @@
           "id": "a",
           "title": "Part A",
           "description": "Voltage division: part 1",
-          "content": "For the circuit shown, calculate  V1,  V3, and  V5 when  Vs = 7  V,  R1 = 18  Ω,  R2 = 66  Ω,  R3 = 57  Ω,  R4 = 37  Ω, and  R5 = 33  Ω.",
+          "content": "For the circuit shown, calculate  V<sub>1</sub>,  V<sub>3</sub>, and  V<sub>5</sub> when V<sub>s</sub> = 7 V, R<sub>1</sub> = 18 Ω, R<sub>2</sub> = 66 Ω, R<sub>3</sub> = 57 Ω, R<sub>4</sub> = 37 Ω, and R<sub>5</sub> = 33 Ω.",
           "need": "Express your answer to two significant figures, with appropriate units.",
           "answer": {
             "name": "V<sub>1</sub>, V<sub>3</sub>, V<sub>5</sub>"
@@ -68,7 +68,7 @@
           "id": "c",
           "title": "Part C",
           "description": "Current division",
-          "content": "For the circuit shown, calculate i2 and i4 when Is = 0.2 A, R1 = 5.2 kΩ, R2 = 3.6 kΩ, R3 = 1.6 kΩ, R4 = 7.2 kΩ, and R5 = 8.1 kΩ.",
+          "content": "For the circuit shown, calculate i<sub>2</sub> and i<sub>4</sub> when I<sub>s</sub> = 0.2 A, R<sub>1</sub> = 5.2 kΩ, R<sub>2</sub> = 3.6 kΩ, R<sub>3</sub> = 1.6 kΩ, R<sub>4</sub> = 7.2 kΩ, and R<sub>5</sub> = 8.1 kΩ.",
           "need": "Express your answer to three significant figures, with appropriate units.",
           "answer": {
             "name": "i<sub>2</sub>, i<sub>4</sub>"
@@ -79,7 +79,7 @@
           "id": "d",
           "title": "Part D",
           "description": "Calculating voltages in a resistive circuit using voltage division",
-          "content": "For the circuit shown, calculate V5, V7, and V8 when Vs = 0.2 V, R1 = 50 Ω, R2 = 54 Ω, R3 = 26 Ω, R4 = 76 Ω, R5 = 44 Ω, R6 = 35 Ω, R7 = 88 Ω, and R8 = 92 Ω.",
+          "content": "For the circuit shown, calculate V<sub>5</sub>, V<sub>7</sub>, and V<sub>8</sub> when V<sub>s</sub> = 0.2 V, R<sub>1</sub> = 50 Ω, R<sub>2</sub> = 54 Ω, R<sub>3</sub> = 26 Ω, R<sub>4</sub> = 76 Ω, R<sub>5</sub> = 44 Ω, R<sub>6</sub> = 35 Ω, R<sub>7</sub> = 88 Ω, and R<sub>8</sub> = 92 Ω.",
           "need": "Express your answer to three significant figures, with appropriate units.",
           "answer": {
             "name": "V<sub>5</sub>, V<sub>7</sub>, V<sub>8</sub>"
@@ -90,7 +90,7 @@
           "id": "e",
           "title": "Part E",
           "description": "Calculating currents in a resistive network",
-          "content": "For the circuit shown, calculate i2, i3, i6, and i8 when ",
+          "content": "For the circuit shown, calculate i<sub>2</sub>, i<sub>3</sub>, i<sub>6</sub>, and i<sub>8</sub> when ",
           "inputs": [
             {
               "id": "Is",
@@ -358,7 +358,7 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "For the circuit in the figure calculate v<sub>0</sub>, if ",
+          "content": "For the circuit in the figure calculate v<sub>o</sub>, if ",
           "need": "Express your answer to two significant figures and include the appropriate units.",
           "inputs": [
             {
@@ -369,23 +369,23 @@
             }
           ],
           "answer": {
-            "name": "v<sub>0</sub>"
+            "name": "v<sub>o</sub>"
           },
           "imageSrc": "chapter3/p4.jpg"
         },
         {
           "id": "b",
           "title": "Part B",
-          "content": "Calculate i<sub>0</sub>.",
+          "content": "Calculate i<sub>o</sub>.",
           "need": "Express your answer to two significant figures and include the appropriate units.",
           "answer": {
-            "name": "i<sub>0</sub>"
+            "name": "i<sub>o</sub>"
           }
         },
         {
           "id": "c",
           "title": "Part C",
-          "content": "Calculate the power dissipated in the 6Ω resistor.",
+          "content": "Calculate the power dissipated in the 6 Ω resistor.",
           "need": "Express your answer with the appropriate units.",
           "answer": {
             "name": "p"
@@ -418,20 +418,20 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "The voltage divider in part (a) in (Figure 1) is loaded with the voltage divider shown in part (b) in (Figure 1); that is, a is connected to a′, and b is connected to b′. Find v<sub>0</sub>.",
+          "content": "The voltage divider in part (a) in (Figure 1) is loaded with the voltage divider shown in part (b) in (Figure 1); that is, a is connected to a′, and b is connected to b′. Find v<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
-            "name": "v<sub>0</sub>"
+            "name": "v<sub>o</sub>"
           },
           "imageSrc": "chapter3/p5-a.jpg"
         },
         {
           "id": "b",
           "title": "Part B",
-          "content": "Now assume the voltage divider in figure (b) is connected to the voltage divider in figure (a) by means of a current-controlled voltage source as shown in (Figure 2). Find v<sub>0</sub>.",
+          "content": "Now assume the voltage divider in figure (b) is connected to the voltage divider in figure (a) by means of a current-controlled voltage source as shown in (Figure 2). Find v<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
-            "name": "v<sub>0</sub>"
+            "name": "v<sub>o</sub>"
           },
           "imageSrc": "chapter3/p5-b.jpg"
         },
@@ -613,7 +613,7 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Find v<sub>0</sub> in the circuit in the figure, if ",
+          "content": "Find v<sub>o</sub> in the circuit in the figure, if ",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "inputs": [
             {
@@ -624,7 +624,7 @@
             }
           ],
           "answer": {
-            "name": "v<sub>0</sub>"
+            "name": "v<sub>o</sub>"
           },
           "imageSrc": "chapter3/p9.jpg"
         }
@@ -637,7 +637,7 @@
       "inputs": [
         {
           "id": "Vg",
-          "name": "V<sub>g</sub>",
+          "name": "v<sub>g</sub>",
           "type": "number",
           "unit": "V"
         }
@@ -671,7 +671,7 @@
       "inputs": [
         {
           "id": "Vg",
-          "name": "V<sub>g</sub>",
+          "name": "v<sub>g</sub>",
           "type": "number",
           "unit": "V"
         }
@@ -680,10 +680,10 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Find i<sub>0</sub>.",
+          "content": "Find i<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
-            "name": "i<sub>0</sub>"
+            "name": "i<sub>o</sub>"
           },
           "imageSrc": "chapter3/p11.jpg"
         },
