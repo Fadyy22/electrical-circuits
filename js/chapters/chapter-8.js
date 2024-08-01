@@ -6,9 +6,9 @@ $('.toggle-button').each(function () {
 });
 
 $('#p1-a-submit').on('click', () => {
-  const R = Number($('#p1-R').val());
+  const R = Number($('#p1-R').val()) * 1000;
   const L = Number($('#p1-L').val());
-  const C = Number($('#p1-C').val());
+  const C = Number($('#p1-C').val()) * Math.pow(10, -6);
   const alpha = 1 / (2 * R * C);
   const w = 1 / Math.sqrt(L * C);
   const S1 = -alpha - Math.sqrt(Math.pow(alpha, 2) - Math.pow(w, 2));
@@ -16,9 +16,9 @@ $('#p1-a-submit').on('click', () => {
 });
 
 $('#p1-b-submit').on('click', () => {
-  const R = Number($('#p1-R').val());
+  const R = Number($('#p1-R').val()) * 1000;
   const L = Number($('#p1-L').val());
-  const C = Number($('#p1-C').val());
+  const C = Number($('#p1-C').val()) * Math.pow(10, -6);
   const alpha = 1 / (2 * R * C);
   const w = 1 / Math.sqrt(L * C);
   const S2 = -alpha + Math.sqrt(Math.pow(alpha, 2) - Math.pow(w, 2));
@@ -26,9 +26,9 @@ $('#p1-b-submit').on('click', () => {
 });
 
 $('#p1-c-submit').on('click', () => {
-  const R = Number($('#p1-R').val());
+  const R = Number($('#p1-R').val()) * 1000;
   const L = Number($('#p1-L').val());
-  const C = Number($('#p1-C').val());
+  const C = Number($('#p1-C').val()) * Math.pow(10, -6);
   const alpha = 1 / (2 * R * C);
   const w = 1 / Math.sqrt(L * C);
   let answer;
@@ -44,7 +44,7 @@ $('#p1-c-submit').on('click', () => {
 
 $('#p1-d-submit').on('click', () => {
   const L = Number($('#p1-L').val());
-  const C = Number($('#p1-C').val());
+  const C = Number($('#p1-C').val()) * Math.pow(10, -6);
   const X = Number($('#p1-d-X').val());
   console.log(L, C, X);
   const answer = Math.sqrt(L / ((4 * C) - (4 * Math.pow(C, 2)) * L * Math.pow(X, 2)));
@@ -53,16 +53,16 @@ $('#p1-d-submit').on('click', () => {
 
 $('#p1-e-submit').on('click', () => {
   const L = Number($('#p1-L').val());
-  const C = Number($('#p1-C').val());
+  const C = Number($('#p1-C').val()) * Math.pow(10, -6);
   const X = Number($('#p1-d-X').val());
   const dAnswer = Math.sqrt(L / ((4 * C) - (4 * Math.pow(C, 2)) * L * Math.pow(X, 2)));
   const alpha = 1 / (2 * dAnswer * C);
-  $('#p1-e-answer').html(`-${alpha}+j${X}, -${alpha}-j${X} rad/`);
+  $('#p1-e-answer').html(`-${alpha}+j${X}, -${alpha}-j${X} rad/s`);
 });
 
 $('#p1-f-submit').on('click', () => {
   const L = Number($('#p1-L').val());
-  const C = Number($('#p1-C').val());
+  const C = Number($('#p1-C').val()) * Math.pow(10, -6);
   const R = Math.sqrt(L * C) / (2 * C);
   $('#p1-f-answer').html(`${R} &Omega;`);
 });
@@ -172,7 +172,7 @@ $('#p9-d-submit').on('click', () => {
   const I = Number($('#p9-I').val());
   const V = Number($('#p9-V').val());
   const answer = (((2000 * (I * Math.pow(10, -3))) + (0.5 * V)) / 1500) * 1000;
-  $('#p9-d-answer').html(`${answer} mA`);
+  $('#p9-d-answer').html(`${answer} mA or ${-answer} mA`);
 });
 
 $('#p10-a-submit').on('click', () => {
