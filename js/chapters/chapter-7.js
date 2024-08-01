@@ -62,7 +62,7 @@ $('#p4-a-submit').on('click', () => {
 });
 
 $('#p5-a-submit').on('click', () => {
-  $('#p5-a-answer').html('-0.75e<sup>-25000t</sup>');
+  $('#p5-a-answer').html('i<sub>o</sub>(t) = -0.75e<sup>-25000t</sup> A');
 });
 
 $('#p6-a-submit').on('click', () => {
@@ -105,7 +105,7 @@ $('#p6-e-submit').on('click', () => {
 });
 
 $('#p7-a-submit').on('click', () => {
-  $('#p7-a-answer').html('v<sub>0</sub>(t) = -80e<sup>-4000t</sup> mV');
+  $('#p7-a-answer').html('v<sub>o</sub>(t) = -80e<sup>-4000t</sup> mV');
 });
 
 $('#p8-a-submit').on('click', () => {
@@ -125,11 +125,11 @@ $('#p8-d-submit').on('click', () => {
 });
 
 $('#p8-e-submit').on('click', () => {
-  $('#p8-e-answer').html('-24 - 26e<sup>-10t</sup> V');
+  $('#p8-e-answer').html('v<sub>C</sub> = -24 - 26e<sup>-10t</sup> V');
 });
 
 $('#p8-f-submit').on('click', () => {
-  $('#p8-f-answer').html('6.5<sup>-10t</sup> A');
+  $('#p8-f-answer').html('i = 6.5<sup>-10t</sup> A');
 });
 
 $('#p9-a-submit').on('click', () => {
@@ -154,13 +154,13 @@ $('#p9-d-submit').on('click', () => {
 });
 
 $('#p10-a-submit').on('click', () => {
-  $('#p10-a-answer').html('v<sub>0</sub>(t) = -45 + 90e-<sup>800t</sup> V');
+  $('#p10-a-answer').html('v<sub>o</sub>(t) = -45 + 90e-<sup>800t</sup> V');
 });
 
 $('#p11-a-submit').on('click', () => {
-  $('#p11-a-answer').html('v<sub>0</sub>(t) = 30 + 90e<sup>-1250t</sup> V');
+  $('#p11-a-answer').html('v<sub>o</sub>(t) = 30 + 90e<sup>-1250t</sup> V');
 });
 
 $('#p11-b-submit').on('click', () => {
-  $('#p11-b-answer').html('v<sub>1</sub>(t)=30 - 30e<sup>-1250t</sup> V');
+  $('#p11-b-answer').html('v<sub>1</sub>(t) = 30 - 30e<sup>-1250t</sup> V');
 });

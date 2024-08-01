@@ -129,7 +129,7 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Select the correct expression for i<sub>0</sub> (t) for t≥0+.",
+          "content": "Select the correct expression for i<sub>o</sub> (t) for t≥0+.",
           "imageSrc": "chapter7/p5.jpg"
         }
       ]
@@ -195,7 +195,7 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Select the correct expression for v<sub>0</sub> (t) for t≥0+.",
+          "content": "Select the correct expression for v<sub>o</sub> (t) for t≥0+.",
           "imageSrc": "chapter7/p7.jpg"
         }
       ]
@@ -320,7 +320,7 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Select the correct expression for v<sub>0</sub>(t) for t≥0.",
+          "content": "Select the correct expression for v<sub>o</sub>(t) for t≥0.",
           "imageSrc": "chapter7/p10.jpg"
         }
       ]
@@ -333,7 +333,7 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Select the correct expression for v<sub>0</sub>(t) for t≥0<sup>+</sup>.",
+          "content": "Select the correct expression for v<sub>o</sub>(t) for t≥0<sup>+</sup>.",
           "imageSrc": "chapter7/p11.jpg"
         },
         {
