@@ -28,6 +28,7 @@ $('.aside-link').each(function () {
       $('#aside').removeClass('w-64');
       $('#aside').addClass('w-20');
     }
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
   });
 });
 
