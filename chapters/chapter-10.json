@@ -84,7 +84,7 @@
           "id": "b",
           "title": "Part B",
           "description": "Power for a parallel load with a transmission line impedance",
-          "content": "Consider the circuit below. The load (L1) absorbs P = <input id='p3-b-P' type='number' /> W and Q = <input id='p3-b-Q' type='number' /> VAR of power. Use this information to calculate complex power provided by the source if the voltage across the load is  Vx = <input id='p3-b-Vx' type='number' />  V-rms 60 Hz source and the impedance of the transmission line is 0.010 +  j(0.020) Ω. (Figure 2)",
+          "content": "Consider the circuit below. The load (L1) absorbs P = <input id='p3-b-P' type='number' /> W and Q = <input id='p3-b-Q' type='number' /> VAR of power. Use this information to calculate complex power provided by the source if the voltage across the load is V<sub>x</sub> = <input id='p3-b-Vx' type='number' />  V-rms 60 Hz source and the impedance of the transmission line is 0.010 +  j(0.020) Ω. (Figure 2)",
           "need": "Express your answers numerically to three significant figures.",
           "answer": {
             "name": "S"

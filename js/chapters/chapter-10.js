@@ -59,11 +59,11 @@ $('#p1-c-submit').on('click', () => {
   const P = Number($('#p1-c-P').val());
   const PF = Number($('#p1-c-PF').val());
   const Ix = Number($('#p1-c-Ix').val());
-  const theta = Math.acos(PF);
+  const theta = radiansToDegrees(Math.acos(PF));
   const abs_S = P / PF;
   const [real, imaginary] = fromPolar(abs_S, theta);
   const answer = divideComplex(real, imaginary, Ix * Ix, 0);
-  $('#p1-c-answer').html(`${answer[0]},${answer[1]}j &Omega;`);
+  $('#p1-c-answer').html(`${answer[0]}${answer[1] > 0 ? ` + ${answer[1]}` : answer[1]}j &Omega;`);
 });
 
 $('#p2-a-submit').on('click', () => {
@@ -198,7 +198,7 @@ $('#p5-a-submit').on('click', () => {
   const imaginary = (bottomRight[1] * -1) + 200;
   const I1 = divideComplex(400 - 4 * R, 400, real, imaginary);
   const [magnitude, angle] = toPolar(I1[0], I1[1]);
-  const P = 200 * magnitude * Math.cos(degreesToRadians(-angle));
+  const P = 200 * magnitude * Math.cos((-angle));
   $('#p5-a-answer').html(`${P} W`);
 });
 
@@ -303,6 +303,7 @@ $('#p5-m-submit').on('click', () => {
   const eAnswer = (magnitudeIT * magnitudeIT) * 25;
   const [magnitudeI2] = toPolar(I2[0], I2[1]);
   const gAnswer = 0.5 * (magnitudeI2 * magnitudeI2) * R;
+  console.log(P, eAnswer, gAnswer);
   $('#p5-m-answer').html(`${P + eAnswer + gAnswer},${P + eAnswer + gAnswer} W`);
 });
 
