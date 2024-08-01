@@ -115,11 +115,8 @@ $('#p3-b-submit').on('click', () => {
 
 $('#p4-a-submit').on('click', () => {
   const T = Number($('#p4-a-T').val()) * Math.pow(10, -3);
-  console.log(T);
   const I = (0.075 * Math.cos((11459.1559 * T) * (Math.PI / 180))) + (0.125 * Math.sin((11459.1559 * T) * (Math.PI / 180)));
-  console.log(I);
   const V = (4.25 * Math.cos((11459.1559 * T) * (Math.PI / 180))) - (4.25 * Math.sin((11459.1559 * T) * (Math.PI / 180)));
-  console.log(V);
   const answer = V * I * Math.exp(-100 * T);
   $('#p4-a-answer').html(`${answer} W`);
 });
@@ -127,9 +124,10 @@ $('#p4-a-submit').on('click', () => {
 $('#p4-b-submit').on('click', () => {
   const T = Number($('#p4-a-T').val()) * Math.pow(10, -3);
   const I = (0.075 * Math.cos((11459.1559 * T) * (Math.PI / 180))) + (0.125 * Math.sin((11459.1559 * T) * (Math.PI / 180)));
-  const V = (4.25 * Math.cos((11459.1559 * T) * (Math.PI / 180))) - (4.25 * Math.sin(11459.1559 * T));
+  const V = (4.25 * Math.cos((11459.1559 * T) * (Math.PI / 180))) - (4.25 * Math.sin((11459.1559 * T) * (Math.PI / 180)));
   const P = V * I * Math.exp(-100 * T);
-  const answer = P > 0 ? 'absorbing power' : 'delivering power';
+  console.log(P);
+  const answer = P > 0 ? 'The inductor is absorbing power.' : 'The inductor is delivering power';
   $('#p4-b-answer').html(`${answer}`);
 });
 
@@ -149,7 +147,7 @@ $('#p6-a-submit').on('click', () => {
 $('#p6-b-submit').on('click', () => {
   const T = Number($('#p6-b-T').val()) * Math.pow(10, -6);
   const answer = 1250 * T * Math.exp(-5000 * T) * (1 - 2500 * T);
-  $('#p6-b-answer').html(`${answer} &mu;W`);
+  $('#p6-b-answer').html(`${answer} mW`);
 });
 
 $('#p6-b-T').keyup(() => {
@@ -187,11 +185,11 @@ $('#p6-f-submit').on('click', () => {
 $('#p7-a-submit').on('click', () => {
   const T = Number($('#p7-a-T').val()) * Math.pow(10, -6);
   const answer = 0.25 * Math.pow(10, -3) * Math.pow((-50 * Math.exp(-2000 * T) + 30), 2);
-  $('#p7-a-answer').html(`${answer} &mu;J`);
+  $('#p7-a-answer').html(`${answer} mJ`);
 });
 
 $('#p7-b-submit').on('click', () => {
-  $('#p7-b-answer').html('225 &mu;J');
+  $('#p7-b-answer').html('0.225 mJ');
 });
 
 $('#p8-a-submit').on('click', () => {

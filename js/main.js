@@ -86,7 +86,7 @@ function createProblem(problem) {
             ${input.name} = <input id="p${problem.id}-${input.id}" type="${input.type}" /> ${input.unit}
           `).join(', ')}
       </p>` : ''}` : ''}
-      ${problem.imageSrc ? `<img src="./images/${problem.imageSrc}" alt="" class="w-full" />` : ''}
+      ${problem.imageSrc ? `<img src="./images/${problem.imageSrc}" alt="" />` : ''}
         ${problem.parts.map(part => createPart(part, problem.id)).join('<hr />')}
       </div>
     </div>
