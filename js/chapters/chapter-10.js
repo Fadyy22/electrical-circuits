@@ -198,7 +198,7 @@ $('#p5-a-submit').on('click', () => {
   const imaginary = (bottomRight[1] * -1) + 200;
   const I1 = divideComplex(400 - 4 * R, 400, real, imaginary);
   const [magnitude, angle] = toPolar(I1[0], I1[1]);
-  const P = 200 * magnitude * Math.cos(degreesToRadians(-angle));
+  const P = 200 * magnitude * Math.cos(degreesToRadians(-angle)) * -1;
   $('#p5-a-answer').html(`${P} W`);
 });
 
@@ -272,7 +272,7 @@ $('#p5-j-submit').on('click', () => {
   const imaginary = (bottomRight[1] * -1) + 200;
   const I1 = divideComplex(400 - 4 * R, 400, real, imaginary);
   const [magnitude] = toPolar(I1[0], I1[1]);
-  $('#p5-j-answer').html(`${(magnitude * magnitude) * 150} W`);
+  $('#p5-j-answer').html(`${(magnitude * magnitude) * 150} VAR`);
 });
 
 $('#p5-k-submit').on('click', () => {
@@ -296,7 +296,7 @@ $('#p5-m-submit').on('click', () => {
   const imaginary = (bottomRight[1] * -1) + 200;
   const I1 = divideComplex(400 - 4 * R, 400, real, imaginary);
   const [magnitudeI1, angleI1] = toPolar(I1[0], I1[1]);
-  const P = 200 * magnitudeI1 * Math.cos(degreesToRadians(-angleI1));
+  const P = 200 * magnitudeI1 * Math.cos(degreesToRadians(-angleI1)) * -1;
   const I2 = divideComplex(400, 0, real, imaginary);
   const IT = [I1[0] - I2[0], I1[1] - I2[1]];
   const [magnitudeIT] = toPolar(IT[0], IT[1]);
