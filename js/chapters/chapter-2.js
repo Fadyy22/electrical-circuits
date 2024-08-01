@@ -140,7 +140,15 @@ $('#p7-b-submit').on('click', () => {
   const Ib = Number($('#p7-Ib').val());
   const Va = Number($('#p7-Va').val());
   const Ib2 = Math.pow(Ib, 2);
-  $('#p7-b-answer').html(`${9 * Ib2}, ${10 * Ib2}, ${0.075 * Math.pow((Va + (15 * Ia) + (50 * Ib)), 2)}, ${0.04 * Math.pow((Va + (15 * Ia) + (38 * Ib)), 2)}, ${11 * Ib2}, ${5 * Math.pow((Ib - Ia), 2)}, ${0.01 * Math.pow((Va + (15 * Ia) + (30 * Ib2)), 2)}, ${15 * Math.pow(Ia, 2)} W`);
+  const P9 = 9 * Ib2;
+  const P10 = 10 * Ib2;
+  const P30 = 0.075 * Math.pow(Va + 15 * Ia + 50 * Ib, 2);
+  const P16 = 0.04 * Math.pow(Va + 15 * Ia + 30 * Ib, 2);
+  const P11 = 11 * Ib2;
+  const P5 = 5 * Math.pow(Ib - Ia, 2);
+  const P4 = 0.01 * Math.pow(Va + 15 * Ia + 30 * Ib, 2);
+  const P15 = 15 * Math.pow(Ia, 2);
+  $('#p7-b-answer').html(`${P9},${P10},${P30},${P16},${P11},${P5},${P4},${P15} W`);
 });
 
 $('#p7-c-submit').on('click', () => {

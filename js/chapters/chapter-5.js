@@ -147,7 +147,7 @@ $('#p10-a-submit').on('click', () => {
 
 $('#p10-b-submit').on('click', () => {
   const Vs = Number($('#p10-Vs').val());
-  const R = Number($('#p10-R').val());
+  const R = Number($('#p10-R').val()) * 1000;
   const I = 0.000214 * Vs;
   const answer = (Vs / (1.8 + (3600 / R))) / I;
   $('#p10-b-answer').html(`${answer} &Omega;`);
@@ -164,13 +164,13 @@ $('#p11-b-submit').on('click', () => {
 });
 
 $('#p12-a-submit').on('click', () => {
-  const R = Number($('#p12-a-R').val());
+  const R = Number($('#p12-a-R').val()) * 1000;
   const answer = (25 * R) / (25000 + R);
   $('#p12-a-answer').html(`${answer} V`);
 });
 
 $('#p12-b-submit').on('click', () => {
-  const R = Number($('#p12-a-R').val());
+  const R = Number($('#p12-a-R').val()) * 1000;
   const answer = (25 * R) / (25000 + R);
   $('#p12-b-answer').html(`${answer} V`);
 });

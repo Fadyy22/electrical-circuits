@@ -22,20 +22,20 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Use a series of source transformations to find i<sub>0</sub> in the circuit.",
+          "content": "Use a series of source transformations to find i<sub>o</sub> in the circuit.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
-            "name": "i<sub>0</sub>"
+            "name": "i<sub>o</sub>"
           },
           "imageSrc": "chapter5/p1.jpg"
         },
         {
           "id": "b",
           "title": "Part B",
-          "content": "Verify your solution by using the mesh-current method to find i<sub>0</sub>.",
+          "content": "Verify your solution by using the mesh-current method to find i<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
-            "name": "i<sub>0</sub>"
+            "name": "i<sub>o</sub>"
           }
         }
       ]
@@ -69,7 +69,7 @@
     {
       "id": 3,
       "title": "Problem 3",
-      "content": "Find the Thevenin equivalent with respect to the terminals a,b for the circuit by finding the open-circuit voltage and the short-circuit current if",
+      "content": "Find the Thevenin equivalent with respect to the terminals a,b for the circuit by finding the open-circuit voltage and the short-circuit current if ",
       "inputs": [
         {
           "id": "V",
@@ -152,7 +152,7 @@
     {
       "id": 5,
       "title": "Problem 5",
-      "content": "The variable resistor in the circuit in is adjusted for maximum power transfer to R<sub>0</sub>. Suppose that ",
+      "content": "The variable resistor in the circuit in is adjusted for maximum power transfer to R<sub>o</sub>. Suppose that ",
       "inputs": [
         {
           "id": "R",
@@ -165,10 +165,10 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Find the value of R<sub>0</sub>.",
+          "content": "Find the value of R<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
-            "name": "R<sub>0</sub>"
+            "name": "R<sub>o</sub>"
           },
           "imageSrc": "chapter5/p5-a.jpg"
         },
@@ -205,12 +205,12 @@
     {
       "id": 6,
       "title": "Problem 6",
-      "content": "The variable resistor (R<sub>0</sub>) in the circuit is adjusted until the power dissipated in the resistor is 250 W.",
+      "content": "The variable resistor (R<sub>o</sub>) in the circuit is adjusted until the power dissipated in the resistor is 250 W.",
       "parts": [
         {
           "id": "a",
           "title": "Part A",
-          "content": "Find the values of R<sub>0</sub> that satisfy this condition if ",
+          "content": "Find the values of R<sub>o</sub> that satisfy this condition if ",
           "inputs": [
             {
               "id": "V",
@@ -221,7 +221,7 @@
           ],
           "need": "Enter your answers numerically separated by a comma.",
           "answer": {
-            "name": "R<sub>0</sub>"
+            "name": "R<sub>o</sub>"
           },
           "imageSrc": "chapter5/p6.jpg"
         }
@@ -230,11 +230,11 @@
     {
       "id": 7,
       "title": "Problem 7",
-      "content": "Use superposition to solve for io and v<sub>0</sub> in the circuit in. Take ",
+      "content": "Use superposition to solve for i<sub>o</sub> and v<sub>o</sub> in the circuit in. Take ",
       "inputs": [
         {
           "id": "V",
-          "name": "V",
+          "name": "v",
           "type": "number",
           "unit": "V"
         },
@@ -249,20 +249,20 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "What is the value of i<sub>0</sub>?",
+          "content": "What is the value of i<sub>o</sub>?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
-            "name": "i<sub>0</sub>"
+            "name": "i<sub>o</sub>"
           },
           "imageSrc": "chapter5/p7.png"
         },
         {
           "id": "b",
           "title": "Part B",
-          "content": "What is the value of v<sub>0</sub>?",
+          "content": "What is the value of v<sub>o</sub>?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
-            "name": "v<sub>0</sub>"
+            "name": "v<sub>o</sub>"
           }
         }
       ]
@@ -274,7 +274,7 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Use the principle of superposition to find the current i<sub>0</sub> in the circuit shown in if ",
+          "content": "Use the principle of superposition to find the current i<sub>o</sub> in the circuit shown in if ",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "inputs": [
             {
@@ -291,7 +291,7 @@
             }
           ],
           "answer": {
-            "name": "i<sub>0</sub>"
+            "name": "i<sub>o</sub>"
           },
           "imageSrc": "chapter5/p8.jpg"
         }
@@ -304,7 +304,7 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Use the principle of superposition to find v<sub>0</sub> in the circuit in. Take ",
+          "content": "Use the principle of superposition to find v<sub>o</sub> in the circuit in. Take ",
           "inputs": [
             {
               "id": "V",
@@ -322,7 +322,7 @@
 
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
-            "name": "v<sub>0</sub>"
+            "name": "v<sub>o</sub>"
           },
           "imageSrc": "chapter5/p9.png"
         }
@@ -335,7 +335,7 @@
       "inputs": [
         {
           "id": "Vs",
-          "name": "V<sub>S</sub>",
+          "name": "v<sub>s</sub>",
           "type": "number",
           "unit": "V"
         },

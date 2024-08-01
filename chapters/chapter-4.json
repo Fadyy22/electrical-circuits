@@ -92,10 +92,10 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Use the node voltage method to find v<sub>0</sub>.",
+          "content": "Use the node voltage method to find v<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include appropriate units.",
           "answer": {
-            "name": "v<sub>0</sub>"
+            "name": "v<sub>o</sub>"
           },
           "imageSrc": "chapter4/p2.jpg"
         },
@@ -126,10 +126,10 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Use the node voltage method to find v<sub>0</sub> in the circuit.",
+          "content": "Use the node voltage method to find v<sub>o</sub> in the circuit.",
           "need": "Express your answer to three significant figures and include appropriate units.",
           "answer": {
-            "name": "v<sub>0</sub>"
+            "name": "v<sub>o</sub>"
           },
           "imageSrc": "chapter4/p3.png"
         }
@@ -174,10 +174,10 @@
         {
           "id": "a",
           "title": "Part A",
-          "content": "Use the mesh-current method to find v<sub>0</sub> in the circuit.",
+          "content": "Use the mesh-current method to find v<sub>o</sub> in the circuit.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
           "answer": {
-            "name": "v<sub>0</sub>"
+            "name": "v<sub>o</sub>"
           },
           "imageSrc": "chapter4/p5.png"
         },
@@ -336,7 +336,7 @@
     {
       "id": 10,
       "title": "Problem 10",
-      "content": "The circuit shown in figure(Figure 1) is a dc model of a residential power distribution circuit. Use the node-voltage method to find the branch currents i<sub>1</sub> - i<sub>6</sub> if ",
+      "content": "The circuit shown in figure (Figure 1) is a dc model of a residential power distribution circuit. Use the node-voltage method to find the branch currents i<sub>1</sub> - i<sub>6</sub> if ",
       "inputs": [
         {
           "id": "R1",

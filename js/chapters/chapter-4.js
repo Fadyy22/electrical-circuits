@@ -224,7 +224,7 @@ $('#p12-a-submit').on('click', () => {
   const V1 = Number($('#p12-V1').val());
   const V3 = Number($('#p12-V3').val());
   const Va = (-V1 / 5000 - 0.01 + V3 / 1000) / (3.2 * Math.pow(10, -3));
-  const answer = (-V1 - Va) / 5000;
+  const answer = ((-V1 - Va) / 5000) * 1000;
   $('#p12-a-answer').html(`${answer} mA`);
 });
 
@@ -232,7 +232,7 @@ $('#p12-b-submit').on('click', () => {
   const V1 = Number($('#p12-V1').val());
   const V3 = Number($('#p12-V3').val());
   const Va = (-V1 / 5000 - 0.01 + V3 / 1000) / (3.2 * Math.pow(10, -3));
-  const answer = Va / 500;
+  const answer = (Va / 500) * 1000;
   $('#p12-b-answer').html(`${answer} mA`);
 });
 
@@ -240,6 +240,6 @@ $('#p12-c-submit').on('click', () => {
   const V1 = Number($('#p12-V1').val());
   const V3 = Number($('#p12-V3').val());
   const Va = (-V1 / 5000 - 0.01 + V3 / 1000) / (3.2 * Math.pow(10, -3));
-  const answer = -(-0.01 + V3 / 4000 + (V3 - Va) / 1000);
+  const answer = (-(-0.01 + V3 / 4000 + (V3 - Va) / 1000)) * 1000;
   $('#p12-c-answer').html(`${answer} mA`);
 });;
