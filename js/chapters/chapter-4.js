@@ -34,7 +34,7 @@ $('#p1-a-submit').on('click', () => {
 $('#p1-b-submit').on('click', () => {
   const V1 = Number($('#p1-V1').val());
   const V2 = Number($('#p1-V2').val());
-  $('#p1-b-answer').html(`${((33 * V1) - (36 * V2)) / 460} A`);
+  $('#p1-b-answer').html(`${((33 * V1) - (36 * V2)) / 690} A`);
 });
 
 $('#p1-c-submit').on('click', () => {

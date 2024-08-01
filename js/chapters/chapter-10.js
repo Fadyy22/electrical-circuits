@@ -198,7 +198,7 @@ $('#p5-a-submit').on('click', () => {
   const imaginary = (bottomRight[1] * -1) + 200;
   const I1 = divideComplex(400 - 4 * R, 400, real, imaginary);
   const [magnitude, angle] = toPolar(I1[0], I1[1]);
-  const P = 200 * magnitude * Math.cos((-angle));
+  const P = 200 * magnitude * Math.cos(degreesToRadians(-angle));
   $('#p5-a-answer').html(`${P} W`);
 });
 

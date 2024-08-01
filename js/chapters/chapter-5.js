@@ -96,9 +96,7 @@ $('#p5-c-submit').on('click', () => {
 
 $('#p5-d-submit').on('click', () => {
   const R = Number($('#p5-R').val());
-  const aAnswer = 5000 * R / (5000 + (R * Math.pow(10, 3)));
-  const closest = findClosestResistance(aAnswer);
-  $('#p5-d-answer').html(`${((0.0128 * (closest * Math.pow(10, 3))) / (5000 + (closest * 1000))) * 1000} mW`);
+  $('#p5-d-answer').html(`${((0.0128 * (R * Math.pow(10, 3))) / (5000 + (R * 1000))) * 1000} mW`);
 });
 
 $('#p6-a-submit').on('click', () => {
@@ -156,7 +154,7 @@ $('#p10-b-submit').on('click', () => {
 $('#p11-a-submit').on('click', () => {
   const I = Number($('#p11-I').val());
   const V = Number($('#p11-V').val());
-  $('#p11-a-answer').html(`${-I + (V / 15000)} A`);
+  $('#p11-a-answer').html(`${(-I * Math.pow(10, -3)) + (V / 15000)} A`);
 });
 
 $('#p11-b-submit').on('click', () => {
