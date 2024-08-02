@@ -10,8 +10,8 @@ $('.aside-link').each(function () {
     });
     $(this).addClass('selected');
 
-    const chapter = $(this).html().split(' ')[1];
-    await loadChapter(chapter);
+    const chapterId = Number($(this).html().split(' ')[1]);
+    await loadChapter(chapterId);
 
     if (window.innerWidth < 768) {
       $('#aside-content').addClass('hidden');
@@ -55,7 +55,34 @@ async function loadChapter(chapterId) {
   try {
     const response = await fetch(`./chapters/chapter-${chapterId}.json`);
     const chapter = await response.json();
-    $('#content').html(chapter.problems.map(problem => createProblem(problem)).join(''));
+    $('#content').html('');
+    if (chapterId === 1) {
+      $('#content').append(`
+      <div class="border border-gray-300 p-6 rounded-md mb-6">
+        <div class="flex justify-between">
+          <h3 class="font-bold text-2xl mb-4">Introduction</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-500 cursor-pointer toggle-button" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
+      <div dir='rtl' class='text-xl font-bold'>
+        <p>ناخذ القيم من موقع Mastering و نحطهم في المكان المخصص و تضغط Answer علشان يطلعلك الناتج</p>
+        <div class='flex flex-col my-4 space-y-4'>
+          <div class='border border-gray-300 rounded-md'>
+            <img src='./images/intro/1.png' />
+          </div>
+          <div class='border border-gray-300 rounded-md'>
+            <img src='./images/intro/2.png' />
+          </div>
+        </div>
+        <p>بعدها ناخذ الناتج و نعوضه في المكان المخصص للاجابه في الMastering</p>
+        <div class='border border-gray-300 rounded-md mt-4'>
+          <img src='./images/intro/3.png' />
+        </div>
+      </div>
+    </div>`);
+    }
+    $('#content').append(chapter.problems.map(problem => createProblem(problem)).join(''));
 
     const oldScript = $('.data-chapter-script');
     if (oldScript) {
