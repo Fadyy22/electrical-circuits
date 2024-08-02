@@ -3,43 +3,34 @@
     {
       "id": 1,
       "title": "Problem 1",
-      "content": "",
       "parts": [
         {
           "id": "a",
           "title": "Part A",
           "content": "For most answers, you will simply enter your numeric answer directly into the space provided to the right of the equal sign. Answer the following question by typing the numeric answer into the answer box.<br/>If you have a gross of items, you have 144 items. If you buy a gross of eggs, how many dozen eggs do you have?",
           "need": "Express your answer in dozens. Do not enter the units; they are provided to the right of the answer box.",
-          "answer": {
-            "name": "number of eggs"
-          }
+          "answer": "number of eggs"
         },
         {
           "id": "b",
           "title": "Part B",
           "content": "When entering large numbers in the answer box, do not use commas. For example, enter 1276400 for the number 1,276,400. Do not enter 1,276,400. If you accidentally enter commas, you will get a message that your answer has the wrong number of terms. Answer the following question by typing the numeric answer into the answer box. What is the sum of 9260 and 3240?",
           "need": "Express your answer numerically to at least three significant figures.",
-          "answer": {
-            "name": "sum"
-          }
+          "answer": "sum"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Practice entering numbers that include a power of 10 by entering the diameter of a hydrogen atom in its ground state, d<sub>H</sub> = 10.6 x 10<sup>-11</sup>m, into the answer box.",
           "need": "Express the diameter of a ground-state hydrogen atom in meters using a power of 10. Do not enter the units; they are provided to the right of the answer box.",
-          "answer": {
-            "name": "d<sub>H</sub>"
-          }
+          "answer": "d<sub>H</sub>"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "If you are asked to provide a set of two or more numeric answers, separate them with commas. For example, to provide the year that Sputnik (the first satellite to be sent into orbit around the Earth) was launched and the year humans first walked on the Moon, you would enter 1957,1969 in the answer box. A rectangle has a length of 5.50 m and a width of 12.0 m. What are the perimeter and area of this rectangle?",
           "need": "Enter the perimeter and area numerically separated by a comma. The perimeter should be given in meters and the area in square meters. Do not enter the units; they are provided to the right of the answer box.",
-          "answer": {
-            "name": "perimeter, area"
-          }
+          "answer": "perimeter, area"
         }
       ]
     },
@@ -53,27 +44,21 @@
           "title": "Part A",
           "content": "Answer the following question by entering the numeric value with appropriate units.<br/>If the length of one side of a square is 12.0 m, what is the perimeter of the square?",
           "need": "Express the perimeter with the appropriate units.",
-          "answer": {
-            "name": "perimeter"
-          }
+          "answer": "perimeter"
         },
         {
           "id": "b",
           "title": "Part B",
           "content": "When numbers are very small or very large, it is convenient to either express the value in scientific notation and/or by using a prefix with the unit.<br/>A pain-relieving pill has a mass of 0.005 g. Express the pill's mass in grams using scientific notation or in milligrams.",
           "need": "Express your answer in scientific notation to one significant figure or use a prefix on the unit.",
-          "answer": {
-            "name": "mass"
-          }
+          "answer": "mass"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "You can also enter units that are combinations of other units. Keep in mind that you have to indicate the multiplication of units explicitly either with a multiplication dot or a dash. You can add a multiplication dot by selecting the dot from the Templates menu.<br/>The weight of an object is the product of its mass, m, and the acceleration of gravity, g (where g = 9.8 m/s<sup>2</sup> ). If an object's mass is m = 10.kg, what is its weight?",
           "need": "Express the weight with the appropriate units.",
-          "answer": {
-            "name": "weight"
-          }
+          "answer": "weight"
         },
         {
           "id": "d",
@@ -150,9 +135,7 @@
           "description": "Calculating voltage",
           "content": "If it takes E = 83 mJ of energy to separate Q = 1.66 C of charge, what is the resultant voltage?",
           "need": "Express your answer to two significant figures and include the appropriate units.",
-          "answer": {
-            "name": "V"
-          }
+          "answer": "V"
         },
         {
           "id": "b",
@@ -160,9 +143,7 @@
           "description": "Calculating energy",
           "content": "How much energy does it take to separate Q = 0.21 μC of charge if the voltage is V = 5.0 mV ?",
           "need": "Express your answer to four significant figures and include the appropriate units.",
-          "answer": {
-            "name": "E"
-          }
+          "answer": "E"
         },
         {
           "id": "c",
@@ -170,9 +151,7 @@
           "description": "Calculating current based on movement of charge",
           "content": "If Q<sub>r</sub> = 2.5 C of charge moves to the right in t<sub>r</sub> = 0.3 s while Q<sub>l</sub> = -2925 mC of charge moves to the left in t<sub>l</sub> = 3.0 s, what is the net current to the right?",
           "need": "Express your answer to two significant figures and include the appropriate units.",
-          "answer": {
-            "name": "I"
-          }
+          "answer": "I"
         },
         {
           "id": "d",
@@ -233,9 +212,7 @@
           "title": "Part A",
           "content": "How much energy does the battery deliver in this 64 h interval?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w"
-          }
+          "answer": "w"
         }
       ]
     },
@@ -261,36 +238,28 @@
           "title": "Part B",
           "content": "Calculate the energy delivered to the circuit element at t = 4 s.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w(4 s)"
-          }
+          "answer": "w(4 s)"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Calculate the energy delivered to the circuit element at t = 12 s.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w(12 s)"
-          }
+          "answer": "w(12 s)"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Calculate the energy delivered to the circuit element at t = 36 s.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w(36 s)"
-          }
+          "answer": "w(36 s)"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "Calculate the energy delivered to the circuit element at t = 50 s.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w(50 s)"
-          }
+          "answer": "w(50 s)"
         }
       ]
     },
@@ -310,9 +279,7 @@
           "title": "Part B",
           "content": "Find the charge that has accumulated at t = 1.7 ms.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "q"
-          }
+          "answer": "q"
         }
       ]
     },
@@ -326,9 +293,7 @@
           "title": "Part A",
           "content": "Calculate the power supplied to the element at 10 ms.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "p"
-          },
+          "answer": "p",
           "imageSrc": "chapter1/p10.jpg"
         },
         {
@@ -336,9 +301,7 @@
           "title": "Part B",
           "content": "Calculate the total energy delivered to the circuit element.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w<sub>total</sub>"
-          }
+          "answer": "w<sub>total</sub>"
         }
       ]
     },
@@ -352,9 +315,7 @@
           "title": "Part A",
           "content": "Find the power absorbed by the element at t = 20  ms.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "p"
-          },
+          "answer": "p",
           "imageSrc": "chapter1/p11.jpg"
         },
         {
@@ -362,9 +323,7 @@
           "title": "Part B",
           "content": "Find the total energy absorbed by the element.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w"
-          }
+          "answer": "w"
         }
       ]
     },
@@ -379,9 +338,7 @@
           "title": "Part A",
           "content": "Find the total power developed in the circuit.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "p"
-          },
+          "answer": "p",
           "imageSrc": "chapter1/p12-a.jpg"
         }
       ]
@@ -397,9 +354,7 @@
           "title": "Part A",
           "content": "Determine the magnitudes of the total power supplied and the total power absorbed in the circuit.",
           "need": "Express your answer to three significant figures separated by a comma.",
-          "answer": {
-            "name": "p<sub>sup</sub>, p<sub>abs</sub>"
-          },
+          "answer": "p<sub>sup</sub>, p<sub>abs</sub>",
           "imageSrc": "chapter1/p13-a.png"
         },
         {
@@ -413,63 +368,49 @@
           "title": "Part C",
           "content": "Find the value of the current i<sub>a</sub> according to the current direction shown in the figure.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>a</sub>"
-          }
+          "answer": "i<sub>a</sub>"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Find the value of the current i<sub>b</sub> according to the current direction shown in the figure.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>b</sub>"
-          }
+          "answer": "i<sub>b</sub>"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "Find the value of the current i<sub>c</sub> according to the current direction shown in the figure.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>c</sub>"
-          }
+          "answer": "i<sub>c</sub>"
         },
         {
           "id": "f",
           "title": "Part F",
           "content": "Find the value of the current i<sub>d</sub> according to the current direction shown in the figure.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>d</sub>"
-          }
+          "answer": "i<sub>d</sub>"
         },
         {
           "id": "g",
           "title": "Part G",
           "content": "Find the value of the current i<sub>e</sub> according to the current direction shown in the figure.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>e</sub>"
-          }
+          "answer": "i<sub>e</sub>"
         },
         {
           "id": "h",
           "title": "Part H",
           "content": "Find the value of the current i<sub>f</sub> according to the current direction shown in the figure.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>f</sub>"
-          }
+          "answer": "i<sub>f</sub>"
         },
         {
           "id": "i",
           "title": "Part I",
           "content": "Find the value of the current i<sub>g</sub> according to the current direction shown in the figure.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>g</sub>"
-          }
+          "answer": "i<sub>g</sub>"
         }
       ]
     }

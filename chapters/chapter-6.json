@@ -23,9 +23,7 @@
               "unit": "ms"
             }
           ],
-          "answer": {
-            "name": "p"
-          }
+          "answer": "p"
         },
         {
           "id": "c",
@@ -45,27 +43,21 @@
               "unit": "ms"
             }
           ],
-          "answer": {
-            "name": "w"
-          }
+          "answer": "w"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "Find the time (in milliseconds) when maximum energy is stored in the inductor.",
           "need": "Express your answer in milliseconds to three significant figures.",
-          "answer": {
-            "name": "t"
-          }
+          "answer": "t"
         },
         {
           "id": "f",
           "title": "Part F",
           "content": "Find the maximum energy (in microjoules) stored in the inductor.",
           "need": "Express your answer in microjoules to three significant figures.",
-          "answer": {
-            "name": "w<sub>max</sub>"
-          }
+          "answer": "w<sub>max</sub>"
         }
       ]
     },
@@ -79,9 +71,7 @@
           "title": "Part A",
           "content": "Write the expression that describes i(t)in the interval t<0. Suppose that t is in seconds.",
           "need": "Express your answer in amperes in terms of t.",
-          "answer": {
-            "name": "i"
-          },
+          "answer": "i",
           "imageSrc": "chapter6/p2.jpg"
         },
         {
@@ -89,135 +79,105 @@
           "title": "Part B",
           "content": "Write the expression that describes i(t) in the interval 0≤t≤5ms. Suppose that t is in seconds.",
           "need": "Express your answer in amperes in terms of t.",
-          "answer": {
-            "name": "i"
-          }
+          "answer": "i"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Is the inductor absorbing or delivering power at t = <span id='p2-c-T'></span> ms?",
           "need": "Express your answer in amperes in terms of t.",
-          "answer": {
-            "name": "i"
-          }
+          "answer": "i"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Find the energy (in microjoules) stored in the inductor at ",
           "need": "Express your answer in amperes in terms of t.",
-          "answer": {
-            "name": "i"
-          }
+          "answer": "i"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "Derive the expression for the inductor voltage in the interval t<0 . Suppose that t is in seconds.",
           "need": "Express your answer in volts in terms of t .",
-          "answer": {
-            "name": "v"
-          }
+          "answer": "v"
         },
         {
           "id": "f",
           "title": "Part F",
           "content": "Derive the expression for the inductor voltage in the interval 0≤t≤5ms. Suppose that t is in seconds.",
           "need": "Express your answer in volts in terms of t.",
-          "answer": {
-            "name": "v"
-          }
+          "answer": "v"
         },
         {
           "id": "g",
           "title": "Part G",
           "content": "Derive the expression for the inductor voltage in the interval 5ms≤t≤10ms. Suppose that t is in seconds.",
           "need": "Express your answer in volts in terms of t.",
-          "answer": {
-            "name": "v"
-          }
+          "answer": "v"
         },
         {
           "id": "h",
           "title": "Part H",
           "content": "Derive the expression for the inductor voltage in the interval t>10ms. Suppose that t is in seconds.",
           "need": "Express your answer in volts in terms of t.",
-          "answer": {
-            "name": "v"
-          }
+          "answer": "v"
         },
         {
           "id": "i",
           "title": "Part I",
           "content": "Derive the expression for the inductor power in the interval t<0. Suppose that t is in seconds.",
           "need": "Express your answer in watts in terms of t.",
-          "answer": {
-            "name": "p"
-          }
+          "answer": "p"
         },
         {
           "id": "j",
           "title": "Part J",
           "content": "Derive the expression for the inductor power in the interval 0≤t≤5ms. Suppose that t is in seconds.",
           "need": "Express your answer in watts in terms of t.",
-          "answer": {
-            "name": "p"
-          }
+          "answer": "p"
         },
         {
           "id": "k",
           "title": "Part K",
           "content": "Derive the expression for the inductor power in the interval 5ms≤t≤10ms. Suppose that t is in seconds",
           "need": "Express your answer in watts in terms of t.",
-          "answer": {
-            "name": "p"
-          }
+          "answer": "p"
         },
         {
           "id": "l",
           "title": "Part L",
           "content": "Derive the expression for the inductor power in the interval t>10ms. Suppose that t is in seconds.",
           "need": "Express your answer in watts in terms of t.",
-          "answer": {
-            "name": "p"
-          }
+          "answer": "p"
         },
         {
           "id": "m",
           "title": "Part M",
           "content": "Derive the expression for the inductor energy in the interval t<0. Suppose that t is in seconds.",
           "need": "Express your answer in joules in terms of t.",
-          "answer": {
-            "name": "w"
-          }
+          "answer": "w"
         },
         {
           "id": "n",
           "title": "Part N",
           "content": "Derive the expression for the inductor energy in the interval 0≤t≤5 ms. Suppose that t is in seconds.",
           "need": "Express your answer in joules in terms of t.",
-          "answer": {
-            "name": "w"
-          }
+          "answer": "w"
         },
         {
           "id": "o",
           "title": "Part O",
           "content": "Derive the expression for the inductor energy in the interval 5ms≤t≤10ms. Suppose that t is in seconds.",
           "need": "Express your answer in joules in terms of t.",
-          "answer": {
-            "name": "w"
-          }
+          "answer": "w"
         },
         {
           "id": "p",
           "title": "Part P",
           "content": "Derive the expression for the inductor energy in the interval t>10ms. Suppose that t is in seconds.",
           "need": "Express your answer in joules in terms of t.",
-          "answer": {
-            "name": "w"
-          }
+          "answer": "w"
         }
       ]
     },
@@ -236,9 +196,7 @@
           "title": "Part B",
           "content": "Find the time, greater than zero, when the power at the terminals of the inductor is zero.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "t"
-          }
+          "answer": "t"
         }
       ]
     },
@@ -260,9 +218,7 @@
               "unit": "ms"
             }
           ],
-          "answer": {
-            "name": "p"
-          }
+          "answer": "p"
         },
         {
           "id": "b",
@@ -281,18 +237,14 @@
           "title": "Part A",
           "content": "At what instant of time is the voltage across the inductor maximum?",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "t"
-          }
+          "answer": "t"
         },
         {
           "id": "b",
           "title": "Part B",
           "content": "What is the maximum voltage?",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "v"
-          }
+          "answer": "v"
         }
       ]
     },
@@ -319,9 +271,7 @@
               "unit": "μs"
             }
           ],
-          "answer": {
-            "name": "p(<span id='p6-b-T-answer'></span>μs)"
-          }
+          "answer": "p(<span id='p6-b-T-answer'></span>μs)"
         },
         {
           "id": "c",
@@ -341,27 +291,21 @@
               "unit": "μs"
             }
           ],
-          "answer": {
-            "name": "w(<span id='p6-d-T-answer'></span>μs)"
-          }
+          "answer": "w(<span id='p6-d-T-answer'></span>μs)"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "Find the maximum energy stored in the capacitor.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w<sub>max</sub>"
-          }
+          "answer": "w<sub>max</sub>"
         },
         {
           "id": "f",
           "title": "Part F",
           "content": "Find the time when the maximum energy stored in the capacitor occurs.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "t"
-          }
+          "answer": "t"
         }
       ]
     },
@@ -383,9 +327,7 @@
               "unit": "μs"
             }
           ],
-          "answer": {
-            "name": "w"
-          },
+          "answer": "w",
           "imageSrc": ["chapter6/p7-1.jpg", "chapter6/p7-2.jpg"]
         },
         {
@@ -393,9 +335,7 @@
           "title": "Part B",
           "content": "How much energy is stored in the capacitor at t = ∞ ?",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "w"
-          }
+          "answer": "w"
         }
       ]
     },
@@ -423,9 +363,7 @@
           "title": "Part A",
           "content": "Find the equivalent inductance of (Figure 1) with respect to the terminals a, b.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "L<sub>ab</sub>"
-          },
+          "answer": "L<sub>ab</sub>",
           "imageSrc": "chapter6/p8-a.jpg"
         },
         {
@@ -433,9 +371,7 @@
           "title": "Part B",
           "content": "Find the equivalent inductance of (Figure 2) with respect to the terminals a, b.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "L<sub>ab</sub>"
-          },
+          "answer": "L<sub>ab</sub>",
           "imageSrc": "chapter6/p8-b.jpg"
         }
       ]
@@ -450,9 +386,7 @@
           "title": "Part A",
           "content": "If i<sub>1</sub> (0) = -6A and i<sub>2</sub> (0) = 1A, find i<sub>o</sub> (0).",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>0</sub>"
-          },
+          "answer": "i<sub>0</sub>",
           "imageSrc": "chapter6/p9.jpg"
         },
         {
@@ -475,27 +409,21 @@
           "title": "Part E",
           "content": "Find the initial energy stored in the three inductors.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w"
-          }
+          "answer": "w"
         },
         {
           "id": "f",
           "title": "Part F",
           "content": "Find the total energy delivered to the black box.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w<sub>del</sub>"
-          }
+          "answer": "w<sub>del</sub>"
         },
         {
           "id": "g",
           "title": "Part G",
           "content": "Find the energy trapped in the ideal inductors.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w<sub>trapped</sub>"
-          }
+          "answer": "w<sub>trapped</sub>"
         }
       ]
     },
@@ -509,9 +437,7 @@
           "title": "Part A",
           "content": "If i<sub>1</sub> (0) = -6A and i<sub>2</sub> (0) = 1A, find i<sub>o</sub> (0).",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>0</sub>"
-          },
+          "answer": "i<sub>0</sub>",
           "imageSrc": "chapter6/p10.jpg"
         },
         {
@@ -534,27 +460,21 @@
           "title": "Part E",
           "content": "Find the initial energy stored in the three inductors.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w"
-          }
+          "answer": "w"
         },
         {
           "id": "f",
           "title": "Part F",
           "content": "Find the total energy delivered to the black box.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w<sub>del</sub>"
-          }
+          "answer": "w<sub>del</sub>"
         },
         {
           "id": "g",
           "title": "Part G",
           "content": "Find the energy trapped in the ideal inductors.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w<sub>trapped</sub>"
-          }
+          "answer": "w<sub>trapped</sub>"
         }
       ]
     },
@@ -568,9 +488,7 @@
           "title": "Part A",
           "content": "If i<sub>1</sub>(0) = -6A and i<sub>2</sub> (0) = 1A, how many milliseconds after the switch is opened is the energy delivered to the black box 80% of the total energy delivered?",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "t"
-          }
+          "answer": "t"
         }
       ]
     },
@@ -591,9 +509,7 @@
               "unit": "nF"
             }
           ],
-          "answer": {
-            "name": "C<sub>eq</sub>"
-          },
+          "answer": "C<sub>eq</sub>",
           "imageSrc": "chapter6/p12-1.jpg"
         },
         {
@@ -601,9 +517,7 @@
           "title": "Part B",
           "content": "Determine the the initial voltage drop for the equivalent capacitance with respect to the terminals a, b for the circuit shown in (Figure 1).",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "V<sub>0 ab</sub>"
-          },
+          "answer": "V<sub>0 ab</sub>",
           "imageSrc": "chapter6/p12-1.jpg"
         },
         {
@@ -619,9 +533,7 @@
               "unit": "μF"
             }
           ],
-          "answer": {
-            "name": "C<sub>eq</sub>"
-          },
+          "answer": "C<sub>eq</sub>",
           "imageSrc": "chapter6/p12-2.jpg"
         },
         {
@@ -629,9 +541,7 @@
           "title": "Part D",
           "content": "Determine the the initial voltage drop for the equivalent capacitance with respect to the terminals a, b for the circuit shown in (Figure 2).",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "V<sub>0 ab</sub>"
-          },
+          "answer": "V<sub>0 ab</sub>",
           "imageSrc": "chapter6/p12-2.jpg"
         }
       ]
@@ -662,27 +572,21 @@
           "title": "Part D",
           "content": "How much energy is delivered to the black box in the time interval 0≤t<∞ ?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w<sub>delivered</sub>"
-          }
+          "answer": "w<sub>delivered</sub>"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "How much energy was initially stored in the series capacitors?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w<sub>initial</sub>"
-          }
+          "answer": "w<sub>initial</sub>"
         },
         {
           "id": "f",
           "title": "Part F",
           "content": "How much energy is trapped in the ideal capacitors?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w<sub>trapped</sub>"
-          }
+          "answer": "w<sub>trapped</sub>"
         }
       ]
     },
@@ -734,9 +638,7 @@
           "title": "Part A",
           "content": "If v<sub>a</sub> (0) = -20 V, v<sub>c</sub> (0) = -30 V, and v<sub>d</sub> (0) = 250 V, calculate the initial energy stored in the capacitors.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "w(0)"
-          },
+          "answer": "w(0)",
           "imageSrc": "chapter6/p15.jpg"
         },
         {
@@ -744,36 +646,28 @@
           "title": "Part B",
           "content": "Calculate the final energy stored in the capacitors.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "w(∞)"
-          }
+          "answer": "w(∞)"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Calculate the total energy delivered to the black box.",
           "need": "Express your answer to five significant figures and include the appropriate units.",
-          "answer": {
-            "name": "w"
-          }
+          "answer": "w"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Calculate the percentage of the initial energy stored that is delivered to the black box.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "% delivered"
-          }
+          "answer": "% delivered"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "Calculate the time, in milliseconds, it takes to deliver <input id='p15-e-E'/> mJ to the black box.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "t"
-          }
+          "answer": "t"
         }
       ]
     },

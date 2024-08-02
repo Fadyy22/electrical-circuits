@@ -10,9 +10,7 @@
           "description": "Voltage division: part 1",
           "content": "For the circuit shown, calculate  V<sub>1</sub>,  V<sub>3</sub>, and  V<sub>5</sub> when V<sub>s</sub> = 7 V, R<sub>1</sub> = 18 Ω, R<sub>2</sub> = 66 Ω, R<sub>3</sub> = 57 Ω, R<sub>4</sub> = 37 Ω, and R<sub>5</sub> = 33 Ω.",
           "need": "Express your answer to two significant figures, with appropriate units.",
-          "answer": {
-            "name": "V<sub>1</sub>, V<sub>3</sub>, V<sub>5</sub>"
-          },
+          "answer": "V<sub>1</sub>, V<sub>3</sub>, V<sub>5</sub>",
           "imageSrc": "chapter3/p1-a.png"
         },
         {
@@ -59,9 +57,7 @@
             }
           ],
           "need": "Express your answer to two significant figures, with appropriate units.",
-          "answer": {
-            "name": "V<sub>s</sub>"
-          },
+          "answer": "V<sub>s</sub>",
           "imageSrc": "chapter3/p1-b.jpg"
         },
         {
@@ -70,9 +66,7 @@
           "description": "Current division",
           "content": "For the circuit shown, calculate i<sub>2</sub> and i<sub>4</sub> when I<sub>s</sub> = 0.2 A, R<sub>1</sub> = 5.2 kΩ, R<sub>2</sub> = 3.6 kΩ, R<sub>3</sub> = 1.6 kΩ, R<sub>4</sub> = 7.2 kΩ, and R<sub>5</sub> = 8.1 kΩ.",
           "need": "Express your answer to three significant figures, with appropriate units.",
-          "answer": {
-            "name": "i<sub>2</sub>, i<sub>4</sub>"
-          },
+          "answer": "i<sub>2</sub>, i<sub>4</sub>",
           "imageSrc": "chapter3/p1-c.png"
         },
         {
@@ -81,9 +75,7 @@
           "description": "Calculating voltages in a resistive circuit using voltage division",
           "content": "For the circuit shown, calculate V<sub>5</sub>, V<sub>7</sub>, and V<sub>8</sub> when V<sub>s</sub> = 0.2 V, R<sub>1</sub> = 50 Ω, R<sub>2</sub> = 54 Ω, R<sub>3</sub> = 26 Ω, R<sub>4</sub> = 76 Ω, R<sub>5</sub> = 44 Ω, R<sub>6</sub> = 35 Ω, R<sub>7</sub> = 88 Ω, and R<sub>8</sub> = 92 Ω.",
           "need": "Express your answer to three significant figures, with appropriate units.",
-          "answer": {
-            "name": "V<sub>5</sub>, V<sub>7</sub>, V<sub>8</sub>"
-          },
+          "answer": "V<sub>5</sub>, V<sub>7</sub>, V<sub>8</sub>",
           "imageSrc": "chapter3/p1-d.png"
         },
         {
@@ -148,9 +140,7 @@
             }
           ],
           "need": "Express your answers in milliamperes to three significant figures separated by commas.",
-          "answer": {
-            "name": "i<sub>2</sub>, i<sub>3</sub>, i<sub>6</sub>, i<sub>8</sub>"
-          },
+          "answer": "i<sub>2</sub>, i<sub>3</sub>, i<sub>6</sub>, i<sub>8</sub>",
           "imageSrc": "chapter3/p1-e.jpg"
         }
       ]
@@ -164,9 +154,7 @@
           "title": "Part A",
           "content": "Find the equivalent resistance seen by the source in the circuit shown in (Figure 1).",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>eq</sub>"
-          },
+          "answer": "R<sub>eq</sub>",
           "imageSrc": "chapter3/p2-a.jpg"
         },
         {
@@ -182,9 +170,7 @@
               "unit": "mA"
             }
           ],
-          "answer": {
-            "name": "P"
-          },
+          "answer": "P",
           "imageSrc": "chapter3/p2-a.jpg"
         },
         {
@@ -192,9 +178,7 @@
           "title": "Part C",
           "content": "Find the equivalent resistance seen by the source in the circuit shown in (Figure 2).",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>eq</sub>"
-          },
+          "answer": "R<sub>eq</sub>",
           "imageSrc": "chapter3/p2-c.jpg"
         },
         {
@@ -210,9 +194,7 @@
               "unit": "mA"
             }
           ],
-          "answer": {
-            "name": "P"
-          },
+          "answer": "P",
           "imageSrc": "chapter3/p2-c.jpg"
         },
         {
@@ -220,9 +202,7 @@
           "title": "Part E",
           "content": "Find the equivalent resistance seen by the source in the circuit shown in (Figure 3).",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>eq</sub>"
-          },
+          "answer": "R<sub>eq</sub>",
           "imageSrc": "chapter3/p2-e.jpg"
         },
         {
@@ -238,9 +218,7 @@
               "unit": "V"
             }
           ],
-          "answer": {
-            "name": "P"
-          },
+          "answer": "P",
           "imageSrc": "chapter3/p2-e.jpg"
         },
         {
@@ -248,9 +226,7 @@
           "title": "Part G",
           "content": "Find the equivalent resistance seen by the source in the circuit shown in (Figure 4).",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>eq</sub>"
-          },
+          "answer": "R<sub>eq</sub>",
           "imageSrc": "chapter3/p2-g.jpg"
         },
         {
@@ -266,9 +242,7 @@
               "unit": "mV"
             }
           ],
-          "answer": {
-            "name": "P"
-          },
+          "answer": "P",
           "imageSrc": "chapter3/p2-g.jpg"
         }
       ]
@@ -314,9 +288,7 @@
               "unit": "Ω"
             }
           ],
-          "answer": {
-            "name": "R<sub>ab</sub>"
-          },
+          "answer": "R<sub>ab</sub>",
           "imageSrc": "chapter3/p3-a.jpg"
         },
         {
@@ -324,9 +296,7 @@
           "title": "Part B",
           "content": "Find the equivalent resistance R<sub>ab</sub> for the circuit shown in (Figure 2).",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>ab</sub>"
-          },
+          "answer": "R<sub>ab</sub>",
           "imageSrc": "chapter3/p3-b.jpg"
         },
         {
@@ -334,9 +304,7 @@
           "title": "Part C",
           "content": "Find the equivalent resistance R<sub>ab</sub> for the circuit shown in (Figure 3).",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>ab</sub>"
-          },
+          "answer": "R<sub>ab</sub>",
           "imageSrc": "chapter3/p3-c.jpg"
         },
         {
@@ -344,9 +312,7 @@
           "title": "Part D",
           "content": "Find the equivalent resistance R<sub>ab</sub> for the circuit shown in (Figure 4).",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>ab</sub>"
-          },
+          "answer": "R<sub>ab</sub>",
           "imageSrc": "chapter3/p3-d.jpg"
         }
       ]
@@ -368,9 +334,7 @@
               "unit": "A"
             }
           ],
-          "answer": {
-            "name": "v<sub>o</sub>"
-          },
+          "answer": "v<sub>o</sub>",
           "imageSrc": "chapter3/p4.jpg"
         },
         {
@@ -378,27 +342,21 @@
           "title": "Part B",
           "content": "Calculate i<sub>o</sub>.",
           "need": "Express your answer to two significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>o</sub>"
-          }
+          "answer": "i<sub>o</sub>"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Calculate the power dissipated in the 6 Ω resistor.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "p"
-          }
+          "answer": "p"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Calculate the power developed by the current source.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "p"
-          }
+          "answer": "p"
         }
       ]
     },
@@ -420,9 +378,7 @@
           "title": "Part A",
           "content": "The voltage divider in part (a) in (Figure 1) is loaded with the voltage divider shown in part (b) in (Figure 1); that is, a is connected to a′, and b is connected to b′. Find v<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "v<sub>o</sub>"
-          },
+          "answer": "v<sub>o</sub>",
           "imageSrc": "chapter3/p5-a.jpg"
         },
         {
@@ -430,9 +386,7 @@
           "title": "Part B",
           "content": "Now assume the voltage divider in figure (b) is connected to the voltage divider in figure (a) by means of a current-controlled voltage source as shown in (Figure 2). Find v<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "v<sub>o</sub>"
-          },
+          "answer": "v<sub>o</sub>",
           "imageSrc": "chapter3/p5-b.jpg"
         },
         {
@@ -440,9 +394,7 @@
           "title": "Part C",
           "content": "What effect does adding the dependent-voltage source have on the operation of the voltage divider that is connected to the 160 V source?",
           "need": "Drag the appropriate term on the left to the blank on the right to complete the sentence.",
-          "answer": {
-            "name": "The current through the 75 kΩ resistor in the circuit with the dependent-voltage source <span class='bg-gray-300 inline-block w-24 h-8 rounded-md'></span> the current through the resistor in the circuit without the dependent-voltage source. The voltage on the 75  kΩ resistor in the divider connected to the 160  V source is equal to the open-circuit voltage of the divider. The dependent-voltage source removes the loading effect of the second voltage divider on the first voltage divider.<br/>"
-          }
+          "answer": "The current through the 75 kΩ resistor in the circuit with the dependent-voltage source <span class='bg-gray-300 inline-block w-24 h-8 rounded-md'></span> the current through the resistor in the circuit without the dependent-voltage source. The voltage on the 75  kΩ resistor in the divider connected to the 160  V source is equal to the open-circuit voltage of the divider. The dependent-voltage source removes the loading effect of the second voltage divider on the first voltage divider.<br/>"
         }
       ]
     },
@@ -494,9 +446,7 @@
           "title": "Part A",
           "content": "Use current division to find the current in R<sub>1</sub> from left to right.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>1</sub>"
-          },
+          "answer": "i<sub>1</sub>",
           "imageSrc": "chapter3/p6.jpg"
         },
         {
@@ -504,9 +454,7 @@
           "title": "Part B",
           "content": "Use the result from the previous part and current division to find the current in R<sub>6</sub> from top to bottom.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>6</sub>"
-          }
+          "answer": "i<sub>6</sub>"
         }
       ]
     },
@@ -520,9 +468,7 @@
           "title": "Part A",
           "content": "Use voltage division to find the voltage across the 4 Ω resistor, positive at the left.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "v<sub>4Ω</sub>"
-          },
+          "answer": "v<sub>4Ω</sub>",
           "imageSrc": "chapter3/p7.jpg"
         },
         {
@@ -530,45 +476,35 @@
           "title": "Part B",
           "content": "Use the result from part A to find the current in the 4 Ω resistor from left to right.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>4Ω</sub>"
-          }
+          "answer": "i<sub>4Ω</sub>"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Use the result from part B and current division to find the current in the 16 Ω resistor from left to right.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>16Ω</sub>"
-          }
+          "answer": "i<sub>16Ω</sub>"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Use the result from part C and current division to find the current in the 10 Ω resistor from top to bottom.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>10Ω</sub>"
-          }
+          "answer": "i<sub>10Ω</sub>"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "Use the result from part D to find the voltage across the 10 Ω resistor, positive at the top.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "v<sub>10Ω</sub>"
-          }
+          "answer": "v<sub>10Ω</sub>"
         },
         {
           "id": "f",
           "title": "Part F",
           "content": "Use the result from part E and voltage division to find the voltage across the 18 Ω resistor, positive at the top.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "v<sub>18Ω</sub>"
-          }
+          "answer": "v<sub>18Ω</sub>"
         }
       ]
     },
@@ -590,9 +526,7 @@
               "unit": "V"
             }
           ],
-          "answer": {
-            "name": "v<sub>x</sub>"
-          },
+          "answer": "v<sub>x</sub>",
           "imageSrc": "chapter3/p8.jpg"
         },
         {
@@ -600,9 +534,7 @@
           "title": "Part B",
           "content": "Find v<sub>x</sub> as a function of V<sub>s</sub>.",
           "need": "Express your answer in terms of V<sub>s</sub>.",
-          "answer": {
-            "name": "v<sub>x</sub>"
-          }
+          "answer": "v<sub>x</sub>"
         }
       ]
     },
@@ -623,9 +555,7 @@
               "unit": "mA"
             }
           ],
-          "answer": {
-            "name": "v<sub>o</sub>"
-          },
+          "answer": "v<sub>o</sub>",
           "imageSrc": "chapter3/p9.jpg"
         }
       ]
@@ -648,9 +578,7 @@
           "title": "Part A",
           "content": "Determine the voltage v<sub>1</sub> in the circuit.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "v<sub>1</sub>"
-          },
+          "answer": "v<sub>1</sub>",
           "imageSrc": "chapter3/p10.jpg"
         },
         {
@@ -658,9 +586,7 @@
           "title": "Part B",
           "content": "Determine the voltage v<sub>2</sub> in the circuit.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "v<sub>2</sub>"
-          }
+          "answer": "v<sub>2</sub>"
         }
       ]
     },
@@ -682,9 +608,7 @@
           "title": "Part A",
           "content": "Find i<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>o</sub>"
-          },
+          "answer": "i<sub>o</sub>",
           "imageSrc": "chapter3/p11.jpg"
         },
         {
@@ -692,27 +616,21 @@
           "title": "Part B",
           "content": "Find i<sub>1</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>1</sub>"
-          }
+          "answer": "i<sub>1</sub>"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Find i<sub>2</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>2</sub>"
-          }
+          "answer": "i<sub>2</sub>"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Find the power delivered by the ideal voltage source.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P"
-          }
+          "answer": "P"
         }
       ]
     },
@@ -734,9 +652,7 @@
           "title": "Part A",
           "content": "Simplify the circuit in (Figure 1) by using a Y-to-Δ transformation involving resistors 2, 3, and 5 as shown in (Figure 2). Determine the resistances of the equivalent Δ.",
           "need": "Express your answers in ohms to three significant figures separated by commas.",
-          "answer": {
-            "name": "R<sub>a</sub>, R<sub>b</sub>, R<sub>c</sub>"
-          },
+          "answer": "R<sub>a</sub>, R<sub>b</sub>, R<sub>c</sub>",
           "imageSrc": ["chapter3/p12-a.jpg", "chapter3/p12-b.jpg"]
         },
         {
@@ -744,18 +660,14 @@
           "title": "Part B",
           "content": "Determine the equivalent resistance R<sub>ab</sub> in the circuit.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>ab</sub>"
-          }
+          "answer": "R<sub>ab</sub>"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Simplify the initial circuit shown in (Figure 1) by using a Δ-to-Y transformation involving resistors  3, 4, and 5 as shown in (Figure 3). Determine the resistances of the equivalent Y.",
           "need": "Express your answers in ohms to three significant figures separated by commas.",
-          "answer": {
-            "name": "R<sub>Y1</sub>, R<sub>Y2</sub>, R<sub>Y3</sub>"
-          },
+          "answer": "R<sub>Y1</sub>, R<sub>Y2</sub>, R<sub>Y3</sub>",
           "imageSrc": ["chapter3/p12-a.jpg", "chapter3/p12-c.jpg"]
         },
         {
@@ -763,9 +675,7 @@
           "title": "Part D",
           "content": "Suppose for this part of the problem that R<sub>2</sub> = <input id='p12-d-R2'> Ω. Determine the equivalent resistance R<sub>ab</sub> in the circuit.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>ab</sub>"
-          }
+          "answer": "R<sub>ab</sub>"
         },
         {
           "id": "e",

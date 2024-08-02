@@ -10,9 +10,7 @@
           "descritpion": "Calculating average power, reactive power, and the power factor",
           "content": "A load absorbs S = <input id='p1-a-S' type='number' /> kVA at a leading power factor of pf = <input id='p1-a-PF' type='number' />. Use this information to calculate the average (P) and reactive (Q) power for the load.",
           "need": "Enter comma separated numerical answers with three significant figures.",
-          "answer": {
-            "name": "P, Q"
-          }
+          "answer": "P, Q"
         },
         {
           "id": "b",
@@ -20,9 +18,7 @@
           "descritpion": "Calculating apparent power and power factor",
           "content": "A load operates at a voltage of V<sub>x</sub> = <input id='p1-b-Vx' type='number' /> V-rms and absorbs P = <input id='p1-b-P' type='number' /> W and Q = <input id='p1-b-Q' type='number' /> VAR of power. Use this information to calculate the apparent power (S) and the power factor (pf) for the load.",
           "need": "Enter comma separated numerical answers with three significant figures.",
-          "answer": {
-            "name": "S, pf"
-          }
+          "answer": "S, pf"
         },
         {
           "id": "c",
@@ -30,9 +26,7 @@
           "descritpion": "Calculating load impedance",
           "content": "A load absorbs <input id='p1-c-P' type='number' /> W at a lagging power factor of pf = <input id='p1-c-PF' type='number' />. If the current flowing through the load is i<sub>x</sub> = <input id='p1-c-Ix' type='number' /> A-rms, determine the impedance of the load.",
           "need": "Enter a complex number with three significant figures.",
-          "answer": {
-            "name": "Z"
-          }
+          "answer": "Z"
         }
       ]
     },
@@ -51,9 +45,7 @@
           "title": "Part B",
           "content": "Find the average power delivered to Z<sub>L</sub> in the circuit above.",
           "need": "Express your answer in W to three significant figures.",
-          "answer": {
-            "name": "P"
-          }
+          "answer": "P"
         },
         {
           "id": "c",
@@ -75,9 +67,7 @@
           "description": "Power and power factor for parallel loads I",
           "content": "Consider the two loads in the circuit below. Load #1 (L1) absorbs S<sub>1</sub> = <input id='p3-a-S1' type='number' /> kVA at a leading power factor of pf<sub>1</sub> = <input id='p3-a-PF1' type='number' />. Load #2 (L2) absorbs S<sub>2</sub> = <input id='p3-a-S2' type='number' /> kVA at a lagging power factor of pf<sub>2</sub> = <input id='p3-a-PF2' type='number' />. Use this information to calculate the real (P) and reactive (Q) power provided by the V<sub>x</sub> = 325 V-rms 60 Hz source and its power factor (pf).(Figure 1)",
           "need": "Express your answers numerically to three significant figures separated by commas.",
-          "answer": {
-            "name": "P, Q, pf"
-          },
+          "answer": "P, Q, pf",
           "imageSrc": "chapter10/p3-a.jpg"
         },
         {
@@ -86,9 +76,7 @@
           "description": "Power for a parallel load with a transmission line impedance",
           "content": "Consider the circuit below. The load (L1) absorbs P = <input id='p3-b-P' type='number' /> W and Q = <input id='p3-b-Q' type='number' /> VAR of power. Use this information to calculate complex power provided by the source if the voltage across the load is V<sub>x</sub> = <input id='p3-b-Vx' type='number' />  V-rms 60 Hz source and the impedance of the transmission line is 0.010 +  j(0.020) Ω. (Figure 2)",
           "need": "Express your answers numerically to three significant figures.",
-          "answer": {
-            "name": "S"
-          },
+          "answer": "S",
           "imageSrc": "chapter10/p3-b.jpg"
         },
         {
@@ -97,9 +85,7 @@
           "description": "Power factor correction",
           "content": "Consider the two loads in the circuit below. Load #1 (L1) absorbs S = <input id='p3-c-S' type='number' /> VA at a lagging power factor of pf = <input id='p3-c-PF' type='number' />. Load #2 (L2) absorbs P<sub>2</sub> = <input id='p3-c-P2' type='number' /> W and Q<sub>2</sub> = <input id='p3-c-Q2' type='number' /> VAR of power. If these loads are powered by a V = <input id='p3-c-V' type='number' /> V-rms , 60- Hz source, what impedance needs to be added to the circuit in order to raise the source's power factor to unity?(Figure 1)",
           "need": "Express your answers numerically to three significant figures.",
-          "answer": {
-            "name": "Z"
-          },
+          "answer": "Z",
           "imageSrc": "chapter10/p3-a.jpg"
         }
       ]
@@ -114,9 +100,7 @@
           "title": "Part A",
           "content": "Calculate P for the following values:<br/>v = <input id='p4-a-V' type='number'/> cos(ωt + 50<sup>∘</sup>) V,<br/>i = <input id='p4-a-I' type='number'/> cos(ωt + 15<sup>∘</sup>) A.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P"
-          },
+          "answer": "P",
           "imageSrc": "chapter10/p4.jpg"
         },
         {
@@ -129,9 +113,7 @@
           "title": "Part C",
           "content": "Calculate Q for the following values:<br/>v = <input id='p4-c-V' type='number'/> cos(ωt + 50<sup>∘</sup>) V,<br/>i = <input id='p4-c-I' type='number'/> cos(ωt + 15<sup>∘</sup>) A.",
           "need": "Express your answer in volt-amperes reactive to three significant figures.",
-          "answer": {
-            "name": "Q"
-          }
+          "answer": "Q"
         },
         {
           "id": "d",
@@ -143,9 +125,7 @@
           "title": "Part E",
           "content": "Calculate P for the following values:<br/>v = <input id='p4-e-V' type='number'/> cos(ωt - 15<sup>∘</sup>) V,<br/>i = <input id='p4-e-I' type='number'/> cos(ωt + 60<sup>∘</sup>) A.",
           "need": "Express your answer in volt-amperes to three significant figures.",
-          "answer": {
-            "name": "P"
-          }
+          "answer": "P"
         },
         {
           "id": "f",
@@ -157,9 +137,7 @@
           "title": "Part G",
           "content": "Calculate Q for the following values:<br/>v = <input id='p4-g-V' type='number'/> cos(ωt - 15<sup>∘</sup>) V,<br/>i = <input id='p4-g-I' type='number'/> cos(ωt + 60<sup>∘</sup>) A.",
           "need": "Express your answer in volt-amperes reactive to three significant figures.",
-          "answer": {
-            "name": "Q"
-          }
+          "answer": "Q"
         },
         {
           "id": "h",
@@ -171,9 +149,7 @@
           "title": "Part I",
           "content": "Calculate P for the following values:<br/>v = <input id='p4-i-V' type='number'/> cos(ωt + 30<sup>∘</sup>) V,<br/>i = <input id='p4-i-I' type='number'/> sin(ωt + 240<sup>∘</sup>) A.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P"
-          }
+          "answer": "P"
         },
         {
           "id": "j",
@@ -185,9 +161,7 @@
           "title": "Part K",
           "content": "Calculate Q for the following values:<br/>v = <input id='p4-k-V' type='number'/> cos(ωt + 30<sup>∘</sup>) V,<br/>i = <input id='p4-k-I' type='number'/> sin(ωt + 240<sup>∘</sup>) A.",
           "need": "Express your answer in volt-amperes reactive to three significant figures.",
-          "answer": {
-            "name": "Q"
-          }
+          "answer": "Q"
         },
         {
           "id": "l",
@@ -199,9 +173,7 @@
           "title": "Part M",
           "content": "Calculate P for the following values:<br/>v = <input id='p4-m-V' type='number'/> sin(ωt + 250<sup>∘</sup>) V,<br/>i = <input id='p4-m-I' type='number'/> cos(ωt + 40<sup>∘</sup>) A.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P"
-          }
+          "answer": "P"
         },
         {
           "id": "n",
@@ -213,9 +185,7 @@
           "title": "Part O",
           "content": "Calculate Q for the following values:<br/>v = <input id='p4-o-V' type='number'/> sin(ωt + 250<sup>∘</sup>) V,<br/>i = <input id='p4-o-I' type='number'/> cos(ωt + 40<sup>∘</sup>) A.",
           "need": "Express your answer in volt-amperes reactive to three significant figures.",
-          "answer": {
-            "name": "Q"
-          }
+          "answer": "Q"
         },
         {
           "id": "p",
@@ -234,9 +204,7 @@
           "title": "Part A",
           "content": "Calculate the real power associated with the independent voltage source.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P<sub>indep.source</sub>"
-          },
+          "answer": "P<sub>indep.source</sub>",
           "imageSrc": "chapter10/p5.jpg"
         },
         {
@@ -244,117 +212,91 @@
           "title": "Part B",
           "content": "Calculate the reactive power associated with the independent voltage source.",
           "need": "Express your answer in volt-amperes reactive to three significant figures.",
-          "answer": {
-            "name": "Q<sub>indep.source</sub>"
-          }
+          "answer": "Q<sub>indep.source</sub>"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Calculate the real power associated with the dependent voltage source.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P<sub>dep.source</sub>"
-          }
+          "answer": "P<sub>dep.source</sub>"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Calculate the reactive power associated with the dependent voltage source.",
           "need": "Express your answer in volt-amperes reactive to three significant figures.",
-          "answer": {
-            "name": "Q<sub>dep.source</sub>"
-          }
+          "answer": "Q<sub>dep.source</sub>"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "Calculate the real power associated with the 50 Ω resistor.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P<sub>50Ω</sub>"
-          }
+          "answer": "P<sub>50Ω</sub>"
         },
         {
           "id": "f",
           "title": "Part F",
           "content": "Calculate the reactive power associated with the 50 Ω resistor.",
           "need": "Express your answer in volt-amperes reactive to three significant figures.",
-          "answer": {
-            "name": "Q<sub>50Ω</sub>"
-          }
+          "answer": "Q<sub>50Ω</sub>"
         },
         {
           "id": "g",
           "title": "Part G",
           "content": "Calculate the real power associated with the 150 Ω resistor.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P<sub>150Ω</sub>"
-          }
+          "answer": "P<sub>150Ω</sub>"
         },
         {
           "id": "h",
           "title": "Part H",
           "content": "Calculate the real power associated with the 150 Ω resistor.",
           "need": "Express your answer in volt-amperes reactive to three significant figures.",
-          "answer": {
-            "name": "Q<sub>150Ω</sub>"
-          }
+          "answer": "Q<sub>150Ω</sub>"
         },
         {
           "id": "i",
           "title": "Part I",
           "content": "Calculate the real power associated with the inductor.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P<sub>60mH</sub>"
-          }
+          "answer": "P<sub>60mH</sub>"
         },
         {
           "id": "j",
           "title": "Part J",
           "content": "Calculate the reactive power associated with the inductor.",
           "need": "Express your answer in volt-amperes reactive to three significant figures.",
-          "answer": {
-            "name": "Q<sub>60mH</sub>"
-          }
+          "answer": "Q<sub>60mH</sub>"
         },
         {
           "id": "k",
           "title": "Part K",
           "content": "Calculate the real power associated with the capacitor.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P<sub>2μF</sub>"
-          }
+          "answer": "P<sub>2μF</sub>"
         },
         {
           "id": "l",
           "title": "Part L",
           "content": "Calculate the reactive power associated with the capacitor.",
           "need": "Express your answer in volt-amperes reactive to three significant figures.",
-          "answer": {
-            "name": "Q<sub>2μF</sub>"
-          }
+          "answer": "Q<sub>2μF</sub>"
         },
         {
           "id": "m",
           "title": "Part M",
           "content": "Find the total average power generated and the total average power absorbed.",
           "need": "Express your answers in watts to three significant figures separated by a comma.",
-          "answer": {
-            "name": "P<sub>gen</sub>, P<sub>abs</sub>"
-          }
+          "answer": "P<sub>gen</sub>, P<sub>abs</sub>"
         },
         {
           "id": "n",
           "title": "Part N",
           "content": "Find the total magnetizing vars generated and the total magnetizing vars absorbed.",
           "need": "Express your answers in volt-amperes reactive to three significant figures separated by a comma.",
-          "answer": {
-            "name": "Q<sub>gen</sub>, Q<sub>abs</sub>"
-          }
+          "answer": "Q<sub>gen</sub>, Q<sub>abs</sub>"
         }
       ]
     },
@@ -376,9 +318,7 @@
           "title": "Part A",
           "content": "Find the minimum value of inductive line reactance that will satisfy these constraints.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "X<sub>ℓ min</sub>"
-          },
+          "answer": "X<sub>ℓ min</sub>",
           "imageSrc": "chapter10/p6.jpg"
         },
         {
@@ -386,27 +326,21 @@
           "title": "Part B",
           "content": "Find the maximum value of inductive line reactance that will satisfy these constraints.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "X<sub>ℓ max</sub>"
-          }
+          "answer": "X<sub>ℓ max</sub>"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "For X<sub>ℓ min</sub> obtained in part A, find the magnitudes of the total magnetizing vars developed and the total magnetizing vars absorbed.",
           "need": "Express your answers in volt-amperes reactive to three significant figures separated by a comma.",
-          "answer": {
-            "name": "Q<sub>del</sub>, Q<sub>abs</sub>"
-          }
+          "answer": "Q<sub>del</sub>, Q<sub>abs</sub>"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "For X<sub>ℓ max</sub> obtained in part B, find the magnitudes of the total magnetizing vars developed and the total magnetizing vars absorbed.",
           "need": "Express your answers in volt-amperes reactive to three significant figures separated by a comma.",
-          "answer": {
-            "name": "Q<sub>del</sub>, Q<sub>abs</sub>"
-          }
+          "answer": "Q<sub>del</sub>, Q<sub>abs</sub>"
         }
       ]
     },
@@ -420,9 +354,7 @@
           "title": "Part A",
           "content": "Find the rms magnitude of V<sub>g</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "V<sub>g rms</sub>"
-          },
+          "answer": "V<sub>g rms</sub>",
           "imageSrc": "chapter10/p7.jpg"
         },
         {
@@ -430,9 +362,7 @@
           "title": "Part B",
           "content": "Find the phase angle of V<sub>g</sub>.",
           "need": "Express your answer using three significant figures.",
-          "answer": {
-            "name": "ϕ"
-          }
+          "answer": "ϕ"
         }
       ]
     },
@@ -446,9 +376,7 @@
           "title": "Part A",
           "content": "Calculate the rms value of the voltage (V<sub>s</sub>) at the sending end of the line.",
           "need": "Express your answer in volts to three significant figures. Enter your answer using angle notation. Express argument in degrees.",
-          "answer": {
-            "name": "V<sub>s</sub>"
-          },
+          "answer": "V<sub>s</sub>",
           "imageSrc": "chapter10/p8.jpg"
         },
         {
@@ -456,45 +384,35 @@
           "title": "Part B",
           "content": "Calculate the average power associated with the line impedance. Use positive value if the power is absorbed and negative value if the power is delivered.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P<sub>ℓ</sub>"
-          }
+          "answer": "P<sub>ℓ</sub>"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Calculate the reactive power associated with the line impedance. Use positive value if the reactive power is absorbed and negative value if the reactive power is delivered.",
           "need": "Express your answer in kilovolt-amperes reactive to three significant figures.",
-          "answer": {
-            "name": "Q<sub>ℓ</sub>"
-          }
+          "answer": "Q<sub>ℓ</sub>"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Calculate the average power at the sending end of the line associated with the line and the load. Use positive value if the power is absorbed and negative value if the power is delivered.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P<sub>sending end</sub>"
-          }
+          "answer": "P<sub>sending end</sub>"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "Calculate the reactive power at the sending end of the line associated with the line and the load. Use positive value if the reactive power is absorbed and negative value if the reactive power is delivered.",
           "need": "Express your answer in kilovolt-amperes reactive to three significant figures.",
-          "answer": {
-            "name": "Q<sub>sending end</sub>"
-          }
+          "answer": "Q<sub>sending end</sub>"
         },
         {
           "id": "f",
           "title": "Part F",
           "content": "Calculate the efficiency (η) of the line if the efficiency is defined as η = (P<sub>load</sub> / P<sub>sending end</sub>) x 100%.",
           "need": "Express your answer as a percentage to four significant figures.",
-          "answer": {
-            "name": "η"
-          }
+          "answer": "η"
         }
       ]
     },
@@ -508,9 +426,7 @@
           "title": "Part A",
           "content": "Find the average power dissipated in the line in the figure.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P"
-          },
+          "answer": "P",
           "imageSrc": "chapter10/p9.jpg"
         },
         {
@@ -518,36 +434,28 @@
           "title": "Part B",
           "content": "Find the capacitive reactance that, when connected in parallel, with the load will make the load look purely resistive.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "X<sub>C</sub>"
-          }
+          "answer": "X<sub>C</sub>"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "What is the equivalent impedance of the load in Part B?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "Z<sub>L</sub>"
-          }
+          "answer": "Z<sub>L</sub>"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Find the average power dissipated in the line when the capacitive reactance is connected across the load.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P"
-          }
+          "answer": "P"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "Express the power loss in Part D as a percentage of the power loss found in Part A.",
           "need": "Express your answer as a percentage using three significant figures.",
-          "answer": {
-            "name": "P<sub>d</sub> / P<sub>a</sub>"
-          }
+          "answer": "P<sub>d</sub> / P<sub>a</sub>"
         }
       ]
     },
@@ -561,9 +469,7 @@
           "title": "Part A",
           "content": "Determine the load impedance for the circuit that will result in maximum average power being transferred to the load.",
           "need": "Express your answer in ohms to three significant figures. Enter your answer in rectangular form.",
-          "answer": {
-            "name": "Z<sub>L</sub>"
-          },
+          "answer": "Z<sub>L</sub>",
           "imageSrc": "chapter10/p10-a.jpg"
         },
         {
@@ -571,18 +477,14 @@
           "title": "Part B",
           "content": "Determine the maximum average power delivered to the load from Part A.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P"
-          }
+          "answer": "P"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Determine the maximum average power delivered to the load if  ZL consists of two components from the tables below whose values yield a maximum average power closest to the value calculated in Part B.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "P"
-          },
+          "answer": "P",
           "imageSrc": "chapter10/p10-c.png"
         }
       ]
@@ -597,9 +499,7 @@
           "title": "Part A",
           "content": "Calculate the average power delivered to the load when R<sub>o</sub> = 2000 Ω and C<sub>o</sub> = 0.2 μF.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "P"
-          },
+          "answer": "P",
           "imageSrc": "chapter10/p11.jpg"
         },
         {
@@ -607,54 +507,42 @@
           "title": "Part B",
           "content": "Determine the settings of R<sub>o</sub> and C<sub>o</sub> that will result in the most average power being transferred to R<sub>o</sub>. Find R<sub>o</sub>.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "R<sub>o</sub>"
-          }
+          "answer": "R<sub>o</sub>"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Find C<sub>o</sub>.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "C<sub>o</sub>"
-          }
+          "answer": "C<sub>o</sub>"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "What is the most average power in Parts B and C?",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "P"
-          }
+          "answer": "P"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "If there are no constraints on R<sub>o</sub> and C<sub>o</sub>, what is the maximum average power that can be delivered to a load?",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "P"
-          }
+          "answer": "P"
         },
         {
           "id": "f",
           "title": "Part F",
           "content": "What is the value of R<sub>o</sub> for the condition of Part E?",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "R<sub>o</sub>"
-          }
+          "answer": "R<sub>o</sub>"
         },
         {
           "id": "g",
           "title": "Part G",
           "content": "What is the value of C<sub>o</sub> for the condition of Part E?",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "C<sub>o</sub>"
-          }
+          "answer": "C<sub>o</sub>"
         }
       ]
     }

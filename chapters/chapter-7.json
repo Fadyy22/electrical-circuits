@@ -18,9 +18,7 @@
           "title": "Part A",
           "content": "What percentage of the initial energy stored in the inductor is eventually dissipated in the 40 Ω resistor?",
           "need": "Express your answer as a percentage using three significant figures.",
-          "answer": {
-            "name": "% diss (40Ω)"
-          },
+          "answer": "% diss (40Ω)",
           "imageSrc": "chapter7/p1.jpg"
         }
       ]
@@ -35,9 +33,7 @@
           "title": "Part A",
           "content": "How many microseconds after the switches are open is the energy dissipated in the 4 kΩ resistor <input id='p2-a-percent' type='number'> % of the initial energy stored in the 6  H inductor?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "t"
-          },
+          "answer": "t",
           "imageSrc": "chapter7/p2.jpg"
         },
         {
@@ -45,9 +41,7 @@
           "title": "Part B",
           "content": "What percentage of the total energy stored in the inductor at the calculated time has been dissipated?",
           "need": "Express your answer using three significant figures.",
-          "answer": {
-            "name": "%"
-          }
+          "answer": "%"
         }
       ]
     },
@@ -61,9 +55,7 @@
           "title": "Part A",
           "content": "Find R.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R"
-          },
+          "answer": "R",
           "imageSrc": "chapter7/p3.jpg"
         },
         {
@@ -71,36 +63,28 @@
           "title": "Part B",
           "content": "Find τ (in milliseconds).",
           "need": "Express your answer in milliseconds to three significant figures.",
-          "answer": {
-            "name": "τ"
-          }
+          "answer": "τ"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Find L.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "L"
-          }
+          "answer": "L"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Find the initial energy stored in the inductor.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "W<sub>initial</sub>"
-          }
+          "answer": "W<sub>initial</sub>"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "Find the time (in milliseconds) it takes to dissipate <input id='p3-e-percent' type='number'> % of the initial stored energy.",
           "need": "Express your answer in milliseconds to three significant figures.",
-          "answer": {
-            "name": "t"
-          }
+          "answer": "t"
         }
       ]
     },
@@ -114,9 +98,7 @@
           "title": "Part A",
           "content": "Write the expression for the capacitor voltage, v(t), for t≥0.",
           "need": "Express your answer in terms of t, where t is in seconds.",
-          "answer": {
-            "name": "v(t)"
-          },
+          "answer": "v(t)",
           "imageSrc": "chapter7/p4.jpg"
         }
       ]
@@ -144,9 +126,7 @@
           "title": "Part A",
           "content": "Find R.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R"
-          },
+          "answer": "R",
           "imageSrc": "chapter7/p6.jpg"
         },
         {
@@ -154,36 +134,28 @@
           "title": "Part B",
           "content": "Find C.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "C"
-          }
+          "answer": "C"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Find τ (in milliseconds).",
           "need": "Express your answer in milliseconds to three significant figures.",
-          "answer": {
-            "name": "τ"
-          }
+          "answer": "τ"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Find the initial energy stored in the capacitor.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "W<sub>0</sub>"
-          }
+          "answer": "W<sub>0</sub>"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "Find the amount of energy that has been dissipated by the resistor <input id='p6-e-t' type='number'> ms after the voltage begins to decay.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "W<sub>diss</sub>"
-          }
+          "answer": "W<sub>diss</sub>"
         }
       ]
     },
@@ -210,9 +182,7 @@
           "title": "Part A",
           "content": "Find v<sub>C</sub>(0<sup>+</sup>).",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "v<sub>C</sub>(0<sup>+</sup>)"
-          },
+          "answer": "v<sub>C</sub>(0<sup>+</sup>)",
           "imageSrc": "chapter5/p8.jpg"
         },
         {
@@ -220,27 +190,21 @@
           "title": "Part B",
           "content": "Find τ for t>0.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "τ"
-          }
+          "answer": "τ"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Find v<sub>C</sub>(∞).",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "v<sub>C</sub>(∞)"
-          }
+          "answer": "v<sub>C</sub>(∞)"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Find i(0<sup>+</sup>).",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i(0<sup>+</sup>)"
-          }
+          "answer": "i(0<sup>+</sup>)"
         },
         {
           "id": "e",
@@ -278,9 +242,7 @@
             }
           ],
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "v<sub>C</sub>(0<sup>+</sup>)"
-          },
+          "answer": "v<sub>C</sub>(0<sup>+</sup>)",
           "imageSrc": "chapter7/p9.jpg"
         },
         {
@@ -288,27 +250,21 @@
           "title": "Part B",
           "content": "Calculate the final voltage on the capacitor.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "v<sub>C</sub>(∞)"
-          }
+          "answer": "v<sub>C</sub>(∞)"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Calculate the time constant for t>0.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "τ"
-          }
+          "answer": "τ"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Calculate the length of time required for the capacitor voltage to reach zero after the switch is moved to position b.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "t"
-          }
+          "answer": "t"
         }
       ]
     },

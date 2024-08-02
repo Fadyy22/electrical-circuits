@@ -26,9 +26,7 @@
           "description": "Find the phasor transform of a sinusoidal source defined using the sine function",
           "content": "What is the phasor transform of a current source described as i(t) = 300sin(500t + 60<sup>∘</sup>) mA?",
           "need": "Express your answer as a complex number in polar form. The phase angle will be considered to be in degrees. Express your answer using three significant figures.",
-          "answer": {
-            "name": "I"
-          }
+          "answer": "I"
         },
         {
           "id": "d",
@@ -36,9 +34,7 @@
           "description": "Use phasors to find the value for a sum of sinusoids",
           "content": "Suppose you want to find the sum of two sinusoidal voltages, given as follows:<br/>v<sub>1</sub>(t) = V<sub>1</sub> cos(ωt + ϕ1)   and   v<sub>2</sub>(t) = V<sub>2</sub> cos(ωt + ϕ2).<br/>If you stay in the time domain, you will have to use trigonometric identities to perform the addition.  But if you transform to the frequency domain, you can simply add the phasors V<sub>1</sub> and V<sub>2</sub> as complex numbers using your calculator. Your answer will be a phasor, so you will need to inverse phasor-transform it to get the answer in the time domain.  This is an example of a problem that is easier to solve in the frequency domain than in the time domain.<br/>Use phasor techniques to find an expression for v(t) expressed as a single cosine function, where<br/>v(t) = [100cos(300t + 45<sup>∘</sup>) + 500cos(300t - 60<sup>∘</sup>)] V.",
           "need": "Enter your expression using the cosine function. Round real numbers using two digits after the decimal point. Any angles used should be in degrees.",
-          "answer": {
-            "name": "v(t)"
-          }
+          "answer": "v(t)"
         },
         {
           "id": "e",
@@ -46,9 +42,7 @@
           "description": "Use phasors to subtract one sinusoid from another sinusoid",
           "content": "Suppose you want to find the difference of two sinusoidal currents, given as follows:<br/>i<sub>1</sub>(t) = I<sub>1</sub> cos(ωt + ϕ1)   and   i<sub>2</sub>(t) = I<sub>2</sub> cos(ωt + ϕ2).<br/>If you stay in the time domain, you will have to use trigonometric identities to perform the subtraction.  But if you transform to the frequency domain, you can simply subtract the phasors I<sub>1</sub> and I<sub>2</sub> as complex numbers using your calculator.  Make sure that all of your time-domain currents are represented using the cosine function before you apply the phasor transform.  Your answer will be a phasor, so you will need to inverse phasor-transform it to get the answer in the time domain.  This is an example of a problem that is easier to solve in the frequency domain than in the time domain.<br/>Use phasor techniques to find an expression for  i(t) expressed as a single cosine function, where i(t) = [250cos(377t + 30<sup>∘</sup>) - 150sin(377t + 140<sup>∘</sup>)] mA.",
           "need": "Enter your expression using the cosine function. Round real numbers using two digits after the decimal point. Any angles used should be in degrees.",
-          "answer": {
-            "name": "v(t)"
-          }
+          "answer": "v(t)"
         },
         {
           "id": "f",
@@ -69,63 +63,49 @@
           "title": "Part A",
           "content": "What is the maximum amplitude of the voltage?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "v<sub>max</sub>"
-          }
+          "answer": "v<sub>max</sub>"
         },
         {
           "id": "b",
           "title": "Part B",
           "content": "What is the frequency in hertz?",
           "need": "Express your answer in hertz to three significant figures.",
-          "answer": {
-            "name": "f"
-          }
+          "answer": "f"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "What is the frequency in radians per second?",
           "need": "Express your answer in radians per second to three significant figures.",
-          "answer": {
-            "name": "w"
-          }
+          "answer": "w"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "What is the phase angle in radians?",
           "need": "Express your answer in radians to three significant figures.",
-          "answer": {
-            "name": "θ"
-          }
+          "answer": "θ"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "What is the phase angle in degrees?",
           "need": "Express your answer in degrees to three significant figures.",
-          "answer": {
-            "name": "θ"
-          }
+          "answer": "θ"
         },
         {
           "id": "f",
           "title": "Part F",
           "content": "What is the period?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "T"
-          }
+          "answer": "T"
         },
         {
           "id": "g",
           "title": "Part G",
           "content": "What is the first time after t = 0 that v = -30 V?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "t"
-          }
+          "answer": "t"
         },
         {
           "id": "h",
@@ -137,9 +117,7 @@
           "title": "Part I",
           "content": "What is the minimum value of milliseconds that the function must be shifted to the left if the expression for v(t) is 30sin(100πt)V?",
           "need": "Express your answer in milliseconds to three significant figures.",
-          "answer": {
-            "name": "t"
-          }
+          "answer": "t"
         }
       ]
     },
@@ -153,9 +131,7 @@
           "title": "Part A",
           "content": "Find the steady-state expression for v<sub>o</sub> (t) if v<sub>g</sub> = <input id='p3-a-V' type='number'/> sin 50,000tV . Suppose that v<sub>o</sub>(t) = V<sub>0</sub> cos(ωt + ϕ), where -180<sup>∘</sup><ϕ≤180<sup>∘</sup>. Determine the values V<sub>0</sub>, ω, and ϕ.",
           "need": "Express your answers using three significant figures separated by commas. Express V<sub>0</sub> in volts, ω in radians per second, ϕ in degrees.",
-          "answer": {
-            "name": "V<sub>0</sub>, ω, ϕ"
-          },
+          "answer": "V<sub>0</sub>, ω, ϕ",
           "imageSrc": "chapter9/p3.png"
         }
       ]
@@ -169,9 +145,7 @@
           "title": "Part A",
           "content": "Find the steady-state expression for v<sub>o</sub> in the circuit of (Figure 1) if  i<sub>g</sub> = <input id='p4-a-I' type='number'/> cos 2000t A. Suppose that v<sub>o</sub>(t) = V<sub>0</sub> cos(ωt + ϕ), where -180∘<ϕ≤180<sup>∘</sup>. Determine the values V<sub>0</sub>, ω, ϕ.",
           "need": "Express your answers using three significant figures separated by commas. Express V<sub>0</sub> in volts, ω in radians per second, ϕ in degrees.",
-          "answer": {
-            "name": "V<sub>0</sub>, ω, ϕ"
-          },
+          "answer": "V<sub>0</sub>, ω, ϕ",
           "imageSrc": "chapter9/p4.jpg"
         }
       ]
@@ -186,9 +160,7 @@
           "title": "Part A",
           "content": "Find the minimum value of L such that i<sub>g</sub> is in phase with v<sub>g</sub> when the circuit is operating in the steady state.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "L<sub>min</sub>"
-          },
+          "answer": "L<sub>min</sub>",
           "imageSrc": "chapter9/p5.jpg"
         },
         {
@@ -196,27 +168,21 @@
           "title": "Part B",
           "content": "ind the maximum value of L such that i<sub>g</sub> is in phase with v<sub>g</sub> when the circuit is operating in the steady state.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "L<sub>max</sub>"
-          }
+          "answer": "L<sub>max</sub>"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "For the value of L found in Part A, find the steady-state expressions for i<sub>g</sub>. Suppose that i<sub>g</sub> (t) = I<sub>1</sub> cos(ω<sub>1</sub>t + ϕ<sub>1</sub>), where -180<sup>∘</sup> < ϕ1 ≤ 180<sup>∘</sup>. Determine the values I<sub>1</sub>, ω<sub>1</sub>, ϕ<sub>1</sub>.",
           "need": "Express your answers using three significant figures separated by commas.",
-          "answer": {
-            "name": "I<sub>1</sub>, ω<sub>1</sub>, ϕ<sub>1</sub>"
-          }
+          "answer": "I<sub>1</sub>, ω<sub>1</sub>, ϕ<sub>1</sub>"
         },
         {
           "id": "d",
           "title": "Part D",
-          "content": "For the value of L found in Part B, find the steady-state expressions for i<sub>g</sub>. Suppose that i<sub>g</sub> (t) = I<sub>2</sub> cos(ω<sub>2</sub>t + ϕ<sub>2</sub>), where -180<sub>∘</sub> < ϕ<sub>2</sub> ≤ 180<sub>∘</sub>. Determine the values I<sub>2</sub>, ω<sub>2</sub>, ϕ<sub>2</sub>.",
+          "content": "For the value of L found in Part B, find the steady-state expressions for i<sub>g</sub>. Suppose that i<sub>g</sub> (t) = I<sub>2</sub> cos(ω<sub>2</sub>t + ϕ<sub>2</sub>), where -180<sub>∘</sub> <sub ϕ<sub>2</sub> ≤ 180<sub>∘</sub>. Determine the values I<sub>2</sub>, ω<sub>2</sub>, ϕ<sub>2</sub>.",
           "need": "Express your answers using three significant figures separated by commas.",
-          "answer": {
-            "name": "I<sub>2</sub>, ω<sub>2</sub>, ϕ<sub>2</sub>"
-          }
+          "answer": "I<sub>2</sub>, ω<sub>2</sub>, ϕ<sub>2</sub>"
         }
       ]
     },
@@ -238,9 +204,7 @@
           "title": "Part A",
           "content": "Find the value of Z<sub>N</sub>.",
           "need": "Express your answer in ohms to three significant figures. Enter your answer in rectangular form.",
-          "answer": {
-            "name": "Z<sub>N</sub>"
-          },
+          "answer": "Z<sub>N</sub>",
           "imageSrc": "chapter9/p6.jpg"
         },
         {
@@ -248,9 +212,7 @@
           "title": "Part B",
           "content": "Find the value of I<sub>N</sub>.",
           "need": "Express your answer in amperes to three significant figures. Enter your answer in rectangular form.",
-          "answer": {
-            "name": "I<sub>N</sub>"
-          }
+          "answer": "I<sub>N</sub>"
         }
       ]
     },
@@ -272,9 +234,7 @@
           "title": "Part A",
           "content": "Find the value of I<sub>N</sub>.",
           "need": "Express your answer in amperes to three significant figures. Enter your answer in rectangular form.",
-          "answer": {
-            "name": "I<sub>N</sub>"
-          },
+          "answer": "I<sub>N</sub>",
           "imageSrc": "chapter9/p7.jpg"
         },
         {
@@ -282,9 +242,7 @@
           "title": "Part B",
           "content": "Find the value of Z<sub>N</sub>.",
           "need": "Express your answer in ohms to three significant figures. Enter your answer in rectangular form.",
-          "answer": {
-            "name": "Z<sub>N</sub>"
-          }
+          "answer": "Z<sub>N</sub>"
         }
       ]
     },
@@ -298,9 +256,7 @@
           "title": "Part A",
           "content": "Find the numerical value of I<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "I<sub>o</sub>"
-          },
+          "answer": "I<sub>o</sub>",
           "imageSrc": "chapter9/p8.jpg"
         },
         {
@@ -308,18 +264,14 @@
           "title": "Part B",
           "content": "Find the numerical value of ω.",
           "need": "Express your answer in radians per second to three significant figures.",
-          "answer": {
-            "name": "ω"
-          }
+          "answer": "ω"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Find the numerical value of ϕ.",
           "need": "Express your answer in degrees to three significant figures.",
-          "answer": {
-            "name": "ϕ"
-          }
+          "answer": "ϕ"
         }
       ]
     },
@@ -333,18 +285,14 @@
           "title": "Part A",
           "content": "Express the voltage in polar form.",
           "need": "Express your answer in volts to three significant figures. Enter your answer using angle notation. Express argument in degrees.",
-          "answer": {
-            "name": "V<sub>o</sub>"
-          }
+          "answer": "V<sub>o</sub>"
         },
         {
           "id": "b",
           "title": "Part B",
           "content": "Express the voltage in rectangular form.",
           "need": "Express your answer in volts to three significant figures. Enter your answer in rectangular form.",
-          "answer": {
-            "name": "V<sub>o</sub>"
-          }
+          "answer": "V<sub>o</sub>"
         }
       ]
     },
@@ -366,9 +314,7 @@
           "title": "Part A",
           "content": "Find the numerical value of V<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "V<sub>o</sub>"
-          },
+          "answer": "V<sub>o</sub>",
           "imageSrc": "chapter9/p10.jpg"
         },
         {
@@ -376,18 +322,14 @@
           "title": "Part B",
           "content": "Find the numerical value of ϕ.",
           "need": "Express your answer in degrees to three significant figures.",
-          "answer": {
-            "name": "ϕ"
-          }
+          "answer": "ϕ"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Find the numerical value of ω.",
           "need": "Express your answer in radians per second to three significant figures.",
-          "answer": {
-            "name": "ω"
-          }
+          "answer": "ω"
         }
       ]
     },
@@ -409,9 +351,7 @@
           "title": "Part A",
           "content": "Find the numerical value of V<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "V<sub>o</sub>"
-          },
+          "answer": "V<sub>o</sub>",
           "imageSrc": "chapter9/p11.jpg"
         },
         {
@@ -419,18 +359,14 @@
           "title": "Part B",
           "content": "Find the numerical value of ϕ.",
           "need": "Express your answer in degrees to three significant figures.",
-          "answer": {
-            "name": "ϕ"
-          }
+          "answer": "ϕ"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Find the numerical value of ω.",
           "need": "Express your answer in radians per second to three significant figures.",
-          "answer": {
-            "name": "ω"
-          }
+          "answer": "ω"
         }
       ]
     },
@@ -452,9 +388,7 @@
           "title": "Part A",
           "content": "Find the numerical value of I<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "I<sub>o</sub>"
-          },
+          "answer": "I<sub>o</sub>",
           "imageSrc": "chapter9/p12.jpg"
         },
         {
@@ -462,18 +396,14 @@
           "title": "Part B",
           "content": "Find the numerical value of ϕ.",
           "need": "Express your answer in degrees to three significant figures.",
-          "answer": {
-            "name": "ϕ"
-          }
+          "answer": "ϕ"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Find the numerical value of ω.",
           "need": "Express your answer in radians per second to three significant figures.",
-          "answer": {
-            "name": "ω"
-          }
+          "answer": "ω"
         }
       ]
     },
@@ -501,54 +431,42 @@
           "title": "Part B",
           "content": "Write the steady-state expression for v<sub>o</sub> (t) as v<sub>o</sub> (t) = V′<sub>o</sub> cos(ω′t + ϕ′) + V′′<sub>o</sub> cos(ω′′t + ϕ′′), where -180<sup>∘</sup> < ϕ′ ≤ 180<sup>∘</sup>, -180<sup>∘</sup> < ϕ′′ ≤ 180<sup>∘</sup>, and  ω′ >ω′′. Find the numerical value of V′<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "V′<sub>o</sub>"
-          }
+          "answer": "V′<sub>o</sub>"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Find the numerical value of ϕ′.",
           "need": "Express your answer in degrees to three significant figures.",
-          "answer": {
-            "name": "ϕ′"
-          }
+          "answer": "ϕ′"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Find the numerical value of ω′.",
           "need": "Express your answer in radians per second to three significant figures.",
-          "answer": {
-            "name": "ω′"
-          }
+          "answer": "ω′"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "Find the numerical value of V′′<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "V′′<sub>o</sub>"
-          }
+          "answer": "V′′<sub>o</sub>"
         },
         {
           "id": "f",
           "title": "Part F",
           "content": "Find the numerical value of ϕ′′.",
           "need": "Express your answer in degrees to three significant figures.",
-          "answer": {
-            "name": "ϕ′′"
-          }
+          "answer": "ϕ′′"
         },
         {
           "id": "g",
           "title": "Part G",
           "content": "Find the numerical value of ω′′.",
           "need": "Express your answer in radians per second to three significant figures.",
-          "answer": {
-            "name": "ω′′"
-          }
+          "answer": "ω′′"
         }
       ]
     }

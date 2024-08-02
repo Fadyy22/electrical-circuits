@@ -24,9 +24,7 @@
           "title": "Part A",
           "content": "Use a series of source transformations to find i<sub>o</sub> in the circuit.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>o</sub>"
-          },
+          "answer": "i<sub>o</sub>",
           "imageSrc": "chapter5/p1.jpg"
         },
         {
@@ -34,9 +32,7 @@
           "title": "Part B",
           "content": "Verify your solution by using the mesh-current method to find i<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>o</sub>"
-          }
+          "answer": "i<sub>o</sub>"
         }
       ]
     },
@@ -50,9 +46,7 @@
           "title": "Part A",
           "content": "Find the equivalent voltage.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "v<sub>Th</sub>"
-          },
+          "answer": "v<sub>Th</sub>",
           "imageSrc": "chapter5/p2.jpg"
         },
         {
@@ -60,9 +54,7 @@
           "title": "Part B",
           "content": "Find the equivalent resistance.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "R<sub>Th</sub>"
-          }
+          "answer": "R<sub>Th</sub>"
         }
       ]
     },
@@ -90,9 +82,7 @@
           "title": "Part A",
           "content": "Find the equivalent voltage.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "v<sub>Th</sub>"
-          },
+          "answer": "v<sub>Th</sub>",
           "imageSrc": "chapter5/p3.jpg"
         },
         {
@@ -100,18 +90,14 @@
           "title": "Part B",
           "content": "Find the equivalent resistance.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "R<sub>Th</sub>"
-          }
+          "answer": "R<sub>Th</sub>"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Solve for the Thevenin resistance by removing the independent sources.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "R<sub>Th</sub>"
-          }
+          "answer": "R<sub>Th</sub>"
         }
       ]
     },
@@ -133,9 +119,7 @@
           "title": "Part A",
           "content": "Find the equivalent current.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>N</sub>"
-          },
+          "answer": "i<sub>N</sub>",
           "imageSrc": "chapter5/p4.jpg"
         },
         {
@@ -143,9 +127,7 @@
           "title": "Part B",
           "content": "Find the equivalent resistance.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>N</sub>"
-          }
+          "answer": "R<sub>N</sub>"
         }
       ]
     },
@@ -167,9 +149,7 @@
           "title": "Part A",
           "content": "Find the value of R<sub>o</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>o</sub>"
-          },
+          "answer": "R<sub>o</sub>",
           "imageSrc": "chapter5/p5-a.jpg"
         },
         {
@@ -177,18 +157,14 @@
           "title": "Part B",
           "content": "Find the maximum power that can be delivered to R<sub>0</sub>.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "p<sub>max</sub>"
-          }
+          "answer": "p<sub>max</sub>"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Find a resistor from the table closest to the value in part A.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>standard</sub>"
-          },
+          "answer": "R<sub>standard</sub>",
           "imageSrc": "chapter5/p5-c.png"
         },
         {
@@ -196,9 +172,7 @@
           "title": "Part D",
           "content": "How much power is delivered to this resistor?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "p<sub>del</sub>"
-          }
+          "answer": "p<sub>del</sub>"
         }
       ]
     },
@@ -220,9 +194,7 @@
             }
           ],
           "need": "Enter your answers numerically separated by a comma.",
-          "answer": {
-            "name": "R<sub>o</sub>"
-          },
+          "answer": "R<sub>o</sub>",
           "imageSrc": "chapter5/p6.jpg"
         }
       ]
@@ -251,9 +223,7 @@
           "title": "Part A",
           "content": "What is the value of i<sub>o</sub>?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>o</sub>"
-          },
+          "answer": "i<sub>o</sub>",
           "imageSrc": "chapter5/p7.png"
         },
         {
@@ -261,9 +231,7 @@
           "title": "Part B",
           "content": "What is the value of v<sub>o</sub>?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "v<sub>o</sub>"
-          }
+          "answer": "v<sub>o</sub>"
         }
       ]
     },
@@ -290,9 +258,7 @@
               "unit": "A"
             }
           ],
-          "answer": {
-            "name": "i<sub>o</sub>"
-          },
+          "answer": "i<sub>o</sub>",
           "imageSrc": "chapter5/p8.jpg"
         }
       ]
@@ -321,9 +287,7 @@
           ],
 
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "v<sub>o</sub>"
-          },
+          "answer": "v<sub>o</sub>",
           "imageSrc": "chapter5/p9.png"
         }
       ]
@@ -352,9 +316,7 @@
           "title": "Part A",
           "content": "Find the equivalent current.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "i<sub>N</sub>"
-          },
+          "answer": "i<sub>N</sub>",
           "imageSrc": "chapter5/p10.jpg"
         },
         {
@@ -362,9 +324,7 @@
           "title": "Part B",
           "content": "Find the equivalent resistance.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>N</sub>"
-          }
+          "answer": "R<sub>N</sub>"
         }
       ]
     },
@@ -378,9 +338,7 @@
           "title": "Part A",
           "content": "Find the equivalent current.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "I<sub>N</sub>"
-          },
+          "answer": "I<sub>N</sub>",
           "imageSrc": ["chapter5/p11-1.png", "chapter5/p11-2.jpg"]
         },
         {
@@ -388,9 +346,7 @@
           "title": "Part B",
           "content": "Find the equivalent resistance.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R<sub>N</sub>"
-          }
+          "answer": "R<sub>N</sub>"
         }
       ]
     },
@@ -411,9 +367,7 @@
               "unit": "kΩ"
             }
           ],
-          "answer": {
-            "name": "v<sub>0</sub>"
-          },
+          "answer": "v<sub>0</sub>",
           "imageSrc": "chapter5/p12.jpg"
         },
         {
@@ -421,9 +375,7 @@
           "title": "Part B",
           "content": "Find the voltage v<sub>0</sub> in the circuit using the mesh-current method.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "v<sub>0</sub>"
-          }
+          "answer": "v<sub>0</sub>"
         }
       ]
     }

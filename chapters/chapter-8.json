@@ -10,9 +10,7 @@
           "title": "Part A",
           "content": "Calculate the minimum root of the characteristic equation that describes the voltage response of the circuit.",
           "need": "Express your answer in radians per second to three significant figures.",
-          "answer": {
-            "name": "s<sub>1</sub>"
-          },
+          "answer": "s<sub>1</sub>",
           "imageSrc": "chapter8/p1.jpg"
         },
         {
@@ -20,9 +18,7 @@
           "title": "Part B",
           "content": "Calculate the maximum root of the characteristic equation that describes the voltage response of the circuit.",
           "need": "Express your answer in radians per second to three significant figures.",
-          "answer": {
-            "name": "s<sub>2</sub>"
-          }
+          "answer": "s<sub>2</sub>"
         },
         {
           "id": "c",
@@ -34,27 +30,21 @@
           "title": "Part D",
           "content": "What value of R will yield a damped frequency of <input id='p1-d-X' type='number'/> rad/s?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R"
-          }
+          "answer": "R"
         },
         {
           "id": "e",
           "title": "Part E",
           "content": "What are the roots of the characteristic equation for the value of R found in Part D?",
           "need": "Express your answers in radians per second to three significant figures separated by a comma. Enter your answers in rectangular form.",
-          "answer": {
-            "name": "s<sub>1</sub>, s<sub>2</sub>"
-          }
+          "answer": "s<sub>1</sub>, s<sub>2</sub>"
         },
         {
           "id": "f",
           "title": "Part F",
           "content": "What value of R will result in a critically damped response?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R"
-          }
+          "answer": "R"
         }
       ]
     },
@@ -68,9 +58,7 @@
           "title": "Part A",
           "content": "Find the value of R.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "R"
-          },
+          "answer": "R",
           "imageSrc": "chapter8/p2.jpg"
         },
         {
@@ -78,27 +66,21 @@
           "title": "Part B",
           "content": "Find the value of C.",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "C"
-          }
+          "answer": "C"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Find the value of D<sub>1</sub>.",
           "need": "Express your answer in volts per second to three significant figures.",
-          "answer": {
-            "name": "D<sub>1</sub>"
-          }
+          "answer": "D<sub>1</sub>"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Find the value of D<sub>2</sub>.",
           "need": "Express your answer in volts to three significant figures.",
-          "answer": {
-            "name": "D<sub>2</sub>"
-          }
+          "answer": "D<sub>2</sub>"
         },
         {
           "id": "e",
@@ -157,9 +139,7 @@
               "unit": "Ω"
             }
           ],
-          "answer": {
-            "name": "s1, s1"
-          }
+          "answer": "s1, s1"
         },
         {
           "id": "c",
@@ -180,9 +160,7 @@
               "unit": "Ω"
             }
           ],
-          "answer": {
-            "name": "s1, s2"
-          }
+          "answer": "s1, s2"
         }
       ]
     },
@@ -245,9 +223,7 @@
           "title": "Part A",
           "content": "Find the value of R.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "R"
-          },
+          "answer": "R",
           "imageSrc": "chapter8/p9.jpg"
         },
         {
@@ -255,27 +231,21 @@
           "title": "Part B",
           "content": "Find the value of L.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "L"
-          }
+          "answer": "L"
         },
         {
           "id": "c",
           "title": "Part C",
           "content": "Find the value of B<sub>1</sub>.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "B<sub>1</sub>"
-          }
+          "answer": "B<sub>1</sub>"
         },
         {
           "id": "d",
           "title": "Part D",
           "content": "Find the value of B<sub>2</sub>.",
           "need": "Express your answer with the appropriate units.",
-          "answer": {
-            "name": "B<sub>2</sub>"
-          }
+          "answer": "B<sub>2</sub>"
         }
       ]
     },
@@ -307,9 +277,7 @@
           "title": "Part A",
           "content": "What is the initial value of v<sub>a</sub>?",
           "need": "Express your answer to three significant figures and include the appropriate units.",
-          "answer": {
-            "name": "v<sub>a</sub>"
-          },
+          "answer": "v<sub>a</sub>",
           "imageSrc": "chapter8/p11.jpg"
         },
         {
@@ -317,9 +285,7 @@
           "title": "Part B",
           "content": "What is the initial value of dv<sub>a</sub>/dt?",
           "need": "Express your answer in volts per second to three significant figures.",
-          "answer": {
-            "name": "dv<sub>a</sub>/dt"
-          }
+          "answer": "dv<sub>a</sub>/dt"
         },
         {
           "id": "c",
