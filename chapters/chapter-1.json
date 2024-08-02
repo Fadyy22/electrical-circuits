@@ -1,3 +1,188 @@
 {
-  "problems": [{}]
+  "problems": [
+    {
+      "id": 1,
+      "title": "Problem 1",
+      "content": "",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "For most answers, you will simply enter your numeric answer directly into the space provided to the right of the equal sign. Answer the following question by typing the numeric answer into the answer box.<br/>If you have a gross of items, you have 144 items. If you buy a gross of eggs, how many dozen eggs do you have?",
+          "need": "Express your answer in dozens. Do not enter the units; they are provided to the right of the answer box.",
+          "answer": {
+            "name": "number of eggs"
+          }
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "When entering large numbers in the answer box, do not use commas. For example, enter 1276400 for the number 1,276,400. Do not enter 1,276,400. If you accidentally enter commas, you will get a message that your answer has the wrong number of terms. Answer the following question by typing the numeric answer into the answer box. What is the sum of 9260 and 3240?",
+          "need": "Express your answer numerically to at least three significant figures.",
+          "answer": {
+            "name": "sum"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Practice entering numbers that include a power of 10 by entering the diameter of a hydrogen atom in its ground state, d<sub>H</sub> = 10.6 x 10<sup>-11</sup>m, into the answer box.",
+          "need": "Express the diameter of a ground-state hydrogen atom in meters using a power of 10. Do not enter the units; they are provided to the right of the answer box.",
+          "answer": {
+            "name": "d<sub>H</sub>"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "If you are asked to provide a set of two or more numeric answers, separate them with commas. For example, to provide the year that Sputnik (the first satellite to be sent into orbit around the Earth) was launched and the year humans first walked on the Moon, you would enter 1957,1969 in the answer box. A rectangle has a length of 5.50 m and a width of 12.0 m. What are the perimeter and area of this rectangle?",
+          "need": "Enter the perimeter and area numerically separated by a comma. The perimeter should be given in meters and the area in square meters. Do not enter the units; they are provided to the right of the answer box.",
+          "answer": {
+            "name": "perimeter, area"
+          }
+        },
+        {}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Problem 2",
+      "content": "",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Answer the following question by entering the numeric value with appropriate units.<br/>If the length of one side of a square is 12.0 m, what is the perimeter of the square?",
+          "need": "Express the perimeter with the appropriate units.",
+          "answer": {
+            "name": "perimeter"
+          }
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "When numbers are very small or very large, it is convenient to either express the value in scientific notation and/or by using a prefix with the unit.<br/>A pain-relieving pill has a mass of 0.005 g. Express the pill's mass in grams using scientific notation or in milligrams.",
+          "need": "Express your answer in scientific notation to one significant figure or use a prefix on the unit.",
+          "answer": {
+            "name": "mass"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "You can also enter units that are combinations of other units. Keep in mind that you have to indicate the multiplication of units explicitly either with a multiplication dot or a dash. You can add a multiplication dot by selecting the dot from the Templates menu.<br/>The weight of an object is the product of its mass, m, and the acceleration of gravity, g (where g = 9.8 m/s<sup>2</sup> ). If an object's mass is m = 10.kg, what is its weight?",
+          "need": "Express the weight with the appropriate units.",
+          "answer": {
+            "name": "weight"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "You can enter units that are combinations of units with prefixes. However, you must maintain the same unit system given in the problem. For example, this question uses the SI unit system. Therefore an answer in U.S. customary units, such as miles per hour would not be accepted as correct.<br/>A car traveling with constant speed travels 150 km in 7200 s. What is the speed of the car?",
+          "need": "Express the speed with the appropriate units."
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "You can enter compound units that are combinations of other units that are multiplied together. To enter the ⋅ explicitly, type (shift + 8) on the keyboard, or use the template in the Templates menu.<br/>Torque can be calculated by multiplying the force (N) applied at 90<sup>∘</sup> to the lever arm at a distance (m) from the pivot point (point of rotation), the compound SI unit for the torque is N⋅m. If the force (at 90<sup>∘</sup> to the lever arm) applied is 15 N and it is applied at 2.0 m from the pivot point (point of rotation), what is the torque on the lever?",
+          "need": "Express the torque with the appropriate units."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Problem 3",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Suppose you are asked to find the area of a rectangle that is 2.1-cm wide by 5.6-cm long. Your calculator answer would be 11.76 cm<sup>2</sup>. Now suppose you are asked to enter the answer to two significant figures. (Note that if you do not round your answer to two significant figures, your answer will fall outside of the grading tolerance and be graded as incorrect.",
+          "need": "Enter your answer to two significant figures and include the appropriate units."
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "What value should you use as the area of the base when calculating the answer to Part C?"
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Using the correct answer from Part B, calculate the volume of a rectangular prism with a length of 5.6 cm, a width of 2.1 cm, and a height of 6.6 cm.",
+          "need": "Enter your answer to two significant figures and include the appropriate units.",
+          "imageSrc": "chapter1/p3-c.jpg"
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Would an answer that generated the response below be considered correct and give you full credit?",
+          "imageSrc": "chapter1/p3-d.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Problem 4",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "description": "Calculation of the proper units for voltage, current, resistance, and power",
+          "content": "Using Ohm's law and the definition of power, complete the table below.",
+          "need": "Express your answer as units in terms of the voltage, current, resistance, and power separated by commas.",
+          "imageSrc": "chapter1/p4-a.png"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "description": "Calculation of power and energy",
+          "content": "An electric element absorbs 9.0 J of energy every 0.18 s. If the current passing through the system during this time is 180 mA, what is the voltage across the electrical element?",
+          "need": "Express your answer to two significant figures with appropriate units."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Problem 5",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "description": "Calculating voltage",
+          "content": "If it takes E = 83 mJ of energy to separate Q = 1.66 C of charge, what is the resultant voltage?",
+          "need": "Express your answer to two significant figures and include the appropriate units.",
+          "answer": {
+            "name": "V"
+          }
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "description": "Calculating energy",
+          "content": "How much energy does it take to separate Q = 0.21 μC of charge if the voltage is V = 5.0 mV ?",
+          "need": "Express your answer to four significant figures and include the appropriate units.",
+          "answer": {
+            "name": "E"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "description": "Calculating current based on movement of charge",
+          "content": "If Q<sub>r</sub> = 2.5 C of charge moves to the right in t<sub>r</sub> = 0.3 s while Q<sub>l</sub> = -2925 mC of charge moves to the left in t<sub>l</sub> = 3.0 s, what is the net current to the right?",
+          "need": "Express your answer to two significant figures and include the appropriate units.",
+          "answer": {
+            "name": "I"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "description": "Calculating the number of electrons due to the current",
+          "content": "How many electrons move past a fixed reference point every t = 1.50 ps if the current is i = 6.8 μA?",
+          "need": "Express your answer as an integer."
+        }
+      ]
+    }
+  ]
 }

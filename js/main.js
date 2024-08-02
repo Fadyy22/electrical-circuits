@@ -11,18 +11,8 @@ $('.aside-link').each(function () {
     $(this).addClass('selected');
 
     const chapter = $(this).html().split(' ')[1];
-
     await loadChapter(chapter);
 
-    const oldScript = $('.data-chapter-script');
-    if (oldScript) {
-      oldScript.remove();
-    }
-
-    const script = document.createElement('script');
-    script.src = `./js/chapters/chapter-${chapter}.js`;
-    script.classList.add('data-chapter-script');
-    document.body.appendChild(script);
     if (window.innerWidth < 768) {
       $('#aside-content').addClass('hidden');
       $('#aside').removeClass('w-64');
@@ -66,6 +56,15 @@ async function loadChapter(chapterId) {
     const response = await fetch(`./chapters/chapter-${chapterId}.json`);
     const chapter = await response.json();
     $('#content').html(chapter.problems.map(problem => createProblem(problem)).join(''));
+
+    const oldScript = $('.data-chapter-script');
+    if (oldScript) {
+      oldScript.remove();
+    }
+    const script = document.createElement('script');
+    script.src = `./js/chapters/chapter-${chapterId}.js`;
+    script.classList.add('data-chapter-script');
+    document.body.appendChild(script);
   } catch (error) {
     $('#content').html(`<div class="text-red-500">Not Found</div>`);
   }

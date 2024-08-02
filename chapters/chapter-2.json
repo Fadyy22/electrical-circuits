@@ -39,7 +39,7 @@
           "answer": {
             "name": "V<sub>0</sub>"
           },
-          "imageSrc": "chapter1/p1-a.jpg"
+          "imageSrc": "chapter2/p1-a.jpg"
         },
         {
           "id": "b",
@@ -76,7 +76,7 @@
           "answer": {
             "name": "I<sub>0</sub>"
           },
-          "imageSrc": "chapter1/p1-b.jpg"
+          "imageSrc": "chapter2/p1-b.jpg"
         }
       ]
     },
@@ -101,7 +101,7 @@
           "answer": {
             "name": "v<sub>s</sub>"
           },
-          "imageSrc": "chapter1/p2.jpg"
+          "imageSrc": "chapter2/p2.jpg"
         },
         {
           "id": "b",
@@ -162,7 +162,7 @@
           "answer": {
             "name": "i<sub>a</sub>"
           },
-          "imageSrc": "chapter1/p3.jpg"
+          "imageSrc": "chapter2/p3.jpg"
         },
         {
           "id": "b",
@@ -223,7 +223,7 @@
           "answer": {
             "name": "i<sub>0</sub>"
           },
-          "imageSrc": "chapter1/p4.jpg"
+          "imageSrc": "chapter2/p4.jpg"
         },
         {
           "id": "b",
@@ -258,7 +258,7 @@
           "answer": {
             "name": "i<sub>1</sub>"
           },
-          "imageSrc": "chapter1/p5.jpg"
+          "imageSrc": "chapter2/p5.jpg"
         },
         {
           "id": "b",
@@ -293,7 +293,7 @@
           "answer": {
             "name": "p4Ω, p5Ω, p15Ω, p20Ω, p22.5Ω"
           },
-          "imageSrc": "chapter1/p6.jpg"
+          "imageSrc": "chapter2/p6.jpg"
         },
         {
           "id": "b",
@@ -319,7 +319,7 @@
           "answer": {
             "name": "i<sub>g</sub>"
           },
-          "imageSrc": "chapter1/p7.jpg"
+          "imageSrc": "chapter2/p7.jpg"
         },
         {
           "id": "b",
@@ -371,7 +371,7 @@
           "answer": {
             "name": "v<sub>o</sub>"
           },
-          "imageSrc": "chapter1/p8.jpg"
+          "imageSrc": "chapter2/p8.jpg"
         },
         {
           "id": "b",
@@ -405,7 +405,7 @@
           "answer": {
             "name": "i<sub>o</sub>"
           },
-          "imageSrc": "chapter1/p9.jpg"
+          "imageSrc": "chapter2/p9.jpg"
         },
         {
           "id": "b",
@@ -439,7 +439,7 @@
           "answer": {
             "name": "v<sub>1</sub>, v<sub>g</sub>"
           },
-          "imageSrc": "chapter1/p10.jpg"
+          "imageSrc": "chapter2/p10.jpg"
         }
       ]
     }
