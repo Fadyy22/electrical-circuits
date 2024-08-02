@@ -861,10 +861,6 @@ input {
   height: 2rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-12 {
   width: 3rem;
 }
@@ -895,10 +891,6 @@ input {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .max-w-3xl {
@@ -2717,6 +2709,10 @@ input {
 
   .md\:w-64 {
     width: 16rem;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 }
 

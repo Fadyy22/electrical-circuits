@@ -40,8 +40,7 @@
           "answer": {
             "name": "perimeter, area"
           }
-        },
-        {}
+        }
       ]
     },
     {
@@ -181,6 +180,296 @@
           "description": "Calculating the number of electrons due to the current",
           "content": "How many electrons move past a fixed reference point every t = 1.50 ps if the current is i = 6.8 μA?",
           "need": "Express your answer as an integer."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Problem 6",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "description": "Voltage drop and current direction in an ideal circuit element",
+          "content": "Determine the voltage (v) and current (i) as shown in the figures below. Assume that the voltage drop between terminals 1 and 2 is V<sub>x</sub> = -2.9 mV and that the current entering terminal 1 is I<sub>x</sub> = 0.90 mA.",
+          "need": "Express your answer to two significant figures, with appropriate units.",
+          "no_answer": true,
+          "imageSrc": "chapter1/p6-a.png"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "description": "Power calculation for an ideal circuit element",
+          "content": "Calculate the power absorbed (positive quantity) or supplied (negative quantity) by each circuit element in the figures below.",
+          "need": "Express your answer to three significant figures, with appropriate units.",
+          "no_answer": true,
+          "imageSrc": "chapter1/p6-b.png"
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "description": "Balancing power: part 1",
+          "content": "A circuit consists of five elements. How much power is dissipated or delivered by element 5 if element 1 is delivering P<sub>1</sub> = 630 mW of power, element 2 is absorbing P<sub>2</sub> = 140 mW of power, element 3 is absorbing P<sub>3</sub> = 689 mW of power, and element 4 is delivering P<sub>4</sub> = 620 mW of power.",
+          "need": "Express your answer with the appropriate units."
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "description": "Balancing power: part 2",
+          "content": "Consider the circuit below. Confirm that the power balances by calculating the power absorbed or delivered by each element. In your calculations use V<sub>1</sub> = -5.8 V, V<sub>2</sub> = 9.5 V, V<sub>3</sub> = 3.7 V, V<sub>4</sub> = -4.9 V, V<sub>5</sub> = 0.90 V, i<sub>1</sub> = -0.90 A, i<sub>2</sub> = 2.5 A, i<sub>3</sub> = 2.5 A, i<sub>4</sub> = 1.6 A, and i<sub>5</sub> = 1.6 A.",
+          "need": "Express your answer to two significant figures, with appropriate units.",
+          "no_answer": true,
+          "imageSrc": "chapter1/p6-d.png"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Problem 7",
+      "content": "The manufacturer of a 6 V dry-cell flashlight battery says that the battery will deliver 15 mA for 64 continuous hours. During that time the voltage will drop from 6 V to 4 V. Assume the drop in voltage is linear with time.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "How much energy does the battery deliver in this 64 h interval?",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w"
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Problem 8",
+      "content": "The voltage and current at the terminals of the circuit element in (Figure 1) are shown in (Figure 2) and (Figure 3).",
+      "imageSrc": [
+        "chapter1/p8-1.jpg",
+        "chapter1/p8-2.jpg",
+        "chapter1/p8-3.jpg"
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Select the correct power versus t plot for 0≤t≤50s.",
+          "no_answer": true,
+          "imageSrc": "chapter1/p8-a.png"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Calculate the energy delivered to the circuit element at t = 4 s.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w(4 s)"
+          }
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Calculate the energy delivered to the circuit element at t = 12 s.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w(12 s)"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Calculate the energy delivered to the circuit element at t = 36 s.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w(36 s)"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Calculate the energy delivered to the circuit element at t = 50 s.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w(50 s)"
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Problem 9",
+      "content": "The current at the terminals of the element in (Figure 1) is<br/>i = 0, t<0<br/>i = 40te<sup>-500t</sup> A, t≥0<br/>where t is in seconds.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the expression for the charge accumulating at the upper terminal for t≥0. Assume q = 0 for t<0.",
+          "imageSrc": "chapter1/p9.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the charge that has accumulated at t = 1.7 ms.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "q"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Problem 10",
+      "content": "The voltage and current at the terminals of the circuit element in (Figure 1) are zero for t < 0. For t≥ 0 they are<br/>v = 20e<sup>-250t</sup> V,<br/>i = 45e<sup>-250t</sup> mA where t is in seconds.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Calculate the power supplied to the element at 10 ms.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p"
+          },
+          "imageSrc": "chapter1/p10.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Calculate the total energy delivered to the circuit element.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w<sub>total</sub>"
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Problem 11",
+      "content": "The voltage and current at the terminals of the circuit element in (Figure 1) are zero for t<0. For t≥0 they are<br/>v = 110e<sup>-50t</sup> sin150t V,<br/>i = 16e<sup>-50t</sup> sin150t A.",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the power absorbed by the element at t = 20  ms.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p"
+          },
+          "imageSrc": "chapter1/p11.jpg"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Find the total energy absorbed by the element.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "w"
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Problem 12",
+      "content": "The numerical values for the currents and voltages in the circuit in (Figure 1) are given in the table below.",
+      "imageSrc": "chapter1/p12.png",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Find the total power developed in the circuit.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "p"
+          },
+          "imageSrc": "chapter1/p12-a.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Problem 13",
+      "content": "The voltage and power values for each of the elements shown in (Figure 1) are given in the table.",
+      "imageSrc": "chapter1/p13.jpg",
+      "parts": [
+        {
+          "id": "a",
+          "title": "Part A",
+          "content": "Determine the magnitudes of the total power supplied and the total power absorbed in the circuit.",
+          "need": "Express your answer to three significant figures separated by a comma.",
+          "answer": {
+            "name": "p<sub>sup</sub>, p<sub>abs</sub>"
+          },
+          "imageSrc": "chapter1/p13-a.png"
+        },
+        {
+          "id": "b",
+          "title": "Part B",
+          "content": "Does the interconnection satisfy the power check?",
+          "need": "Express your answer to three significant figures and include the appropriate units."
+        },
+        {
+          "id": "c",
+          "title": "Part C",
+          "content": "Find the value of the current i<sub>a</sub> according to the current direction shown in the figure.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>a</sub>"
+          }
+        },
+        {
+          "id": "d",
+          "title": "Part D",
+          "content": "Find the value of the current i<sub>b</sub> according to the current direction shown in the figure.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>b</sub>"
+          }
+        },
+        {
+          "id": "e",
+          "title": "Part E",
+          "content": "Find the value of the current i<sub>c</sub> according to the current direction shown in the figure.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>c</sub>"
+          }
+        },
+        {
+          "id": "f",
+          "title": "Part F",
+          "content": "Find the value of the current i<sub>d</sub> according to the current direction shown in the figure.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>d</sub>"
+          }
+        },
+        {
+          "id": "g",
+          "title": "Part G",
+          "content": "Find the value of the current i<sub>e</sub> according to the current direction shown in the figure.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>e</sub>"
+          }
+        },
+        {
+          "id": "h",
+          "title": "Part H",
+          "content": "Find the value of the current i<sub>f</sub> according to the current direction shown in the figure.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>f</sub>"
+          }
+        },
+        {
+          "id": "i",
+          "title": "Part I",
+          "content": "Find the value of the current i<sub>g</sub> according to the current direction shown in the figure.",
+          "need": "Express your answer to three significant figures and include the appropriate units.",
+          "answer": {
+            "name": "i<sub>g</sub>"
+          }
         }
       ]
     }

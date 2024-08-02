@@ -86,8 +86,18 @@ function createProblem(problem) {
             ${input.name} = <input id="p${problem.id}-${input.id}" type="${input.type}" /> ${input.unit}
           `).join(', ')}
       </p>` : ''}` : ''}
-      ${problem.imageSrc ? `<img src="./images/${problem.imageSrc}" alt="" />` : ''}
-        ${problem.parts.map(part => createPart(part, problem.id)).join('<hr />')}
+      ${Array.isArray(problem.imageSrc) ? `<div class='flex flex-col md:flex-row'>
+      ${problem.imageSrc.map(src => `
+      <div class="flex-1">
+        <img src="./images/${src}" alt="" />
+      </div>
+    `).join('')}
+      </div>` : problem.imageSrc ? `
+        <div class="flex-1">
+          <img src="./images/${problem.imageSrc}" alt="" />
+        </div>
+      ` : ''}
+      ${problem.parts.map(part => createPart(part, problem.id)).join('<hr />')}
       </div>
     </div>
   `;
